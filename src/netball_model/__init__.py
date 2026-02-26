@@ -1,0 +1,1 @@
+"""Netball betting model."""

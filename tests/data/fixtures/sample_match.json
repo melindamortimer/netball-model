@@ -1,0 +1,87 @@
+{
+  "matchStats": {
+    "matchInfo": {
+      "matchId": 100830101,
+      "matchType": "H",
+      "venueName": "Brisbane Entertainment Centre",
+      "localStartTime": "2024-03-30T15:00:00+10:00",
+      "roundNumber": 1,
+      "matchNumber": 1,
+      "period": 4,
+      "periodCompleted": 4,
+      "matchStatus": "complete",
+      "homeSquadId": 807,
+      "awaySquadId": 810
+    },
+    "teamInfo": {
+      "team": [
+        {"squadId": 807, "squadName": "Queensland Firebirds", "squadCode": "FIR"},
+        {"squadId": 810, "squadName": "NSW Swifts", "squadCode": "SWI"}
+      ]
+    },
+    "teamPeriodStats": {
+      "team": [
+        {"squadId": 807, "period": 1, "goals": 14, "points": 14},
+        {"squadId": 807, "period": 2, "goals": 13, "points": 13},
+        {"squadId": 807, "period": 3, "goals": 15, "points": 15},
+        {"squadId": 807, "period": 4, "goals": 13, "points": 13},
+        {"squadId": 810, "period": 1, "goals": 16, "points": 16},
+        {"squadId": 810, "period": 2, "goals": 14, "points": 14},
+        {"squadId": 810, "period": 3, "goals": 15, "points": 15},
+        {"squadId": 810, "period": 4, "goals": 15, "points": 15}
+      ]
+    },
+    "playerStats": {
+      "player": [
+        {
+          "playerId": 12345,
+          "firstname": "Gretel",
+          "surname": "Bueta",
+          "displayName": "G.Bueta",
+          "squadId": 807,
+          "startingPositionCode": "GS",
+          "goals": 30,
+          "goalAttempts": 33,
+          "goalAssists": 2,
+          "rebounds": 4,
+          "feeds": 5,
+          "turnovers": 3,
+          "generalPlayTurnovers": 2,
+          "gain": 0,
+          "intercepts": 0,
+          "deflectionWithGain": 0,
+          "deflectionWithNoGain": 0,
+          "penalties": 2,
+          "contactPenalties": 1,
+          "obstructionPenalties": 1,
+          "centrePassReceives": 0,
+          "netPoints": 78.5
+        },
+        {
+          "playerId": 67890,
+          "firstname": "Sophie",
+          "surname": "Wallace",
+          "displayName": "S.Wallace",
+          "squadId": 810,
+          "startingPositionCode": "GA",
+          "goals": 25,
+          "goalAttempts": 28,
+          "goalAssists": 5,
+          "rebounds": 2,
+          "feeds": 8,
+          "turnovers": 4,
+          "generalPlayTurnovers": 3,
+          "gain": 1,
+          "intercepts": 1,
+          "deflectionWithGain": 1,
+          "deflectionWithNoGain": 1,
+          "penalties": 3,
+          "contactPenalties": 2,
+          "obstructionPenalties": 1,
+          "centrePassReceives": 3,
+          "netPoints": 65.0
+        }
+      ]
+    }
+  }
+}
