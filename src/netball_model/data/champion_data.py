@@ -152,6 +152,10 @@ class ChampionDataClient:
                     if data is None:
                         continue
                     round_empty = False
+                    # Skip matches with no stats (e.g. COVID-cancelled)
+                    ms = data.get("matchStats", {})
+                    if not isinstance(ms.get("teamPeriodStats"), dict):
+                        continue
                     match, players = self.parse_match(
                         data, comp_id, season, round_num, game_num
                     )
