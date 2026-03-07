@@ -8,6 +8,7 @@ from netball_model.features.contextual import (
     VENUE_TO_CITY,
 )
 from netball_model.features.elo import GlickoSystem
+from netball_model.match_utils import determine_winner
 
 
 class FeatureBuilder:
@@ -31,15 +32,9 @@ class FeatureBuilder:
             m = self.matches[i]
             hs = m.get("home_score", 0)
             as_ = m.get("away_score", 0)
-            if hs > as_:
-                winner = "home"
-            elif as_ > hs:
-                winner = "away"
-            else:
-                winner = "draw"
             self.glicko.update(
                 m["home_team"], m["away_team"],
-                winner=winner, margin=hs - as_, pool=self.pool,
+                winner=determine_winner(hs, as_), margin=hs - as_, pool=self.pool,
             )
         self._elo_computed_up_to = match_index - 1
 

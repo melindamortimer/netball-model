@@ -1,5 +1,4 @@
 """End-to-end test using mock data: ingest -> train -> predict."""
-import numpy as np
 import pandas as pd
 
 from netball_model.data.database import Database
@@ -8,51 +7,11 @@ from netball_model.model.train import NetballModel
 from netball_model.value.detector import ValueDetector
 
 
-def _seed_matches(db: Database, n: int = 50):
-    """Create synthetic matches."""
-    teams = [
-        "Queensland Firebirds", "NSW Swifts", "Melbourne Vixens",
-        "West Coast Fever", "Adelaide Thunderbirds", "GIANTS Netball",
-        "Collingwood Magpies", "Sunshine Coast Lightning",
-    ]
-    rng = np.random.default_rng(42)
-    matches = []
-    for i in range(n):
-        home = teams[i % len(teams)]
-        away = teams[(i + 1) % len(teams)]
-        home_score = int(rng.integers(45, 70))
-        away_score = int(rng.integers(45, 70))
-        match = {
-            "match_id": f"test_{i:03d}",
-            "competition_id": 99999,
-            "season": 2024,
-            "round_num": (i // 4) + 1,
-            "game_num": (i % 4) + 1,
-            "date": f"2024-{((i // 4) % 10) + 3:02d}-{(i % 28) + 1:02d}",
-            "venue": "Brisbane Entertainment Centre",
-            "home_team": home,
-            "away_team": away,
-            "home_score": home_score,
-            "away_score": away_score,
-            "home_q1": home_score // 4,
-            "home_q2": home_score // 4,
-            "home_q3": home_score // 4,
-            "home_q4": home_score - 3 * (home_score // 4),
-            "away_q1": away_score // 4,
-            "away_q2": away_score // 4,
-            "away_q3": away_score // 4,
-            "away_q4": away_score - 3 * (away_score // 4),
-        }
-        db.upsert_match(match)
-        matches.append(match)
-    return matches
-
-
-def test_end_to_end(tmp_db):
+def test_end_to_end(tmp_db, seed_matches):
     # 1. Setup DB + seed data
     db = Database(tmp_db)
     db.initialize()
-    matches = _seed_matches(db, n=50)
+    matches = seed_matches(db, n=50)
 
     # 2. Build features
     builder = FeatureBuilder(matches)

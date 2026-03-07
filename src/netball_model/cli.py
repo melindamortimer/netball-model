@@ -1,15 +1,14 @@
 import asyncio
-from pathlib import Path
 
 import click
 
 from netball_model.data.betfair import BetfairParser
-from netball_model.data.champion_data import ChampionDataClient
 from netball_model.data.database import Database
 from netball_model.features.builder import FeatureBuilder
 from netball_model.model.train import NetballModel
-from netball_model.model.predict import display_predictions
+from netball_model.display import display_predictions
 from netball_model.value.detector import ValueDetector
+from netball_model.services import ingest_season, train_model, backtest_season
 
 DEFAULT_DB = "data/netball.db"
 
@@ -25,26 +24,9 @@ def main():
 @click.option("--db", default=DEFAULT_DB, help="Database path")
 def ingest(season: int, db: str):
     """Pull match + player data from Champion Data."""
-    asyncio.run(_ingest(season, db))
-
-
-async def _ingest(season: int, db_path: str):
-    db = Database(db_path)
-    db.initialize()
-
-    client = ChampionDataClient()
-    try:
-        click.echo(f"Fetching SSN {season} data from Champion Data...")
-        results = await client.fetch_season(season)
-
-        for match, players in results:
-            db.upsert_match(match)
-            for p in players:
-                db.insert_player_stats(p)
-
-        click.echo(f"Ingested {len(results)} matches for SSN {season}.")
-    finally:
-        await client.close()
+    click.echo(f"Fetching SSN {season} data from Champion Data...")
+    count = asyncio.run(ingest_season(Database(db), season))
+    click.echo(f"Ingested {count} matches for SSN {season}.")
 
 
 @main.command()
@@ -86,25 +68,15 @@ def train(db: str, output: str):
     db_conn = Database(db)
     matches = db_conn.get_matches()
 
-    if len(matches) < 20:
-        click.echo(f"Only {len(matches)} matches in DB. Need at least 20 to train.")
+    click.echo(f"Building features from {len(matches)} matches...")
+
+    try:
+        model, mae = train_model(db_conn, output)
+    except ValueError as e:
+        click.echo(str(e))
         return
 
-    click.echo(f"Building features from {len(matches)} matches...")
-    builder = FeatureBuilder(matches)
-    df = builder.build_matrix(start_index=1)
-
-    click.echo(f"Training on {len(df)} rows, {len(df.columns)} features...")
-    model = NetballModel()
-    model.train(df)
-
-    Path(output).parent.mkdir(parents=True, exist_ok=True)
-    model.save(output)
     click.echo(f"Model saved to {output}")
-
-    # Print training summary
-    preds = model.predict(df)
-    mae = (df["margin"] - preds["predicted_margin"].astype(float)).abs().mean()
     click.echo(f"Training MAE: {mae:.1f} goals")
 
 
@@ -121,7 +93,6 @@ def predict(db: str, model_path: str, min_edge: float):
     detector = ValueDetector(min_edge=min_edge)
 
     matches = db_conn.get_matches()
-    # Find matches without scores (upcoming)
     upcoming = [m for m in matches if m.get("home_score") is None]
 
     if not upcoming:
@@ -129,10 +100,11 @@ def predict(db: str, model_path: str, min_edge: float):
         return
 
     builder = FeatureBuilder(matches)
+    upcoming_ids = {u["match_id"] for u in upcoming}
     results = []
 
     for i, m in enumerate(matches):
-        if m["match_id"] not in {u["match_id"] for u in upcoming}:
+        if m["match_id"] not in upcoming_ids:
             continue
 
         row = builder.build_row(i)
@@ -160,53 +132,19 @@ def predict(db: str, model_path: str, min_edge: float):
 @click.option("--test-season", required=True, type=int, help="Test season year")
 def backtest(db: str, train_seasons: str, test_season: int):
     """Walk-forward backtest on a held-out season."""
-    import numpy as np
-    import pandas as pd
-
     db_conn = Database(db)
-    all_matches = db_conn.get_matches()
 
     start, end = map(int, train_seasons.split("-"))
-    train_matches = [m for m in all_matches if start <= m["season"] <= end]
-    test_matches = [m for m in all_matches if m["season"] == test_season]
 
-    if not train_matches or not test_matches:
-        click.echo("Insufficient data for backtest.")
+    click.echo(f"Training on seasons {train_seasons}, testing on {test_season}...")
+
+    try:
+        results = backtest_season(db_conn, (start, end), test_season)
+    except ValueError as e:
+        click.echo(str(e))
         return
 
-    click.echo(f"Training on {len(train_matches)} matches ({train_seasons})")
-    click.echo(f"Testing on {len(test_matches)} matches ({test_season})")
-
-    builder = FeatureBuilder(train_matches)
-    train_df = builder.build_matrix(start_index=1)
-
-    model = NetballModel()
-    model.train(train_df)
-
-    # Walk-forward: for each test match, build features using all prior matches
-    all_for_test = train_matches + test_matches
-    test_builder = FeatureBuilder(all_for_test)
-
-    correct = 0
-    total = 0
-    abs_errors = []
-
-    for i in range(len(train_matches), len(all_for_test)):
-        row = test_builder.build_row(i)
-        pred = model.predict(pd.DataFrame([row]))
-
-        pred_margin = float(pred["predicted_margin"].iloc[0])
-        actual_margin = row["margin"]
-
-        abs_errors.append(abs(pred_margin - actual_margin))
-        if (pred_margin > 0 and actual_margin > 0) or (pred_margin < 0 and actual_margin < 0):
-            correct += 1
-        total += 1
-
-    mae = np.mean(abs_errors)
-    accuracy = correct / total if total > 0 else 0
-
     click.echo(f"\nBacktest Results ({test_season}):")
-    click.echo(f"  Matches: {total}")
-    click.echo(f"  Win/Loss Accuracy: {accuracy:.1%}")
-    click.echo(f"  Mean Absolute Error: {mae:.1f} goals")
+    click.echo(f"  Matches: {results['matches']}")
+    click.echo(f"  Win/Loss Accuracy: {results['accuracy']:.1%}")
+    click.echo(f"  Mean Absolute Error: {results['mae']:.1f} goals")

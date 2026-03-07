@@ -5,9 +5,8 @@ from click.testing import CliRunner
 from netball_model.cli import main
 
 
-@patch("netball_model.cli.ChampionDataClient")
-@patch("netball_model.cli.Database")
-def test_ingest_command(mock_db_cls, mock_client_cls, tmp_path):
+@patch("netball_model.services.ChampionDataClient")
+def test_ingest_command(mock_client_cls, tmp_path):
     mock_client = AsyncMock()
     mock_client.fetch_season.return_value = [
         (
@@ -32,10 +31,8 @@ def test_ingest_command(mock_db_cls, mock_client_cls, tmp_path):
     mock_client.close = AsyncMock()
     mock_client_cls.return_value = mock_client
 
-    mock_db = mock_db_cls.return_value
-
+    db_path = str(tmp_path / "test.db")
     runner = CliRunner()
-    result = runner.invoke(main, ["ingest", "--season", "2024", "--db", str(tmp_path / "test.db")])
+    result = runner.invoke(main, ["ingest", "--season", "2024", "--db", db_path])
     assert result.exit_code == 0
-    mock_db.initialize.assert_called_once()
-    mock_db.upsert_match.assert_called_once()
+    assert "Ingested 1 matches" in result.output
