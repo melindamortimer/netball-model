@@ -1,6 +1,10 @@
 import asyncio
+import os
 
 import click
+from dotenv import load_dotenv
+
+load_dotenv()
 
 from netball_model.data.betfair import BetfairParser
 from netball_model.data.database import Database
@@ -8,7 +12,7 @@ from netball_model.features.builder import FeatureBuilder
 from netball_model.model.train import NetballModel
 from netball_model.display import display_predictions
 from netball_model.value.detector import ValueDetector
-from netball_model.services import ingest_season, train_model, backtest_season
+from netball_model.services import ingest_season, train_model, backtest_season, import_betsapi_odds
 
 DEFAULT_DB = "data/netball.db"
 
@@ -58,6 +62,46 @@ def odds(tar_file: str, db: str):
         imported += 1
 
     click.echo(f"Imported {imported} odds records.")
+
+
+@main.command("fetch-odds")
+@click.option("--season", default=None, type=int, help="SSN season year (e.g. 2024). If omitted, matches all seasons.")
+@click.option("--db", default=DEFAULT_DB, help="Database path")
+@click.option("--token", envvar="BETSAPI_TOKEN", default=None, help="BetsAPI token (or set BETSAPI_TOKEN env var)")
+def fetch_odds(season: int | None, db: str, token: str | None):
+    """Fetch pre-match odds from BetsAPI for hardcoded event IDs.
+
+    Use scripts/fetch_odds.py for the full standalone workflow.
+    """
+    if not token:
+        click.echo("Error: BetsAPI token required. Pass --token or set BETSAPI_TOKEN.")
+        raise SystemExit(1)
+
+    # Import hardcoded events
+    import importlib.util
+    spec = importlib.util.spec_from_file_location(
+        "ssn_events", os.path.join(os.path.dirname(__file__), "..", "..", "scripts", "ssn_events.py")
+    )
+    mod = importlib.util.module_from_spec(spec)
+    spec.loader.exec_module(mod)
+    SSN_EVENTS = mod.SSN_EVENTS
+
+    db_conn = Database(db)
+    label = f"SSN {season}" if season else "all seasons"
+    click.echo(f"Fetching BetsAPI odds for {len(SSN_EVENTS)} events ({label})...")
+
+    try:
+        counts = import_betsapi_odds(db_conn, token, SSN_EVENTS, season)
+    except ValueError as e:
+        click.echo(str(e))
+        return
+
+    click.echo(
+        f"Done: {counts['total']} events, "
+        f"{counts['matched']} matched, "
+        f"{counts['unmatched']} unmatched, "
+        f"{counts['no_odds']} without odds."
+    )
 
 
 @main.command()

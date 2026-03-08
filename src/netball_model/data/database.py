@@ -179,22 +179,38 @@ class Database:
             )
             return [dict(row) for row in cursor.fetchall()]
 
+    _UPSERT_ODDS_SQL = """
+        INSERT OR REPLACE INTO odds_history (
+            match_id, source, home_back_odds, home_lay_odds,
+            away_back_odds, away_lay_odds,
+            home_volume, away_volume, timestamp
+        ) VALUES (
+            :match_id, :source, :home_back_odds, :home_lay_odds,
+            :away_back_odds, :away_lay_odds,
+            :home_volume, :away_volume, :timestamp
+        )
+    """
+
     def upsert_odds(self, odds: dict):
         with self.connection() as conn:
-            conn.execute(
-                """
-                INSERT OR REPLACE INTO odds_history (
-                    match_id, source, home_back_odds, home_lay_odds,
-                    away_back_odds, away_lay_odds,
-                    home_volume, away_volume, timestamp
-                ) VALUES (
-                    :match_id, :source, :home_back_odds, :home_lay_odds,
-                    :away_back_odds, :away_lay_odds,
-                    :home_volume, :away_volume, :timestamp
+            conn.execute(self._UPSERT_ODDS_SQL, odds)
+
+    def upsert_odds_batch(self, odds_list: list[dict]):
+        """Batch upsert odds records in a single transaction."""
+        with self.connection() as conn:
+            conn.executemany(self._UPSERT_ODDS_SQL, odds_list)
+
+    def get_odds(self, source: str | None = None) -> list[dict]:
+        """Return all odds records, optionally filtered by source."""
+        with self.connection() as conn:
+            if source:
+                cursor = conn.execute(
+                    "SELECT * FROM odds_history WHERE source = ? ORDER BY match_id",
+                    (source,),
                 )
-                """,
-                odds,
-            )
+            else:
+                cursor = conn.execute("SELECT * FROM odds_history ORDER BY match_id")
+            return [dict(row) for row in cursor.fetchall()]
 
     def upsert_elo(self, elo: dict):
         with self.connection() as conn:

@@ -14,6 +14,7 @@ glicko2 = "^2.0"
 click = "^8.1"
 rich = "^13.7"
 scipy = "^1.12"
+python-dotenv = "^1.2.2"
 
 [tool.poetry.group.dev.dependencies]
 pytest = "^8.0"

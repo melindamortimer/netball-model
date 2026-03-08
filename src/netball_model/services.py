@@ -1,6 +1,8 @@
 """Reusable service functions extracted from CLI commands."""
 from __future__ import annotations
 
+import logging
+from datetime import datetime, timezone
 from pathlib import Path
 
 import numpy as np
@@ -10,6 +12,8 @@ from netball_model.data.champion_data import ChampionDataClient
 from netball_model.data.database import Database
 from netball_model.features.builder import FeatureBuilder
 from netball_model.model.train import NetballModel
+
+logger = logging.getLogger(__name__)
 
 
 async def ingest_season(db: Database, season: int) -> int:
@@ -103,4 +107,86 @@ def backtest_season(
         "matches": total,
         "accuracy": accuracy,
         "mae": mae,
+    }
+
+
+def import_betsapi_odds(
+    db: Database,
+    token: str,
+    events: list[dict],
+    season: int | None = None,
+) -> dict[str, int]:
+    """Fetch odds from BetsAPI for a list of events and store in DB.
+
+    Each event dict must have: event_id, home_team, away_team.
+    If season is provided, only matches DB matches from that season.
+    Returns counts: {"matched": N, "unmatched": N, "no_odds": N, "total": N}.
+    """
+    from netball_model.data.betsapi import BetsApiClient
+
+    db.initialize()
+    matches = db.get_matches(season=season) if season else db.get_matches()
+    if not matches:
+        msg = f"No matches in DB for season {season}." if season else "No matches in DB."
+        raise ValueError(f"{msg} Run ingest first.")
+
+    # Build lookup: (home_team, away_team, date) -> match_id
+    # Include date to disambiguate the same matchup across seasons.
+    match_lookup: dict[tuple[str, str, str], str] = {}
+    for m in matches:
+        d = (m.get("date") or "")[:10]
+        match_lookup[(m["home_team"], m["away_team"], d)] = m["match_id"]
+
+    with BetsApiClient(token) as client:
+        events_with_odds = client.fetch_odds_for_events(events)
+
+    matched = 0
+    unmatched = 0
+    no_odds = 0
+    odds_records: list[dict] = []
+
+    for ev in events_with_odds:
+        if ev["home_odds"] is None:
+            no_odds += 1
+            continue
+
+        home = ev["home_team"]
+        away = ev["away_team"]
+        ev_date = ev.get("date", "")[:10]
+        home_odds = ev["home_odds"]
+        away_odds = ev["away_odds"]
+
+        match_id = match_lookup.get((home, away, ev_date))
+        if not match_id:
+            # Try swapped home/away
+            match_id = match_lookup.get((away, home, ev_date))
+            if match_id:
+                home_odds, away_odds = away_odds, home_odds
+
+        if not match_id:
+            logger.debug("No DB match for %s vs %s", home, away)
+            unmatched += 1
+            continue
+
+        odds_records.append({
+            "match_id": match_id,
+            "source": "betsapi",
+            "home_back_odds": home_odds,
+            "home_lay_odds": None,
+            "away_back_odds": away_odds,
+            "away_lay_odds": None,
+            "home_volume": 0,
+            "away_volume": 0,
+            "timestamp": ev.get("date", ""),
+        })
+        matched += 1
+
+    if odds_records:
+        db.upsert_odds_batch(odds_records)
+
+    return {
+        "matched": matched,
+        "unmatched": unmatched,
+        "no_odds": no_odds,
+        "total": len(events),
     }

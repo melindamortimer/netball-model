@@ -1,0 +1,4760 @@
+<tbody>
+<tr>
+        <td class="dt_n" data-dt="2025-08-02T09:30:00Z">08/02 19:30</td>
+    
+    <td>-</td>
+    <td>
+                  <a href="/netball/t/161522/west-coast-fever">West Coast Fever</a> v <a href="/netball/t/161571/melbourne-vixens">Melbourne Vixens</a>
+                      </td>
+    <td>
+                <a href="/r/10371196/west-coast-fever-vs-melbourne-vixens">          58-59        </a>
+
+          
+            </td>
+</tr>
+<tr>
+        <td class="dt_n" data-dt="2025-07-27T04:00:00Z">07/27 14:00</td>
+    
+    <td>-</td>
+    <td>
+                  <a href="/netball/t/161517/nsw-swifts">NSW Swifts</a> v <a href="/netball/t/161571/melbourne-vixens">Melbourne Vixens</a>
+                      </td>
+    <td>
+                <a href="/r/10352045/nsw-swifts-vs-melbourne-vixens">          65-66        </a>
+
+          
+            </td>
+</tr>
+<tr>
+        <td class="dt_n" data-dt="2025-07-20T06:00:00Z">07/20 16:00</td>
+    
+    <td>-</td>
+    <td>
+                  <a href="/netball/t/161522/west-coast-fever">West Coast Fever</a> v <a href="/netball/t/161517/nsw-swifts">NSW Swifts</a>
+                      </td>
+    <td>
+                <a href="/r/10294409/west-coast-fever-vs-nsw-swifts">          77-45        </a>
+
+          
+            </td>
+</tr>
+<tr>
+        <td class="dt_n" data-dt="2025-07-20T04:00:00Z">07/20 14:00</td>
+    
+    <td>-</td>
+    <td>
+                  <a href="/netball/t/161523/adelaide-thunderbirds">Adelaide Thunderbirds</a> v <a href="/netball/t/161571/melbourne-vixens">Melbourne Vixens</a>
+                      </td>
+    <td>
+                <a href="/r/10294408/adelaide-thunderbirds-vs-melbourne-vixens">          56-58        </a>
+
+          
+            </td>
+</tr>
+<tr>
+        <td class="dt_n" data-dt="2025-07-13T06:00:00Z">07/13 16:00</td>
+    
+    <td>-</td>
+    <td>
+                  <a href="/netball/t/161522/west-coast-fever">West Coast Fever</a> v <a href="/netball/t/161571/melbourne-vixens">Melbourne Vixens</a>
+                      </td>
+    <td>
+                <a href="/r/10254883/west-coast-fever-vs-melbourne-vixens">          69-60        </a>
+
+          
+            </td>
+</tr>
+<tr>
+        <td class="dt_n" data-dt="2025-07-13T04:00:00Z">07/13 14:00</td>
+    
+    <td>-</td>
+    <td>
+                  <a href="/netball/t/161568/queensland-firebirds">Queensland Firebirds</a> v <a href="/netball/t/161517/nsw-swifts">NSW Swifts</a>
+                      </td>
+    <td>
+                <a href="/r/10254882/queensland-firebirds-vs-nsw-swifts">          75-79        </a>
+
+          
+            </td>
+</tr>
+<tr>
+        <td class="dt_n" data-dt="2025-07-12T09:00:00Z">07/12 19:00</td>
+    
+    <td>-</td>
+    <td>
+                  <a href="/netball/t/161523/adelaide-thunderbirds">Adelaide Thunderbirds</a> v <a href="/netball/t/161567/sunshine-coast-lightning">Sunshine Coast Lightning</a>
+                      </td>
+    <td>
+                <a href="/r/10254885/adelaide-thunderbirds-vs-sunshine-coast-lightning">          59-55        </a>
+
+          
+            </td>
+</tr>
+<tr>
+        <td class="dt_n" data-dt="2025-07-12T07:00:00Z">07/12 17:00</td>
+    
+    <td>-</td>
+    <td>
+                  <a href="/netball/t/161518/giants-netball">GIANTS Netball</a> v <a href="/netball/t/980892/melbourne-mavericks">Melbourne Mavericks</a>
+                      </td>
+    <td>
+                <a href="/r/10254884/giants-netball-vs-melbourne-mavericks">          72-59        </a>
+
+          
+            </td>
+</tr>
+<tr>
+        <td class="dt_n" data-dt="2025-07-06T06:00:00Z">07/06 16:00</td>
+    
+    <td>-</td>
+    <td>
+                  <a href="/netball/t/161522/west-coast-fever">West Coast Fever</a> v <a href="/netball/t/161518/giants-netball">GIANTS Netball</a>
+                      </td>
+    <td>
+                <a href="/r/10208503/west-coast-fever-vs-giants-netball">          73-56        </a>
+
+          
+            </td>
+</tr>
+<tr>
+        <td class="dt_n" data-dt="2025-07-06T04:00:00Z">07/06 14:00</td>
+    
+    <td>-</td>
+    <td>
+                  <a href="/netball/t/161571/melbourne-vixens">Melbourne Vixens</a> v <a href="/netball/t/161568/queensland-firebirds">Queensland Firebirds</a>
+                      </td>
+    <td>
+                <a href="/r/10208502/melbourne-vixens-vs-queensland-firebirds">          64-62        </a>
+
+          
+            </td>
+</tr>
+<tr>
+        <td class="dt_n" data-dt="2025-07-05T09:00:00Z">07/05 19:00</td>
+    
+    <td>-</td>
+    <td>
+                  <a href="/netball/t/161523/adelaide-thunderbirds">Adelaide Thunderbirds</a> v <a href="/netball/t/980892/melbourne-mavericks">Melbourne Mavericks</a>
+                      </td>
+    <td>
+                <a href="/r/10208505/adelaide-thunderbirds-vs-melbourne-mavericks">          60-49        </a>
+
+          
+            </td>
+</tr>
+<tr>
+        <td class="dt_n" data-dt="2025-07-05T07:00:00Z">07/05 17:00</td>
+    
+    <td>-</td>
+    <td>
+                  <a href="/netball/t/161517/nsw-swifts">NSW Swifts</a> v <a href="/netball/t/161567/sunshine-coast-lightning">Sunshine Coast Lightning</a>
+                      </td>
+    <td>
+                <a href="/r/10208504/nsw-swifts-vs-sunshine-coast-lightning">          70-71        </a>
+
+          
+            </td>
+</tr>
+<tr>
+        <td class="dt_n" data-dt="2025-06-29T06:00:00Z">06/29 16:00</td>
+    
+    <td>-</td>
+    <td>
+                  <a href="/netball/t/161568/queensland-firebirds">Queensland Firebirds</a> v <a href="/netball/t/161518/giants-netball">GIANTS Netball</a>
+                      </td>
+    <td>
+                <a href="/r/10167360/queensland-firebirds-vs-giants-netball">          63-66        </a>
+
+          
+            </td>
+</tr>
+<tr>
+        <td class="dt_n" data-dt="2025-06-29T04:00:00Z">06/29 14:00</td>
+    
+    <td>-</td>
+    <td>
+                  <a href="/netball/t/161571/melbourne-vixens">Melbourne Vixens</a> v <a href="/netball/t/161523/adelaide-thunderbirds">Adelaide Thunderbirds</a>
+                      </td>
+    <td>
+                <a href="/r/10167358/melbourne-vixens-vs-adelaide-thunderbirds">          53-56        </a>
+
+          
+            </td>
+</tr>
+<tr>
+        <td class="dt_n" data-dt="2025-06-28T09:00:00Z">06/28 19:00</td>
+    
+    <td>-</td>
+    <td>
+                  <a href="/netball/t/980892/melbourne-mavericks">Melbourne Mavericks</a> v <a href="/netball/t/161517/nsw-swifts">NSW Swifts</a>
+                      </td>
+    <td>
+                <a href="/r/10167363/melbourne-mavericks-vs-nsw-swifts">          68-64        </a>
+
+          
+            </td>
+</tr>
+<tr>
+        <td class="dt_n" data-dt="2025-06-28T07:00:00Z">06/28 17:00</td>
+    
+    <td>-</td>
+    <td>
+                  <a href="/netball/t/161567/sunshine-coast-lightning">Sunshine Coast Lightning</a> v <a href="/netball/t/161522/west-coast-fever">West Coast Fever</a>
+                      </td>
+    <td>
+                <a href="/r/10167357/sunshine-coast-lightning-vs-west-coast-fever">          54-69        </a>
+
+          
+            </td>
+</tr>
+<tr>
+        <td class="dt_n" data-dt="2025-06-22T06:00:00Z">06/22 16:00</td>
+    
+    <td>-</td>
+    <td>
+                  <a href="/netball/t/161568/queensland-firebirds">Queensland Firebirds</a> v <a href="/netball/t/980892/melbourne-mavericks">Melbourne Mavericks</a>
+                      </td>
+    <td>
+                <a href="/r/10125010/queensland-firebirds-vs-melbourne-mavericks">          54-65        </a>
+
+          
+            </td>
+</tr>
+<tr>
+        <td class="dt_n" data-dt="2025-06-22T04:00:00Z">06/22 14:00</td>
+    
+    <td>-</td>
+    <td>
+                  <a href="/netball/t/161517/nsw-swifts">NSW Swifts</a> v <a href="/netball/t/161518/giants-netball">GIANTS Netball</a>
+                      </td>
+    <td>
+                <a href="/r/10125012/nsw-swifts-vs-giants-netball">          75-66        </a>
+
+          
+            </td>
+</tr>
+<tr>
+        <td class="dt_n" data-dt="2025-06-21T07:00:00Z">06/21 17:00</td>
+    
+    <td>-</td>
+    <td>
+                  <a href="/netball/t/161567/sunshine-coast-lightning">Sunshine Coast Lightning</a> v <a href="/netball/t/161571/melbourne-vixens">Melbourne Vixens</a>
+                      </td>
+    <td>
+                <a href="/r/10125011/sunshine-coast-lightning-vs-melbourne-vixens">          65-68        </a>
+
+          
+            </td>
+</tr>
+<tr>
+        <td class="dt_n" data-dt="2025-06-20T10:00:00Z">06/20 20:00</td>
+    
+    <td>-</td>
+    <td>
+                  <a href="/netball/t/161522/west-coast-fever">West Coast Fever</a> v <a href="/netball/t/161523/adelaide-thunderbirds">Adelaide Thunderbirds</a>
+                      </td>
+    <td>
+                <a href="/r/10124417/west-coast-fever-vs-adelaide-thunderbirds">          68-63        </a>
+
+          
+            </td>
+</tr>
+<tr>
+        <td class="dt_n" data-dt="2025-06-15T06:00:00Z">06/15 16:00</td>
+    
+    <td>-</td>
+    <td>
+                  <a href="/netball/t/161518/giants-netball">GIANTS Netball</a> v <a href="/netball/t/161567/sunshine-coast-lightning">Sunshine Coast Lightning</a>
+                      </td>
+    <td>
+                <a href="/r/10093422/giants-netball-vs-sunshine-coast-lightning">          78-66        </a>
+
+          
+            </td>
+</tr>
+<tr>
+        <td class="dt_n" data-dt="2025-06-15T04:00:00Z">06/15 14:00</td>
+    
+    <td>-</td>
+    <td>
+                  <a href="/netball/t/161571/melbourne-vixens">Melbourne Vixens</a> v <a href="/netball/t/161517/nsw-swifts">NSW Swifts</a>
+                      </td>
+    <td>
+                <a href="/r/10093426/melbourne-vixens-vs-nsw-swifts">          70-68        </a>
+
+          
+            </td>
+</tr>
+<tr>
+        <td class="dt_n" data-dt="2025-06-14T09:00:00Z">06/14 19:00</td>
+    
+    <td>-</td>
+    <td>
+                  <a href="/netball/t/161523/adelaide-thunderbirds">Adelaide Thunderbirds</a> v <a href="/netball/t/161568/queensland-firebirds">Queensland Firebirds</a>
+                      </td>
+    <td>
+                <a href="/r/10093423/adelaide-thunderbirds-vs-queensland-firebirds">          65-58        </a>
+
+          
+            </td>
+</tr>
+<tr>
+        <td class="dt_n" data-dt="2025-06-14T07:00:00Z">06/14 17:00</td>
+    
+    <td>-</td>
+    <td>
+                  <a href="/netball/t/980892/melbourne-mavericks">Melbourne Mavericks</a> v <a href="/netball/t/161522/west-coast-fever">West Coast Fever</a>
+                      </td>
+    <td>
+                <a href="/r/10093425/melbourne-mavericks-vs-west-coast-fever">          63-69        </a>
+
+          
+            </td>
+</tr>
+<tr>
+        <td class="dt_n" data-dt="2025-06-08T06:00:00Z">06/08 16:00</td>
+    
+    <td>-</td>
+    <td>
+                  <a href="/netball/t/161523/adelaide-thunderbirds">Adelaide Thunderbirds</a> v <a href="/netball/t/161518/giants-netball">GIANTS Netball</a>
+                      </td>
+    <td>
+                <a href="/r/10058750/adelaide-thunderbirds-vs-giants-netball">          63-66        </a>
+
+          
+            </td>
+</tr>
+<tr>
+        <td class="dt_n" data-dt="2025-06-08T04:00:00Z">06/08 14:00</td>
+    
+    <td>-</td>
+    <td>
+                  <a href="/netball/t/161571/melbourne-vixens">Melbourne Vixens</a> v <a href="/netball/t/980892/melbourne-mavericks">Melbourne Mavericks</a>
+                      </td>
+    <td>
+                <a href="/r/10058751/melbourne-vixens-vs-melbourne-mavericks">          66-57        </a>
+
+          
+            </td>
+</tr>
+<tr>
+        <td class="dt_n" data-dt="2025-06-07T09:00:00Z">06/07 19:00</td>
+    
+    <td>-</td>
+    <td>
+                  <a href="/netball/t/161517/nsw-swifts">NSW Swifts</a> v <a href="/netball/t/161522/west-coast-fever">West Coast Fever</a>
+                      </td>
+    <td>
+                <a href="/r/10058749/nsw-swifts-vs-west-coast-fever">          68-79        </a>
+
+          
+            </td>
+</tr>
+<tr>
+        <td class="dt_n" data-dt="2025-06-07T07:00:00Z">06/07 17:00</td>
+    
+    <td>-</td>
+    <td>
+                  <a href="/netball/t/161568/queensland-firebirds">Queensland Firebirds</a> v <a href="/netball/t/161567/sunshine-coast-lightning">Sunshine Coast Lightning</a>
+                      </td>
+    <td>
+                <a href="/r/10058748/queensland-firebirds-vs-sunshine-coast-lightning">          62-72        </a>
+
+          
+            </td>
+</tr>
+<tr>
+        <td class="dt_n" data-dt="2025-06-01T06:00:00Z">06/01 16:00</td>
+    
+    <td>-</td>
+    <td>
+                  <a href="/netball/t/161522/west-coast-fever">West Coast Fever</a> v <a href="/netball/t/161568/queensland-firebirds">Queensland Firebirds</a>
+                      </td>
+    <td>
+                <a href="/r/10027058/west-coast-fever-vs-queensland-firebirds">          82-65        </a>
+
+          
+            </td>
+</tr>
+<tr>
+        <td class="dt_n" data-dt="2025-06-01T04:00:00Z">06/01 14:00</td>
+    
+    <td>-</td>
+    <td>
+                  <a href="/netball/t/161518/giants-netball">GIANTS Netball</a> v <a href="/netball/t/161571/melbourne-vixens">Melbourne Vixens</a>
+                      </td>
+    <td>
+                <a href="/r/10027059/giants-netball-vs-melbourne-vixens">          61-71        </a>
+
+          
+            </td>
+</tr>
+  </tbody>
+<table class="table table-sm">
+  <thead>
+  <tr><th>Date</th><th>R</th><th>Home v Away</th><th>-</th></tr>
+  </thead>
+  <tbody>
+<tr>
+        <td class="dt_n" data-dt="2025-05-31T09:00:00Z">05/31 19:00</td>
+    
+    <td>-</td>
+    <td>
+                  <a href="/netball/t/161517/nsw-swifts">NSW Swifts</a> v <a href="/netball/t/161523/adelaide-thunderbirds">Adelaide Thunderbirds</a>
+                      </td>
+    <td>
+                <a href="/r/10027055/nsw-swifts-vs-adelaide-thunderbirds">          66-64        </a>
+
+          
+            </td>
+</tr>
+<tr>
+        <td class="dt_n" data-dt="2025-05-31T07:00:00Z">05/31 17:00</td>
+    
+    <td>-</td>
+    <td>
+                  <a href="/netball/t/161567/sunshine-coast-lightning">Sunshine Coast Lightning</a> v <a href="/netball/t/980892/melbourne-mavericks">Melbourne Mavericks</a>
+                      </td>
+    <td>
+                <a href="/r/10027057/sunshine-coast-lightning-vs-melbourne-mavericks">          67-60        </a>
+
+          
+            </td>
+</tr>
+<tr>
+        <td class="dt_n" data-dt="2025-05-25T06:00:00Z">05/25 16:00</td>
+    
+    <td>-</td>
+    <td>
+                  <a href="/netball/t/980892/melbourne-mavericks">Melbourne Mavericks</a> v <a href="/netball/t/161523/adelaide-thunderbirds">Adelaide Thunderbirds</a>
+                      </td>
+    <td>
+                <a href="/r/9991355/melbourne-mavericks-vs-adelaide-thunderbirds">          59-66        </a>
+
+          
+            </td>
+</tr>
+<tr>
+        <td class="dt_n" data-dt="2025-05-25T04:00:00Z">05/25 14:00</td>
+    
+    <td>-</td>
+    <td>
+                  <a href="/netball/t/161568/queensland-firebirds">Queensland Firebirds</a> v <a href="/netball/t/161571/melbourne-vixens">Melbourne Vixens</a>
+                      </td>
+    <td>
+                <a href="/r/9991354/queensland-firebirds-vs-melbourne-vixens">          52-70        </a>
+
+          
+            </td>
+</tr>
+<tr>
+        <td class="dt_n" data-dt="2025-05-24T09:00:00Z">05/24 19:00</td>
+    
+    <td>-</td>
+    <td>
+                  <a href="/netball/t/161518/giants-netball">GIANTS Netball</a> v <a href="/netball/t/161522/west-coast-fever">West Coast Fever</a>
+                      </td>
+    <td>
+                <a href="/r/9991356/giants-netball-vs-west-coast-fever">          66-75        </a>
+
+          
+            </td>
+</tr>
+<tr>
+        <td class="dt_n" data-dt="2025-05-24T07:00:00Z">05/24 17:00</td>
+    
+    <td>-</td>
+    <td>
+                  <a href="/netball/t/161567/sunshine-coast-lightning">Sunshine Coast Lightning</a> v <a href="/netball/t/161517/nsw-swifts">NSW Swifts</a>
+                      </td>
+    <td>
+                <a href="/r/9991353/sunshine-coast-lightning-vs-nsw-swifts">          62-70        </a>
+
+          
+            </td>
+</tr>
+<tr>
+        <td class="dt_n" data-dt="2025-05-18T06:00:00Z">05/18 16:00</td>
+    
+    <td>-</td>
+    <td>
+                  <a href="/netball/t/161571/melbourne-vixens">Melbourne Vixens</a> v <a href="/netball/t/161567/sunshine-coast-lightning">Sunshine Coast Lightning</a>
+                      </td>
+    <td>
+                <a href="/r/9957997/melbourne-vixens-vs-sunshine-coast-lightning">          50-62        </a>
+
+          
+            </td>
+</tr>
+<tr>
+        <td class="dt_n" data-dt="2025-05-18T04:00:00Z">05/18 14:00</td>
+    
+    <td>-</td>
+    <td>
+                  <a href="/netball/t/161518/giants-netball">GIANTS Netball</a> v <a href="/netball/t/161517/nsw-swifts">NSW Swifts</a>
+                      </td>
+    <td>
+                <a href="/r/9958000/giants-netball-vs-nsw-swifts">          69-82        </a>
+
+          
+            </td>
+</tr>
+<tr>
+        <td class="dt_n" data-dt="2025-05-17T09:00:00Z">05/17 19:00</td>
+    
+    <td>-</td>
+    <td>
+                  <a href="/netball/t/161523/adelaide-thunderbirds">Adelaide Thunderbirds</a> v <a href="/netball/t/161522/west-coast-fever">West Coast Fever</a>
+                      </td>
+    <td>
+                <a href="/r/9957999/adelaide-thunderbirds-vs-west-coast-fever">          61-67        </a>
+
+          
+            </td>
+</tr>
+<tr>
+        <td class="dt_n" data-dt="2025-05-17T07:00:00Z">05/17 17:00</td>
+    
+    <td>-</td>
+    <td>
+                  <a href="/netball/t/980892/melbourne-mavericks">Melbourne Mavericks</a> v <a href="/netball/t/161568/queensland-firebirds">Queensland Firebirds</a>
+                      </td>
+    <td>
+                <a href="/r/9957998/melbourne-mavericks-vs-queensland-firebirds">          71-64        </a>
+
+          
+            </td>
+</tr>
+<tr>
+        <td class="dt_n" data-dt="2025-05-11T06:00:00Z">05/11 16:00</td>
+    
+    <td>-</td>
+    <td>
+                  <a href="/netball/t/161517/nsw-swifts">NSW Swifts</a> v <a href="/netball/t/161571/melbourne-vixens">Melbourne Vixens</a>
+                      </td>
+    <td>
+                <a href="/r/9925652/nsw-swifts-vs-melbourne-vixens">          59-51        </a>
+
+          
+            </td>
+</tr>
+<tr>
+        <td class="dt_n" data-dt="2025-05-11T04:00:00Z">05/11 14:00</td>
+    
+    <td>-</td>
+    <td>
+                  <a href="/netball/t/161567/sunshine-coast-lightning">Sunshine Coast Lightning</a> v <a href="/netball/t/161518/giants-netball">GIANTS Netball</a>
+                      </td>
+    <td>
+                <a href="/r/9925653/sunshine-coast-lightning-vs-giants-netball">          74-56        </a>
+
+          
+            </td>
+</tr>
+<tr>
+        <td class="dt_n" data-dt="2025-05-10T09:00:00Z">05/10 19:00</td>
+    
+    <td>-</td>
+    <td>
+                  <a href="/netball/t/161522/west-coast-fever">West Coast Fever</a> v <a href="/netball/t/980892/melbourne-mavericks">Melbourne Mavericks</a>
+                      </td>
+    <td>
+                <a href="/r/9925651/west-coast-fever-vs-melbourne-mavericks">          78-61        </a>
+
+          
+            </td>
+</tr>
+<tr>
+        <td class="dt_n" data-dt="2025-05-10T07:00:00Z">05/10 17:00</td>
+    
+    <td>-</td>
+    <td>
+                  <a href="/netball/t/161568/queensland-firebirds">Queensland Firebirds</a> v <a href="/netball/t/161523/adelaide-thunderbirds">Adelaide Thunderbirds</a>
+                      </td>
+    <td>
+                <a href="/r/9925650/queensland-firebirds-vs-adelaide-thunderbirds">          53-62        </a>
+
+          
+            </td>
+</tr>
+<tr>
+        <td class="dt_n" data-dt="2025-05-04T06:00:00Z">05/04 16:00</td>
+    
+    <td>-</td>
+    <td>
+                  <a href="/netball/t/161517/nsw-swifts">NSW Swifts</a> v <a href="/netball/t/161568/queensland-firebirds">Queensland Firebirds</a>
+                      </td>
+    <td>
+                <a href="/r/9894212/nsw-swifts-vs-queensland-firebirds">          71-63        </a>
+
+          
+            </td>
+</tr>
+<tr>
+        <td class="dt_n" data-dt="2025-05-04T04:00:00Z">05/04 14:00</td>
+    
+    <td>-</td>
+    <td>
+                  <a href="/netball/t/980892/melbourne-mavericks">Melbourne Mavericks</a> v <a href="/netball/t/161571/melbourne-vixens">Melbourne Vixens</a>
+                      </td>
+    <td>
+                <a href="/r/9894215/melbourne-mavericks-vs-melbourne-vixens">          59-67        </a>
+
+          
+            </td>
+</tr>
+<tr>
+        <td class="dt_n" data-dt="2025-05-03T09:00:00Z">05/03 19:00</td>
+    
+    <td>-</td>
+    <td>
+                  <a href="/netball/t/161522/west-coast-fever">West Coast Fever</a> v <a href="/netball/t/161567/sunshine-coast-lightning">Sunshine Coast Lightning</a>
+                      </td>
+    <td>
+                <a href="/r/9894214/west-coast-fever-vs-sunshine-coast-lightning">          68-66        </a>
+
+          
+            </td>
+</tr>
+<tr>
+        <td class="dt_n" data-dt="2025-05-03T07:00:00Z">05/03 17:00</td>
+    
+    <td>-</td>
+    <td>
+                  <a href="/netball/t/161518/giants-netball">GIANTS Netball</a> v <a href="/netball/t/161523/adelaide-thunderbirds">Adelaide Thunderbirds</a>
+                      </td>
+    <td>
+                <a href="/r/9894213/giants-netball-vs-adelaide-thunderbirds">          64-63        </a>
+
+          
+            </td>
+</tr>
+<tr>
+        <td class="dt_n" data-dt="2025-04-27T04:00:00Z">04/27 14:00</td>
+    
+    <td>-</td>
+    <td>
+                  <a href="/netball/t/161571/melbourne-vixens">Melbourne Vixens</a> v <a href="/netball/t/161522/west-coast-fever">West Coast Fever</a>
+                      </td>
+    <td>
+                <a href="/r/9862778/melbourne-vixens-vs-west-coast-fever">          57-67        </a>
+
+          
+            </td>
+</tr>
+<tr>
+        <td class="dt_n" data-dt="2025-04-26T07:00:00Z">04/26 17:00</td>
+    
+    <td>-</td>
+    <td>
+                  <a href="/netball/t/161567/sunshine-coast-lightning">Sunshine Coast Lightning</a> v <a href="/netball/t/161568/queensland-firebirds">Queensland Firebirds</a>
+                      </td>
+    <td>
+                <a href="/r/9862820/sunshine-coast-lightning-vs-queensland-firebirds">          64-50        </a>
+
+          
+            </td>
+</tr>
+<tr>
+        <td class="dt_n" data-dt="2025-04-20T06:00:00Z">04/20 16:00</td>
+    
+    <td>-</td>
+    <td>
+                  <a href="/netball/t/161523/adelaide-thunderbirds">Adelaide Thunderbirds</a> v <a href="/netball/t/161517/nsw-swifts">NSW Swifts</a>
+                      </td>
+    <td>
+                <a href="/r/9828991/adelaide-thunderbirds-vs-nsw-swifts">          57-65        </a>
+
+          
+            </td>
+</tr>
+<tr>
+        <td class="dt_n" data-dt="2025-04-20T04:00:00Z">04/20 14:00</td>
+    
+    <td>-</td>
+    <td>
+                  <a href="/netball/t/980892/melbourne-mavericks">Melbourne Mavericks</a> v <a href="/netball/t/161518/giants-netball">GIANTS Netball</a>
+                      </td>
+    <td>
+                <a href="/r/9828990/melbourne-mavericks-vs-giants-netball">          71-56        </a>
+
+          
+            </td>
+</tr>
+<tr>
+        <td class="dt_n" data-dt="2025-04-13T06:00:00Z">04/13 16:00</td>
+    
+    <td>-</td>
+    <td>
+                  <a href="/netball/t/161571/melbourne-vixens">Melbourne Vixens</a> v <a href="/netball/t/161518/giants-netball">GIANTS Netball</a>
+                      </td>
+    <td>
+                <a href="/r/9793741/melbourne-vixens-vs-giants-netball">          61-55        </a>
+
+          
+            </td>
+</tr>
+<tr>
+        <td class="dt_n" data-dt="2025-04-13T04:00:00Z">04/13 14:00</td>
+    
+    <td>-</td>
+    <td>
+                  <a href="/netball/t/161567/sunshine-coast-lightning">Sunshine Coast Lightning</a> v <a href="/netball/t/161523/adelaide-thunderbirds">Adelaide Thunderbirds</a>
+                      </td>
+    <td>
+                <a href="/r/9793736/sunshine-coast-lightning-vs-adelaide-thunderbirds">          45-60        </a>
+
+          
+            </td>
+</tr>
+<tr>
+        <td class="dt_n" data-dt="2025-04-12T09:00:00Z">04/12 19:00</td>
+    
+    <td>-</td>
+    <td>
+                  <a href="/netball/t/161517/nsw-swifts">NSW Swifts</a> v <a href="/netball/t/980892/melbourne-mavericks">Melbourne Mavericks</a>
+                      </td>
+    <td>
+                <a href="/r/9793742/nsw-swifts-vs-melbourne-mavericks">          68-62        </a>
+
+          
+            </td>
+</tr>
+<tr>
+        <td class="dt_n" data-dt="2025-04-12T07:00:00Z">04/12 17:00</td>
+    
+    <td>-</td>
+    <td>
+                  <a href="/netball/t/161568/queensland-firebirds">Queensland Firebirds</a> v <a href="/netball/t/161522/west-coast-fever">West Coast Fever</a>
+                      </td>
+    <td>
+                <a href="/r/9793739/queensland-firebirds-vs-west-coast-fever">          67-54        </a>
+
+          
+            </td>
+</tr>
+<tr>
+        <td class="dt_n" data-dt="2025-04-06T06:00:00Z">04/06 16:00</td>
+    
+    <td>-</td>
+    <td>
+                  <a href="/netball/t/161522/west-coast-fever">West Coast Fever</a> v <a href="/netball/t/161517/nsw-swifts">NSW Swifts</a>
+                      </td>
+    <td>
+                <a href="/r/9757065/west-coast-fever-vs-nsw-swifts">          49-67        </a>
+
+          
+            </td>
+</tr>
+<tr>
+        <td class="dt_n" data-dt="2025-04-06T04:00:00Z">04/06 14:00</td>
+    
+    <td>-</td>
+    <td>
+                  <a href="/netball/t/161518/giants-netball">GIANTS Netball</a> v <a href="/netball/t/161568/queensland-firebirds">Queensland Firebirds</a>
+                      </td>
+    <td>
+                <a href="/r/9757068/giants-netball-vs-queensland-firebirds">          57-62        </a>
+
+          
+            </td>
+</tr>
+<tr>
+        <td class="dt_n" data-dt="2025-04-05T08:00:00Z">04/05 19:00</td>
+    
+    <td>-</td>
+    <td>
+                  <a href="/netball/t/980892/melbourne-mavericks">Melbourne Mavericks</a> v <a href="/netball/t/161567/sunshine-coast-lightning">Sunshine Coast Lightning</a>
+                      </td>
+    <td>
+                <a href="/r/9757067/melbourne-mavericks-vs-sunshine-coast-lightning">          59-67        </a>
+
+          
+            </td>
+</tr>
+<tr>
+        <td class="dt_n" data-dt="2025-04-05T06:00:00Z">04/05 17:00</td>
+    
+    <td>-</td>
+    <td>
+                  <a href="/netball/t/161523/adelaide-thunderbirds">Adelaide Thunderbirds</a> v <a href="/netball/t/161571/melbourne-vixens">Melbourne Vixens</a>
+                      </td>
+    <td>
+                <a href="/r/9757064/adelaide-thunderbirds-vs-melbourne-vixens">          66-53        </a>
+
+          
+            </td>
+</tr>
+  </tbody>
+</table>
+<table class="table table-sm">
+  <thead>
+  <tr><th>Date</th><th>R</th><th>Home v Away</th><th>-</th></tr>
+  </thead>
+  <tbody>
+<tr>
+        <td class="dt_n" data-dt="2024-08-03T09:00:00Z">2024-08-03</td>
+    
+    <td>-</td>
+    <td>
+                  <a href="/netball/t/161523/adelaide-thunderbirds">Adelaide Thunderbirds</a> v <a href="/netball/t/161571/melbourne-vixens">Melbourne Vixens</a>
+                      </td>
+    <td>
+                <a href="/r/8582022/adelaide-thunderbirds-vs-melbourne-vixens">          59-57        </a>
+
+          
+            </td>
+</tr>
+<tr>
+        <td class="dt_n" data-dt="2024-07-27T07:00:00Z">2024-07-27</td>
+    
+    <td>-</td>
+    <td>
+                  <a href="/netball/t/161571/melbourne-vixens">Melbourne Vixens</a> v <a href="/netball/t/161522/west-coast-fever">West Coast Fever</a>
+                      </td>
+    <td>
+                <a href="/r/8549193/melbourne-vixens-vs-west-coast-fever">View</a>
+
+          
+            </td>
+</tr>
+<tr>
+        <td class="dt_n" data-dt="2024-07-21T04:00:00Z">2024-07-21</td>
+    
+    <td>-</td>
+    <td>
+                  <a href="/netball/t/161522/west-coast-fever">West Coast Fever</a> v <a href="/netball/t/161567/sunshine-coast-lightning">Sunshine Coast Lightning</a>
+                      </td>
+    <td>
+                <a href="/r/8505239/west-coast-fever-vs-sunshine-coast-lightning">          72-62        </a>
+
+          
+            </td>
+</tr>
+<tr>
+        <td class="dt_n" data-dt="2024-07-20T07:00:00Z">2024-07-20</td>
+    
+    <td>-</td>
+    <td>
+                  <a href="/netball/t/161523/adelaide-thunderbirds">Adelaide Thunderbirds</a> v <a href="/netball/t/161571/melbourne-vixens">Melbourne Vixens</a>
+                      </td>
+    <td>
+                <a href="/r/8505238/adelaide-thunderbirds-vs-melbourne-vixens">          68-43        </a>
+
+          
+            </td>
+</tr>
+<tr>
+        <td class="dt_n" data-dt="2024-07-14T06:00:00Z">2024-07-14</td>
+    
+    <td>-</td>
+    <td>
+                  <a href="/netball/t/161523/adelaide-thunderbirds">Adelaide Thunderbirds</a> v <a href="/netball/t/161567/sunshine-coast-lightning">Sunshine Coast Lightning</a>
+                      </td>
+    <td>
+                <a href="/r/8481866/adelaide-thunderbirds-vs-sunshine-coast-lightning">          64-62        </a>
+
+          
+            </td>
+</tr>
+<tr>
+        <td class="dt_n" data-dt="2024-07-14T04:00:00Z">2024-07-14</td>
+    
+    <td>-</td>
+    <td>
+                  <a href="/netball/t/161518/giants-netball">GIANTS Netball</a> v <a href="/netball/t/161517/nsw-swifts">NSW Swifts</a>
+                      </td>
+    <td>
+                <a href="/r/8481865/giants-netball-vs-nsw-swifts">          71-72        </a>
+
+          
+            </td>
+</tr>
+<tr>
+        <td class="dt_n" data-dt="2024-07-13T09:00:00Z">2024-07-13</td>
+    
+    <td>-</td>
+    <td>
+                  <a href="/netball/t/161522/west-coast-fever">West Coast Fever</a> v <a href="/netball/t/980892/melbourne-mavericks">Melbourne Mavericks</a>
+                      </td>
+    <td>
+                <a href="/r/8481864/west-coast-fever-vs-melbourne-mavericks">          76-57        </a>
+
+          
+            </td>
+</tr>
+<tr>
+        <td class="dt_n" data-dt="2024-07-13T07:00:00Z">2024-07-13</td>
+    
+    <td>-</td>
+    <td>
+                  <a href="/netball/t/161568/queensland-firebirds">Queensland Firebirds</a> v <a href="/netball/t/161571/melbourne-vixens">Melbourne Vixens</a>
+                      </td>
+    <td>
+                <a href="/r/8481863/queensland-firebirds-vs-melbourne-vixens">          52-62        </a>
+
+          
+            </td>
+</tr>
+<tr>
+        <td class="dt_n" data-dt="2024-07-07T06:00:00Z">2024-07-07</td>
+    
+    <td>-</td>
+    <td>
+                  <a href="/netball/t/161517/nsw-swifts">NSW Swifts</a> v <a href="/netball/t/161523/adelaide-thunderbirds">Adelaide Thunderbirds</a>
+                      </td>
+    <td>
+                <a href="/r/8443283/nsw-swifts-vs-adelaide-thunderbirds">          48-60        </a>
+
+          
+            </td>
+</tr>
+<tr>
+        <td class="dt_n" data-dt="2024-07-07T04:00:00Z">2024-07-07</td>
+    
+    <td>-</td>
+    <td>
+                  <a href="/netball/t/161571/melbourne-vixens">Melbourne Vixens</a> v <a href="/netball/t/161522/west-coast-fever">West Coast Fever</a>
+                      </td>
+    <td>
+                <a href="/r/8443282/melbourne-vixens-vs-west-coast-fever">          67-68        </a>
+
+          
+            </td>
+</tr>
+<tr>
+        <td class="dt_n" data-dt="2024-07-06T09:00:00Z">2024-07-06</td>
+    
+    <td>-</td>
+    <td>
+                  <a href="/netball/t/161568/queensland-firebirds">Queensland Firebirds</a> v <a href="/netball/t/161567/sunshine-coast-lightning">Sunshine Coast Lightning</a>
+                      </td>
+    <td>
+                <a href="/r/8443281/queensland-firebirds-vs-sunshine-coast-lightning">          67-83        </a>
+
+          
+            </td>
+</tr>
+<tr>
+        <td class="dt_n" data-dt="2024-07-06T07:00:00Z">2024-07-06</td>
+    
+    <td>-</td>
+    <td>
+                  <a href="/netball/t/161518/giants-netball">GIANTS Netball</a> v <a href="/netball/t/980892/melbourne-mavericks">Melbourne Mavericks</a>
+                      </td>
+    <td>
+                <a href="/r/8443280/giants-netball-vs-melbourne-mavericks">          54-55        </a>
+
+          
+            </td>
+</tr>
+<tr>
+        <td class="dt_n" data-dt="2024-06-30T06:00:00Z">2024-06-30</td>
+    
+    <td>-</td>
+    <td>
+                  <a href="/netball/t/161522/west-coast-fever">West Coast Fever</a> v <a href="/netball/t/161518/giants-netball">GIANTS Netball</a>
+                      </td>
+    <td>
+                <a href="/r/8408042/west-coast-fever-vs-giants-netball">          68-65        </a>
+
+          
+            </td>
+</tr>
+<tr>
+        <td class="dt_n" data-dt="2024-06-30T04:00:00Z">2024-06-30</td>
+    
+    <td>-</td>
+    <td>
+                  <a href="/netball/t/161517/nsw-swifts">NSW Swifts</a> v <a href="/netball/t/161568/queensland-firebirds">Queensland Firebirds</a>
+                      </td>
+    <td>
+                <a href="/r/8408041/nsw-swifts-vs-queensland-firebirds">          60-61        </a>
+
+          
+            </td>
+</tr>
+<tr>
+        <td class="dt_n" data-dt="2024-06-29T09:00:00Z">2024-06-29</td>
+    
+    <td>-</td>
+    <td>
+                  <a href="/netball/t/980892/melbourne-mavericks">Melbourne Mavericks</a> v <a href="/netball/t/161567/sunshine-coast-lightning">Sunshine Coast Lightning</a>
+                      </td>
+    <td>
+                <a href="/r/8408040/melbourne-mavericks-vs-sunshine-coast-lightning">          72-71        </a>
+
+          
+            </td>
+</tr>
+<tr>
+        <td class="dt_n" data-dt="2024-06-29T07:00:00Z">2024-06-29</td>
+    
+    <td>-</td>
+    <td>
+                  <a href="/netball/t/161523/adelaide-thunderbirds">Adelaide Thunderbirds</a> v <a href="/netball/t/161571/melbourne-vixens">Melbourne Vixens</a>
+                      </td>
+    <td>
+                <a href="/r/8408039/adelaide-thunderbirds-vs-melbourne-vixens">          73-58        </a>
+
+          
+            </td>
+</tr>
+<tr>
+        <td class="dt_n" data-dt="2024-06-23T06:00:00Z">2024-06-23</td>
+    
+    <td>-</td>
+    <td>
+                  <a href="/netball/t/161567/sunshine-coast-lightning">Sunshine Coast Lightning</a> v <a href="/netball/t/161518/giants-netball">GIANTS Netball</a>
+                      </td>
+    <td>
+                <a href="/r/8370960/sunshine-coast-lightning-vs-giants-netball">          71-66        </a>
+
+          
+            </td>
+</tr>
+<tr>
+        <td class="dt_n" data-dt="2024-06-23T04:00:00Z">2024-06-23</td>
+    
+    <td>-</td>
+    <td>
+                  <a href="/netball/t/161571/melbourne-vixens">Melbourne Vixens</a> v <a href="/netball/t/161517/nsw-swifts">NSW Swifts</a>
+                      </td>
+    <td>
+                <a href="/r/8370959/melbourne-vixens-vs-nsw-swifts">          69-49        </a>
+
+          
+            </td>
+</tr>
+<tr>
+        <td class="dt_n" data-dt="2024-06-22T09:00:00Z">2024-06-22</td>
+    
+    <td>-</td>
+    <td>
+                  <a href="/netball/t/161523/adelaide-thunderbirds">Adelaide Thunderbirds</a> v <a href="/netball/t/980892/melbourne-mavericks">Melbourne Mavericks</a>
+                      </td>
+    <td>
+                <a href="/r/8370958/adelaide-thunderbirds-vs-melbourne-mavericks">          67-41        </a>
+
+          
+            </td>
+</tr>
+<tr>
+        <td class="dt_n" data-dt="2024-06-22T07:00:00Z">2024-06-22</td>
+    
+    <td>-</td>
+    <td>
+                  <a href="/netball/t/161568/queensland-firebirds">Queensland Firebirds</a> v <a href="/netball/t/161522/west-coast-fever">West Coast Fever</a>
+                      </td>
+    <td>
+                <a href="/r/8370957/queensland-firebirds-vs-west-coast-fever">          78-70        </a>
+
+          
+            </td>
+</tr>
+<tr>
+        <td class="dt_n" data-dt="2024-06-16T06:00:00Z">2024-06-16</td>
+    
+    <td>-</td>
+    <td>
+                  <a href="/netball/t/161522/west-coast-fever">West Coast Fever</a> v <a href="/netball/t/161517/nsw-swifts">NSW Swifts</a>
+                      </td>
+    <td>
+                <a href="/r/8339905/west-coast-fever-vs-nsw-swifts">          78-71        </a>
+
+          
+            </td>
+</tr>
+<tr>
+        <td class="dt_n" data-dt="2024-06-16T04:00:00Z">2024-06-16</td>
+    
+    <td>-</td>
+    <td>
+                  <a href="/netball/t/980892/melbourne-mavericks">Melbourne Mavericks</a> v <a href="/netball/t/161568/queensland-firebirds">Queensland Firebirds</a>
+                      </td>
+    <td>
+                <a href="/r/8339904/melbourne-mavericks-vs-queensland-firebirds">          73-61        </a>
+
+          
+            </td>
+</tr>
+<tr>
+        <td class="dt_n" data-dt="2024-06-15T09:00:00Z">2024-06-15</td>
+    
+    <td>-</td>
+    <td>
+                  <a href="/netball/t/161567/sunshine-coast-lightning">Sunshine Coast Lightning</a> v <a href="/netball/t/161571/melbourne-vixens">Melbourne Vixens</a>
+                      </td>
+    <td>
+                <a href="/r/8339903/sunshine-coast-lightning-vs-melbourne-vixens">          61-63        </a>
+
+          
+            </td>
+</tr>
+<tr>
+        <td class="dt_n" data-dt="2024-06-15T07:00:00Z">2024-06-15</td>
+    
+    <td>-</td>
+    <td>
+                  <a href="/netball/t/161518/giants-netball">GIANTS Netball</a> v <a href="/netball/t/161523/adelaide-thunderbirds">Adelaide Thunderbirds</a>
+                      </td>
+    <td>
+                <a href="/r/8339902/giants-netball-vs-adelaide-thunderbirds">          42-57        </a>
+
+          
+            </td>
+</tr>
+<tr>
+        <td class="dt_n" data-dt="2024-06-11T07:40:40Z">2024-06-11</td>
+    
+    <td>-</td>
+    <td>
+                  <a href="/netball/t/781858/canterbury">Canterbury</a> v <a href="/netball/t/290035/barbados">Barbados</a>
+                      </td>
+    <td>
+                <a href="/r/8329586/canterbury-vs-barbados">          30-77        </a>
+
+          
+            </td>
+</tr>
+<tr>
+        <td class="dt_n" data-dt="2024-06-10T03:00:00Z">2024-06-10</td>
+    
+    <td>-</td>
+    <td>
+                  <a href="/netball/t/161571/melbourne-vixens">Melbourne Vixens</a> v <a href="/netball/t/980892/melbourne-mavericks">Melbourne Mavericks</a>
+                      </td>
+    <td>
+                <a href="/r/8307906/melbourne-vixens-vs-melbourne-mavericks">          77-58        </a>
+
+          
+            </td>
+</tr>
+<tr>
+        <td class="dt_n" data-dt="2024-06-09T06:00:00Z">2024-06-09</td>
+    
+    <td>-</td>
+    <td>
+                  <a href="/netball/t/161518/giants-netball">GIANTS Netball</a> v <a href="/netball/t/161568/queensland-firebirds">Queensland Firebirds</a>
+                      </td>
+    <td>
+                <a href="/r/8307905/giants-netball-vs-queensland-firebirds">          71-67        </a>
+
+          
+            </td>
+</tr>
+<tr>
+        <td class="dt_n" data-dt="2024-06-08T09:00:00Z">2024-06-08</td>
+    
+    <td>-</td>
+    <td>
+                  <a href="/netball/t/161523/adelaide-thunderbirds">Adelaide Thunderbirds</a> v <a href="/netball/t/161522/west-coast-fever">West Coast Fever</a>
+                      </td>
+    <td>
+                <a href="/r/8307904/adelaide-thunderbirds-vs-west-coast-fever">          68-50        </a>
+
+          
+            </td>
+</tr>
+<tr>
+        <td class="dt_n" data-dt="2024-06-08T07:00:00Z">2024-06-08</td>
+    
+    <td>-</td>
+    <td>
+                  <a href="/netball/t/161517/nsw-swifts">NSW Swifts</a> v <a href="/netball/t/161567/sunshine-coast-lightning">Sunshine Coast Lightning</a>
+                      </td>
+    <td>
+                <a href="/r/8307903/nsw-swifts-vs-sunshine-coast-lightning">          64-66        </a>
+
+          
+            </td>
+</tr>
+<tr>
+        <td class="dt_n" data-dt="2024-06-02T06:00:00Z">2024-06-02</td>
+    
+    <td>-</td>
+    <td>
+                  <a href="/netball/t/980892/melbourne-mavericks">Melbourne Mavericks</a> v <a href="/netball/t/161517/nsw-swifts">NSW Swifts</a>
+                      </td>
+    <td>
+                <a href="/r/8279996/melbourne-mavericks-vs-nsw-swifts">          64-58        </a>
+
+          
+            </td>
+</tr>
+  </tbody>
+</table>
+<table class="table table-sm">
+  <thead>
+  <tr><th>Date</th><th>R</th><th>Home v Away</th><th>-</th></tr>
+  </thead>
+  <tbody>
+<tr>
+        <td class="dt_n" data-dt="2024-06-02T04:00:00Z">2024-06-02</td>
+    
+    <td>-</td>
+    <td>
+                  <a href="/netball/t/161568/queensland-firebirds">Queensland Firebirds</a> v <a href="/netball/t/161523/adelaide-thunderbirds">Adelaide Thunderbirds</a>
+                      </td>
+    <td>
+                <a href="/r/8279995/queensland-firebirds-vs-adelaide-thunderbirds">          52-42        </a>
+
+          
+            </td>
+</tr>
+<tr>
+        <td class="dt_n" data-dt="2024-06-01T09:00:00Z">2024-06-01</td>
+    
+    <td>-</td>
+    <td>
+                  <a href="/netball/t/161567/sunshine-coast-lightning">Sunshine Coast Lightning</a> v <a href="/netball/t/161522/west-coast-fever">West Coast Fever</a>
+                      </td>
+    <td>
+                <a href="/r/8279994/sunshine-coast-lightning-vs-west-coast-fever">          68-71        </a>
+
+          
+            </td>
+</tr>
+<tr>
+        <td class="dt_n" data-dt="2024-06-01T07:00:00Z">2024-06-01</td>
+    
+    <td>-</td>
+    <td>
+                  <a href="/netball/t/161571/melbourne-vixens">Melbourne Vixens</a> v <a href="/netball/t/161518/giants-netball">GIANTS Netball</a>
+                      </td>
+    <td>
+                <a href="/r/8279993/melbourne-vixens-vs-giants-netball">          74-60        </a>
+
+          
+            </td>
+</tr>
+<tr>
+        <td class="dt_n" data-dt="2024-05-26T06:00:00Z">2024-05-26</td>
+    
+    <td>-</td>
+    <td>
+                  <a href="/netball/t/161522/west-coast-fever">West Coast Fever</a> v <a href="/netball/t/161571/melbourne-vixens">Melbourne Vixens</a>
+                      </td>
+    <td>
+                <a href="/r/8247906/west-coast-fever-vs-melbourne-vixens">          65-76        </a>
+
+          
+            </td>
+</tr>
+<tr>
+        <td class="dt_n" data-dt="2024-05-26T04:00:00Z">2024-05-26</td>
+    
+    <td>-</td>
+    <td>
+                  <a href="/netball/t/980892/melbourne-mavericks">Melbourne Mavericks</a> v <a href="/netball/t/161518/giants-netball">GIANTS Netball</a>
+                      </td>
+    <td>
+                <a href="/r/8247905/melbourne-mavericks-vs-giants-netball">          59-66        </a>
+
+          
+            </td>
+</tr>
+<tr>
+        <td class="dt_n" data-dt="2024-05-25T09:00:00Z">2024-05-25</td>
+    
+    <td>-</td>
+    <td>
+                  <a href="/netball/t/161523/adelaide-thunderbirds">Adelaide Thunderbirds</a> v <a href="/netball/t/161517/nsw-swifts">NSW Swifts</a>
+                      </td>
+    <td>
+                <a href="/r/8247904/adelaide-thunderbirds-vs-nsw-swifts">          58-33        </a>
+
+          
+            </td>
+</tr>
+<tr>
+        <td class="dt_n" data-dt="2024-05-25T07:00:00Z">2024-05-25</td>
+    
+    <td>-</td>
+    <td>
+                  <a href="/netball/t/161567/sunshine-coast-lightning">Sunshine Coast Lightning</a> v <a href="/netball/t/161568/queensland-firebirds">Queensland Firebirds</a>
+                      </td>
+    <td>
+                <a href="/r/8247903/sunshine-coast-lightning-vs-queensland-firebirds">          76-65        </a>
+
+          
+            </td>
+</tr>
+<tr>
+        <td class="dt_n" data-dt="2024-05-19T06:00:00Z">2024-05-19</td>
+    
+    <td>-</td>
+    <td>
+                  <a href="/netball/t/161517/nsw-swifts">NSW Swifts</a> v <a href="/netball/t/161518/giants-netball">GWS Giants</a>
+                      </td>
+    <td>
+                <a href="/r/8223556/nsw-swifts-vs-giants-netball">          76-52        </a>
+
+          
+            </td>
+</tr>
+<tr>
+        <td class="dt_n" data-dt="2024-05-19T04:00:00Z">2024-05-19</td>
+    
+    <td>-</td>
+    <td>
+                  <a href="/netball/t/161568/queensland-firebirds">Queensland Firebirds</a> v <a href="/netball/t/980892/melbourne-mavericks">Melbourne Mavericks</a>
+                      </td>
+    <td>
+                <a href="/r/8223555/queensland-firebirds-vs-melbourne-mavericks">          62-69        </a>
+
+          
+            </td>
+</tr>
+<tr>
+        <td class="dt_n" data-dt="2024-05-18T09:00:00Z">2024-05-18</td>
+    
+    <td>-</td>
+    <td>
+                  <a href="/netball/t/161522/west-coast-fever">West Coast Fever</a> v <a href="/netball/t/161523/adelaide-thunderbirds">Adelaide Thunderbirds</a>
+                      </td>
+    <td>
+                <a href="/r/8223554/west-coast-fever-vs-adelaide-thunderbirds">          57-56        </a>
+
+          
+            </td>
+</tr>
+<tr>
+        <td class="dt_n" data-dt="2024-05-18T07:00:00Z">2024-05-18</td>
+    
+    <td>-</td>
+    <td>
+                  <a href="/netball/t/161571/melbourne-vixens">Melbourne Vixens</a> v <a href="/netball/t/161567/sunshine-coast-lightning">Sunshine Coast Lightning</a>
+                      </td>
+    <td>
+                <a href="/r/8223553/melbourne-vixens-vs-sunshine-coast-lightning">          57-63        </a>
+
+          
+            </td>
+</tr>
+<tr>
+        <td class="dt_n" data-dt="2024-05-12T04:00:00Z">2024-05-12</td>
+    
+    <td>-</td>
+    <td>
+                  <a href="/netball/t/161517/nsw-swifts">NSW Swifts</a> v <a href="/netball/t/161571/melbourne-vixens">Melbourne Vixens</a>
+                      </td>
+    <td>
+                <a href="/r/8189441/nsw-swifts-vs-melbourne-vixens">          59-61        </a>
+
+          
+            </td>
+</tr>
+<tr>
+        <td class="dt_n" data-dt="2024-05-11T09:00:00Z">2024-05-11</td>
+    
+    <td>-</td>
+    <td>
+                  <a href="/netball/t/161518/giants-netball">GIANTS Netball</a> v <a href="/netball/t/161567/sunshine-coast-lightning">Sunshine Coast Lightning</a>
+                      </td>
+    <td>
+                <a href="/r/8189440/giants-netball-vs-sunshine-coast-lightning">          78-72        </a>
+
+          
+            </td>
+</tr>
+<tr>
+        <td class="dt_n" data-dt="2024-05-11T07:00:00Z">2024-05-11</td>
+    
+    <td>-</td>
+    <td>
+                  <a href="/netball/t/980892/melbourne-mavericks">Melbourne Mavericks</a> v <a href="/netball/t/161523/adelaide-thunderbirds">Adelaide Thunderbirds</a>
+                      </td>
+    <td>
+                <a href="/r/8189439/melbourne-mavericks-vs-adelaide-thunderbirds">          37-59        </a>
+
+          
+            </td>
+</tr>
+<tr>
+        <td class="dt_n" data-dt="2024-05-10T10:30:00Z">2024-05-10</td>
+    
+    <td>-</td>
+    <td>
+                  <a href="/netball/t/161522/west-coast-fever">West Coast Fever</a> v <a href="/netball/t/161568/queensland-firebirds">Queensland Firebirds</a>
+                      </td>
+    <td>
+                <a href="/r/8189438/west-coast-fever-vs-queensland-firebirds">          94-58        </a>
+
+          
+            </td>
+</tr>
+<tr>
+        <td class="dt_n" data-dt="2024-05-05T06:00:00Z">2024-05-05</td>
+    
+    <td>-</td>
+    <td>
+                  <a href="/netball/t/161517/nsw-swifts">NSW Swifts</a> v <a href="/netball/t/161522/west-coast-fever">West Coast Fever</a>
+                      </td>
+    <td>
+                <a href="/r/8161766/nsw-swifts-vs-west-coast-fever">          59-75        </a>
+
+          
+            </td>
+</tr>
+<tr>
+        <td class="dt_n" data-dt="2024-05-05T04:00:00Z">2024-05-05</td>
+    
+    <td>-</td>
+    <td>
+                  <a href="/netball/t/161571/melbourne-vixens">Melbourne Vixens</a> v <a href="/netball/t/161568/queensland-firebirds">Queensland Firebirds</a>
+                      </td>
+    <td>
+                <a href="/r/8161765/melbourne-vixens-vs-queensland-firebirds">          68-55        </a>
+
+          
+            </td>
+</tr>
+<tr>
+        <td class="dt_n" data-dt="2024-05-04T09:00:00Z">2024-05-04</td>
+    
+    <td>-</td>
+    <td>
+                  <a href="/netball/t/161523/adelaide-thunderbirds">Adelaide Thunderbirds</a> v <a href="/netball/t/161518/giants-netball">GIANTS Netball</a>
+                      </td>
+    <td>
+                <a href="/r/8161764/adelaide-thunderbirds-vs-giants-netball">          69-49        </a>
+
+          
+            </td>
+</tr>
+<tr>
+        <td class="dt_n" data-dt="2024-05-04T07:00:00Z">2024-05-04</td>
+    
+    <td>-</td>
+    <td>
+                  <a href="/netball/t/161567/sunshine-coast-lightning">Sunshine Coast Lightning</a> v <a href="/netball/t/980892/melbourne-mavericks">Melbourne Mavericks</a>
+                      </td>
+    <td>
+                <a href="/r/8161763/sunshine-coast-lightning-vs-melbourne-mavericks">          64-65        </a>
+
+          
+            </td>
+</tr>
+<tr>
+        <td class="dt_n" data-dt="2024-04-28T14:05:11Z">2024-04-29</td>
+    
+    <td>-</td>
+    <td>
+                  <a href="/netball/t/161719/hertfordshire-mavericks">Hertfordshire Mavericks</a> v <a href="/netball/t/791934/iceland">Iceland</a>
+                      </td>
+    <td>
+                <a href="/r/8156056/hertfordshire-mavericks-vs-iceland">          70-60        </a>
+
+          
+            </td>
+</tr>
+<tr>
+        <td class="dt_n" data-dt="2024-04-28T06:00:00Z">2024-04-28</td>
+    
+    <td>-</td>
+    <td>
+                  <a href="/netball/t/161518/giants-netball">GIANTS Netball</a> v <a href="/netball/t/161571/melbourne-vixens">Melbourne Vixens</a>
+                      </td>
+    <td>
+                <a href="/r/8134385/giants-netball-vs-melbourne-vixens">          44-63        </a>
+
+          
+            </td>
+</tr>
+<tr>
+        <td class="dt_n" data-dt="2024-04-28T04:00:00Z">2024-04-28</td>
+    
+    <td>-</td>
+    <td>
+                  <a href="/netball/t/161568/queensland-firebirds">Queensland Firebirds</a> v <a href="/netball/t/161517/nsw-swifts">NSW Swifts</a>
+                      </td>
+    <td>
+                <a href="/r/8134382/queensland-firebirds-vs-nsw-swifts">          71-74        </a>
+
+          
+            </td>
+</tr>
+<tr>
+        <td class="dt_n" data-dt="2024-04-27T09:00:00Z">2024-04-27</td>
+    
+    <td>-</td>
+    <td>
+                  <a href="/netball/t/980892/melbourne-mavericks">Melbourne Mavericks</a> v <a href="/netball/t/161522/west-coast-fever">West Coast Fever</a>
+                      </td>
+    <td>
+                <a href="/r/8134384/melbourne-mavericks-vs-west-coast-fever">          62-67        </a>
+
+          
+            </td>
+</tr>
+<tr>
+        <td class="dt_n" data-dt="2024-04-27T07:00:00Z">2024-04-27</td>
+    
+    <td>-</td>
+    <td>
+                  <a href="/netball/t/161567/sunshine-coast-lightning">Sunshine Coast Lightning</a> v <a href="/netball/t/161523/adelaide-thunderbirds">Adelaide Thunderbirds</a>
+                      </td>
+    <td>
+                <a href="/r/8134383/sunshine-coast-lightning-vs-adelaide-thunderbirds">          56-58        </a>
+
+          
+            </td>
+</tr>
+<tr>
+        <td class="dt_n" data-dt="2024-04-21T06:00:00Z">2024-04-21</td>
+    
+    <td>-</td>
+    <td>
+                  <a href="/netball/t/161517/nsw-swifts">NSW Swifts</a> v <a href="/netball/t/980892/melbourne-mavericks">Melbourne Mavericks</a>
+                      </td>
+    <td>
+                <a href="/r/8103599/nsw-swifts-vs-melbourne-mavericks">          67-56        </a>
+
+          
+            </td>
+</tr>
+<tr>
+        <td class="dt_n" data-dt="2024-04-21T04:00:00Z">2024-04-21</td>
+    
+    <td>-</td>
+    <td>
+                  <a href="/netball/t/161522/west-coast-fever">West Coast Fever</a> v <a href="/netball/t/161567/sunshine-coast-lightning">Sunshine Coast Lightning</a>
+                      </td>
+    <td>
+                <a href="/r/8103598/west-coast-fever-vs-sunshine-coast-lightning">          81-56        </a>
+
+          
+            </td>
+</tr>
+<tr>
+        <td class="dt_n" data-dt="2024-04-20T09:00:00Z">2024-04-20</td>
+    
+    <td>-</td>
+    <td>
+                  <a href="/netball/t/161571/melbourne-vixens">Melbourne Vixens</a> v <a href="/netball/t/161523/adelaide-thunderbirds">Adelaide Thunderbirds</a>
+                      </td>
+    <td>
+                <a href="/r/8103597/melbourne-vixens-vs-adelaide-thunderbirds">          54-53        </a>
+
+          
+            </td>
+</tr>
+<tr>
+        <td class="dt_n" data-dt="2024-04-20T07:00:00Z">2024-04-20</td>
+    
+    <td>-</td>
+    <td>
+                  <a href="/netball/t/161568/queensland-firebirds">Queensland Firebirds</a> v <a href="/netball/t/161518/giants-netball">GIANTS Netball</a>
+                      </td>
+    <td>
+                <a href="/r/8103596/queensland-firebirds-vs-giants-netball">          65-62        </a>
+
+          
+            </td>
+</tr>
+<tr>
+        <td class="dt_n" data-dt="2024-04-14T06:00:00Z">2024-04-14</td>
+    
+    <td>-</td>
+    <td>
+                  <a href="/netball/t/161567/sunshine-coast-lightning">Sunshine Coast Lightning</a> v <a href="/netball/t/161517/nsw-swifts">NSW Swifts</a>
+                      </td>
+    <td>
+                <a href="/r/8072727/sunshine-coast-lightning-vs-nsw-swifts">View</a>
+
+          
+            </td>
+</tr>
+<tr>
+        <td class="dt_n" data-dt="2024-04-14T04:00:00Z">2024-04-14</td>
+    
+    <td>-</td>
+    <td>
+                  <a href="/netball/t/980892/melbourne-mavericks">Melbourne Mavericks</a> v <a href="/netball/t/161571/melbourne-vixens">Melbourne Vixens</a>
+                      </td>
+    <td>
+                <a href="/r/8072726/melbourne-mavericks-vs-melbourne-vixens">View</a>
+
+          
+            </td>
+</tr>
+  </tbody>
+</table>
+<tbody>
+<tr>
+        <td class="dt_n" data-dt="2024-04-13T09:00:00Z">2024-04-13</td>
+    
+    <td>-</td>
+    <td>
+                  <a href="/netball/t/161523/adelaide-thunderbirds">Adelaide Thunderbirds</a> v <a href="/netball/t/161568/queensland-firebirds">Queensland Firebirds</a>
+                      </td>
+    <td>
+                <a href="/r/8072725/adelaide-thunderbirds-vs-queensland-firebirds">          63-62        </a>
+
+          
+            </td>
+</tr>
+<tr>
+        <td class="dt_n" data-dt="2024-04-13T07:00:00Z">2024-04-13</td>
+    
+    <td>-</td>
+    <td>
+                  <a href="/netball/t/161518/giants-netball">GIANTS Netball</a> v <a href="/netball/t/161522/west-coast-fever">West Coast Fever</a>
+                      </td>
+    <td>
+                <a href="/r/8072724/giants-netball-vs-west-coast-fever">          65-84        </a>
+
+          
+            </td>
+</tr>
+<tr>
+        <td class="dt_n" data-dt="2023-07-08T09:00:00Z">2023-07-08</td>
+    
+    <td>-</td>
+    <td>
+                  <a href="/netball/t/161523/adelaide-thunderbirds">Adelaide Thunderbirds</a> v <a href="/netball/t/161517/nsw-swifts">NSW Swifts</a>
+                      </td>
+    <td>
+                <a href="/r/6853984/adelaide-thunderbirds-vs-nsw-swifts">          60-59        </a>
+
+          
+            </td>
+</tr>
+<tr>
+        <td class="dt_n" data-dt="2023-07-01T09:00:00Z">2023-07-01</td>
+    
+    <td>-</td>
+    <td>
+                  <a href="/netball/t/161517/nsw-swifts">NSW Swifts</a> v <a href="/netball/t/161522/west-coast-fever">West Coast Fever</a>
+                      </td>
+    <td>
+                <a href="/r/6824217/nsw-swifts-vs-west-coast-fever">          65-64        </a>
+
+          
+            </td>
+</tr>
+<tr>
+        <td class="dt_n" data-dt="2023-06-25T06:00:00Z">2023-06-25</td>
+    
+    <td>-</td>
+    <td>
+                  <a href="/netball/t/161522/west-coast-fever">West Coast Fever</a> v <a href="/netball/t/161571/melbourne-vixens">Melbourne Vixens</a>
+                      </td>
+    <td>
+                <a href="/r/6796498/west-coast-fever-vs-melbourne-vixens">          64-57        </a>
+
+          
+            </td>
+</tr>
+<tr>
+        <td class="dt_n" data-dt="2023-06-24T09:00:00Z">2023-06-24</td>
+    
+    <td>-</td>
+    <td>
+                  <a href="/netball/t/161517/nsw-swifts">NSW Swifts</a> v <a href="/netball/t/161523/adelaide-thunderbirds">Adelaide Thunderbirds</a>
+                      </td>
+    <td>
+                <a href="/r/6796497/nsw-swifts-vs-adelaide-thunderbirds">          62-63        </a>
+
+          
+            </td>
+</tr>
+<tr>
+        <td class="dt_n" data-dt="2023-06-18T06:00:00Z">2023-06-18</td>
+    
+    <td>-</td>
+    <td>
+                  <a href="/netball/t/161518/giants-netball">GIANTS Netball</a> v <a href="/netball/t/161571/melbourne-vixens">Melbourne Vixens</a>
+                      </td>
+    <td>
+                <a href="/r/6776169/giants-netball-vs-melbourne-vixens">          60-57        </a>
+
+          
+            </td>
+</tr>
+<tr>
+        <td class="dt_n" data-dt="2023-06-18T04:00:00Z">2023-06-18</td>
+    
+    <td>-</td>
+    <td>
+                  <a href="/netball/t/161567/sunshine-coast-lightning">Sunshine Coast Lightning</a> v <a href="/netball/t/161568/queensland-firebirds">Queensland Firebirds</a>
+                      </td>
+    <td>
+                <a href="/r/6776168/sunshine-coast-lightning-vs-queensland-firebirds">          66-60        </a>
+
+          
+            </td>
+</tr>
+<tr>
+        <td class="dt_n" data-dt="2023-06-17T09:00:00Z">2023-06-17</td>
+    
+    <td>-</td>
+    <td>
+                  <a href="/netball/t/161570/collingwood-magpies">Collingwood Magpies</a> v <a href="/netball/t/161522/west-coast-fever">West Coast Fever</a>
+                      </td>
+    <td>
+                <a href="/r/6776167/collingwood-magpies-vs-west-coast-fever">          65-62        </a>
+
+          
+            </td>
+</tr>
+<tr>
+        <td class="dt_n" data-dt="2023-06-17T07:00:00Z">2023-06-17</td>
+    
+    <td>-</td>
+    <td>
+                  <a href="/netball/t/161517/nsw-swifts">NSW Swifts</a> v <a href="/netball/t/161523/adelaide-thunderbirds">Adelaide Thunderbirds</a>
+                      </td>
+    <td>
+                <a href="/r/6776166/nsw-swifts-vs-adelaide-thunderbirds">          57-60        </a>
+
+          
+            </td>
+</tr>
+<tr>
+        <td class="dt_n" data-dt="2023-06-12T03:00:00Z">2023-06-12</td>
+    
+    <td>-</td>
+    <td>
+                  <a href="/netball/t/161571/melbourne-vixens">Melbourne Vixens</a> v <a href="/netball/t/161570/collingwood-magpies">Collingwood Magpies</a>
+                      </td>
+    <td>
+                <a href="/r/6745954/melbourne-vixens-vs-collingwood-magpies">          64-55        </a>
+
+          
+            </td>
+</tr>
+<tr>
+        <td class="dt_n" data-dt="2023-06-11T06:00:00Z">2023-06-11</td>
+    
+    <td>-</td>
+    <td>
+                  <a href="/netball/t/161568/queensland-firebirds">Queensland Firebirds</a> v <a href="/netball/t/161517/nsw-swifts">NSW Swifts</a>
+                      </td>
+    <td>
+                <a href="/r/6745953/queensland-firebirds-vs-nsw-swifts">          65-78        </a>
+
+          
+            </td>
+</tr>
+<tr>
+        <td class="dt_n" data-dt="2023-06-11T04:00:00Z">2023-06-11</td>
+    
+    <td>-</td>
+    <td>
+                  <a href="/netball/t/161522/west-coast-fever">West Coast Fever</a> v <a href="/netball/t/161518/giants-netball">GIANTS Netball</a>
+                      </td>
+    <td>
+                <a href="/r/6745952/west-coast-fever-vs-giants-netball">          72-61        </a>
+
+          
+            </td>
+</tr>
+<tr>
+        <td class="dt_n" data-dt="2023-06-10T09:00:00Z">2023-06-10</td>
+    
+    <td>-</td>
+    <td>
+                  <a href="/netball/t/161523/adelaide-thunderbirds">Adelaide Thunderbirds</a> v <a href="/netball/t/161567/sunshine-coast-lightning">Sunshine Coast Lightning</a>
+                      </td>
+    <td>
+                <a href="/r/6745956/adelaide-thunderbirds-vs-sunshine-coast-lightning">          54-56        </a>
+
+          
+            </td>
+</tr>
+<tr>
+        <td class="dt_n" data-dt="2023-06-04T06:00:00Z">2023-06-04</td>
+    
+    <td>-</td>
+    <td>
+                  <a href="/netball/t/161568/queensland-firebirds">Queensland Firebirds</a> v <a href="/netball/t/161571/melbourne-vixens">Melbourne Vixens</a>
+                      </td>
+    <td>
+                <a href="/r/6718768/queensland-firebirds-vs-melbourne-vixens">          76-71        </a>
+
+          
+            </td>
+</tr>
+<tr>
+        <td class="dt_n" data-dt="2023-06-04T04:00:00Z">2023-06-04</td>
+    
+    <td>-</td>
+    <td>
+                  <a href="/netball/t/161517/nsw-swifts">NSW Swifts</a> v <a href="/netball/t/161518/giants-netball">GIANTS Netball</a>
+                      </td>
+    <td>
+                <a href="/r/6718767/nsw-swifts-vs-giants-netball">          68-63        </a>
+
+          
+            </td>
+</tr>
+<tr>
+        <td class="dt_n" data-dt="2023-06-03T09:00:00Z">2023-06-03</td>
+    
+    <td>-</td>
+    <td>
+                  <a href="/netball/t/161522/west-coast-fever">West Coast Fever</a> v <a href="/netball/t/161567/sunshine-coast-lightning">Sunshine Coast Lightning</a>
+                      </td>
+    <td>
+                <a href="/r/6718766/west-coast-fever-vs-sunshine-coast-lightning">          69-65        </a>
+
+          
+            </td>
+</tr>
+<tr>
+        <td class="dt_n" data-dt="2023-06-03T07:00:00Z">2023-06-03</td>
+    
+    <td>-</td>
+    <td>
+                  <a href="/netball/t/161570/collingwood-magpies">Collingwood Magpies</a> v <a href="/netball/t/161523/adelaide-thunderbirds">Adelaide Thunderbirds</a>
+                      </td>
+    <td>
+                <a href="/r/6718765/collingwood-magpies-vs-adelaide-thunderbirds">          53-50        </a>
+
+          
+            </td>
+</tr>
+<tr>
+        <td class="dt_n" data-dt="2023-05-28T06:00:00Z">2023-05-28</td>
+    
+    <td>-</td>
+    <td>
+                  <a href="/netball/t/161518/giants-netball">GIANTS Netball</a> v <a href="/netball/t/161568/queensland-firebirds">Queensland Firebirds</a>
+                      </td>
+    <td>
+                <a href="/r/6689598/giants-netball-vs-queensland-firebirds">          50-68        </a>
+
+          
+            </td>
+</tr>
+<tr>
+        <td class="dt_n" data-dt="2023-05-28T04:00:00Z">2023-05-28</td>
+    
+    <td>-</td>
+    <td>
+                  <a href="/netball/t/161571/melbourne-vixens">Melbourne Vixens</a> v <a href="/netball/t/161517/nsw-swifts">NSW Swifts</a>
+                      </td>
+    <td>
+                <a href="/r/6689597/melbourne-vixens-vs-nsw-swifts">          62-70        </a>
+
+          
+            </td>
+</tr>
+<tr>
+        <td class="dt_n" data-dt="2023-05-27T09:00:00Z">2023-05-27</td>
+    
+    <td>-</td>
+    <td>
+                  <a href="/netball/t/161523/adelaide-thunderbirds">Adelaide Thunderbirds</a> v <a href="/netball/t/161522/west-coast-fever">West Coast Fever</a>
+                      </td>
+    <td>
+                <a href="/r/6689596/adelaide-thunderbirds-vs-west-coast-fever">          54-53        </a>
+
+          
+            </td>
+</tr>
+<tr>
+        <td class="dt_n" data-dt="2023-05-27T07:00:00Z">2023-05-27</td>
+    
+    <td>-</td>
+    <td>
+                  <a href="/netball/t/161567/sunshine-coast-lightning">Sunshine Coast Lightning</a> v <a href="/netball/t/161570/collingwood-magpies">Collingwood Magpies</a>
+                      </td>
+    <td>
+                <a href="/r/6689595/sunshine-coast-lightning-vs-collingwood-magpies">          66-62        </a>
+
+          
+            </td>
+</tr>
+<tr>
+        <td class="dt_n" data-dt="2023-05-21T06:00:00Z">2023-05-21</td>
+    
+    <td>-</td>
+    <td>
+                  <a href="/netball/t/161522/west-coast-fever">West Coast Fever</a> v <a href="/netball/t/161568/queensland-firebirds">Queensland Firebirds</a>
+                      </td>
+    <td>
+                <a href="/r/6661953/west-coast-fever-vs-queensland-firebirds">          97-63        </a>
+
+          
+            </td>
+</tr>
+<tr>
+        <td class="dt_n" data-dt="2023-05-21T04:00:00Z">2023-05-21</td>
+    
+    <td>-</td>
+    <td>
+                  <a href="/netball/t/161517/nsw-swifts">NSW Swifts</a> v <a href="/netball/t/161570/collingwood-magpies">Collingwood Magpies</a>
+                      </td>
+    <td>
+                <a href="/r/6661952/nsw-swifts-vs-collingwood-magpies">          85-56        </a>
+
+          
+            </td>
+</tr>
+<tr>
+        <td class="dt_n" data-dt="2023-05-20T09:00:00Z">2023-05-20</td>
+    
+    <td>-</td>
+    <td>
+                  <a href="/netball/t/161571/melbourne-vixens">Melbourne Vixens</a> v <a href="/netball/t/161523/adelaide-thunderbirds">Adelaide Thunderbirds</a>
+                      </td>
+    <td>
+                <a href="/r/6661951/melbourne-vixens-vs-adelaide-thunderbirds">          60-39        </a>
+
+          
+            </td>
+</tr>
+<tr>
+        <td class="dt_n" data-dt="2023-05-20T07:00:00Z">2023-05-20</td>
+    
+    <td>-</td>
+    <td>
+                  <a href="/netball/t/161518/giants-netball">GIANTS Netball</a> v <a href="/netball/t/161567/sunshine-coast-lightning">Sunshine Coast Lightning</a>
+                      </td>
+    <td>
+                <a href="/r/6661950/giants-netball-vs-sunshine-coast-lightning">          70-64        </a>
+
+          
+            </td>
+</tr>
+<tr>
+        <td class="dt_n" data-dt="2023-05-14T06:00:00Z">2023-05-14</td>
+    
+    <td>-</td>
+    <td>
+                  <a href="/netball/t/161570/collingwood-magpies">Collingwood Magpies</a> v <a href="/netball/t/161518/giants-netball">GIANTS Netball</a>
+                      </td>
+    <td>
+                <a href="/r/6636827/collingwood-magpies-vs-giants-netball">          56-69        </a>
+
+          
+            </td>
+</tr>
+<tr>
+        <td class="dt_n" data-dt="2023-05-14T04:00:00Z">2023-05-14</td>
+    
+    <td>-</td>
+    <td>
+                  <a href="/netball/t/161567/sunshine-coast-lightning">Sunshine Coast Lightning</a> v <a href="/netball/t/161571/melbourne-vixens">Melbourne Vixens</a>
+                      </td>
+    <td>
+                <a href="/r/6636824/sunshine-coast-lightning-vs-melbourne-vixens">          61-62        </a>
+
+          
+            </td>
+</tr>
+<tr>
+        <td class="dt_n" data-dt="2023-05-13T09:00:00Z">2023-05-13</td>
+    
+    <td>-</td>
+    <td>
+                  <a href="/netball/t/161522/west-coast-fever">West Coast Fever</a> v <a href="/netball/t/161517/nsw-swifts">NSW Swifts</a>
+                      </td>
+    <td>
+                <a href="/r/6636823/west-coast-fever-vs-nsw-swifts">          64-65        </a>
+
+          
+            </td>
+</tr>
+<tr>
+        <td class="dt_n" data-dt="2023-05-13T07:00:00Z">2023-05-13</td>
+    
+    <td>-</td>
+    <td>
+                  <a href="/netball/t/161523/adelaide-thunderbirds">Adelaide Thunderbirds</a> v <a href="/netball/t/161568/queensland-firebirds">Queensland Firebirds</a>
+                      </td>
+    <td>
+                <a href="/r/6636826/adelaide-thunderbirds-vs-queensland-firebirds">          63-46        </a>
+
+          
+            </td>
+</tr>
+  </tbody>
+<tbody>
+<tr>
+        <td class="dt_n" data-dt="2023-05-07T06:00:00Z">2023-05-07</td>
+    
+    <td>-</td>
+    <td>
+                  <a href="/netball/t/161517/nsw-swifts">NSW Swifts</a> v <a href="/netball/t/161567/sunshine-coast-lightning">Sunshine Coast Lightning</a>
+                      </td>
+    <td>
+                <a href="/r/6607452/nsw-swifts-vs-sunshine-coast-lightning">          67-63        </a>
+
+          
+            </td>
+</tr>
+<tr>
+        <td class="dt_n" data-dt="2023-05-07T04:00:00Z">2023-05-07</td>
+    
+    <td>-</td>
+    <td>
+                  <a href="/netball/t/161571/melbourne-vixens">Melbourne Vixens</a> v <a href="/netball/t/161522/west-coast-fever">West Coast Fever</a>
+                      </td>
+    <td>
+                <a href="/r/6607451/melbourne-vixens-vs-west-coast-fever">          74-73        </a>
+
+          
+            </td>
+</tr>
+<tr>
+        <td class="dt_n" data-dt="2023-05-06T09:00:00Z">2023-05-06</td>
+    
+    <td>-</td>
+    <td>
+                  <a href="/netball/t/161518/giants-netball">GIANTS Netball</a> v <a href="/netball/t/161523/adelaide-thunderbirds">Adelaide Thunderbirds</a>
+                      </td>
+    <td>
+                <a href="/r/6607450/giants-netball-vs-adelaide-thunderbirds">          50-54        </a>
+
+          
+            </td>
+</tr>
+<tr>
+        <td class="dt_n" data-dt="2023-05-06T07:00:00Z">2023-05-06</td>
+    
+    <td>-</td>
+    <td>
+                  <a href="/netball/t/161568/queensland-firebirds">Queensland Firebirds</a> v <a href="/netball/t/161570/collingwood-magpies">Collingwood Magpies</a>
+                      </td>
+    <td>
+                <a href="/r/6607449/queensland-firebirds-vs-collingwood-magpies">          73-67        </a>
+
+          
+            </td>
+</tr>
+<tr>
+        <td class="dt_n" data-dt="2023-04-30T06:00:00Z">2023-04-30</td>
+    
+    <td>-</td>
+    <td>
+                  <a href="/netball/t/161523/adelaide-thunderbirds">Adelaide Thunderbirds</a> v <a href="/netball/t/161570/collingwood-magpies">Collingwood Magpies</a>
+                      </td>
+    <td>
+                <a href="/r/6579244/adelaide-thunderbirds-vs-collingwood-magpies">          52-47        </a>
+
+          
+            </td>
+</tr>
+<tr>
+        <td class="dt_n" data-dt="2023-04-30T04:00:00Z">2023-04-30</td>
+    
+    <td>-</td>
+    <td>
+                  <a href="/netball/t/161567/sunshine-coast-lightning">Sunshine Coast Lightning</a> v <a href="/netball/t/161522/west-coast-fever">West Coast Fever</a>
+                      </td>
+    <td>
+                <a href="/r/6579243/sunshine-coast-lightning-vs-west-coast-fever">          64-74        </a>
+
+          
+            </td>
+</tr>
+<tr>
+        <td class="dt_n" data-dt="2023-04-29T09:00:00Z">2023-04-29</td>
+    
+    <td>-</td>
+    <td>
+                  <a href="/netball/t/161518/giants-netball">GIANTS Netball</a> v <a href="/netball/t/161517/nsw-swifts">NSW Swifts</a>
+                      </td>
+    <td>
+                <a href="/r/6579242/giants-netball-vs-nsw-swifts">          64-67        </a>
+
+          
+            </td>
+</tr>
+<tr>
+        <td class="dt_n" data-dt="2023-04-29T07:00:00Z">2023-04-29</td>
+    
+    <td>-</td>
+    <td>
+                  <a href="/netball/t/161571/melbourne-vixens">Melbourne Vixens</a> v <a href="/netball/t/161568/queensland-firebirds">Queensland Firebirds</a>
+                      </td>
+    <td>
+                <a href="/r/6579241/melbourne-vixens-vs-queensland-firebirds">          72-60        </a>
+
+          
+            </td>
+</tr>
+<tr>
+        <td class="dt_n" data-dt="2023-04-25T03:00:00Z">2023-04-25</td>
+    
+    <td>-</td>
+    <td>
+                  <a href="/netball/t/161570/collingwood-magpies">Collingwood Magpies</a> v <a href="/netball/t/161567/sunshine-coast-lightning">Sunshine Coast Lightning</a>
+                      </td>
+    <td>
+                <a href="/r/6543732/collingwood-magpies-vs-sunshine-coast-lightning">          50-65        </a>
+
+          
+            </td>
+</tr>
+<tr>
+        <td class="dt_n" data-dt="2023-04-23T06:00:00Z">2023-04-23</td>
+    
+    <td>-</td>
+    <td>
+                  <a href="/netball/t/161522/west-coast-fever">West Coast Fever</a> v <a href="/netball/t/161523/adelaide-thunderbirds">Adelaide Thunderbirds</a>
+                      </td>
+    <td>
+                <a href="/r/6543731/west-coast-fever-vs-adelaide-thunderbirds">          63-64        </a>
+
+          
+            </td>
+</tr>
+<tr>
+        <td class="dt_n" data-dt="2023-04-23T04:00:00Z">2023-04-23</td>
+    
+    <td>-</td>
+    <td>
+                  <a href="/netball/t/161568/queensland-firebirds">Queensland Firebirds</a> v <a href="/netball/t/161518/giants-netball">GIANTS Netball</a>
+                      </td>
+    <td>
+                <a href="/r/6543730/queensland-firebirds-vs-giants-netball">          70-66        </a>
+
+          
+            </td>
+</tr>
+<tr>
+        <td class="dt_n" data-dt="2023-04-22T09:00:00Z">2023-04-22</td>
+    
+    <td>-</td>
+    <td>
+                  <a href="/netball/t/161517/nsw-swifts">NSW Swifts</a> v <a href="/netball/t/161571/melbourne-vixens">Melbourne Vixens</a>
+                      </td>
+    <td>
+                <a href="/r/6543729/nsw-swifts-vs-melbourne-vixens">          67-66        </a>
+
+          
+            </td>
+</tr>
+<tr>
+        <td class="dt_n" data-dt="2023-04-16T06:00:00Z">2023-04-16</td>
+    
+    <td>-</td>
+    <td>
+                  <a href="/netball/t/161567/sunshine-coast-lightning">Sunshine Coast Lightning</a> v <a href="/netball/t/161517/nsw-swifts">NSW Swifts</a>
+                      </td>
+    <td>
+                <a href="/r/6519389/sunshine-coast-lightning-vs-nsw-swifts">          63-64        </a>
+
+          
+            </td>
+</tr>
+<tr>
+        <td class="dt_n" data-dt="2023-04-16T04:00:00Z">2023-04-16</td>
+    
+    <td>-</td>
+    <td>
+                  <a href="/netball/t/161568/queensland-firebirds">Queensland Firebirds</a> v <a href="/netball/t/161522/west-coast-fever">West Coast Fever</a>
+                      </td>
+    <td>
+                <a href="/r/6519388/queensland-firebirds-vs-west-coast-fever">          71-73        </a>
+
+          
+            </td>
+</tr>
+<tr>
+        <td class="dt_n" data-dt="2023-04-15T09:00:00Z">2023-04-15</td>
+    
+    <td>-</td>
+    <td>
+                  <a href="/netball/t/161523/adelaide-thunderbirds">Adelaide Thunderbirds</a> v <a href="/netball/t/161571/melbourne-vixens">Melbourne Vixens</a>
+                      </td>
+    <td>
+                <a href="/r/6519387/adelaide-thunderbirds-vs-melbourne-vixens">          61-50        </a>
+
+          
+            </td>
+</tr>
+<tr>
+        <td class="dt_n" data-dt="2023-04-15T07:00:00Z">2023-04-15</td>
+    
+    <td>-</td>
+    <td>
+                  <a href="/netball/t/161518/giants-netball">GIANTS Netball</a> v <a href="/netball/t/161570/collingwood-magpies">Collingwood Magpies</a>
+                      </td>
+    <td>
+                <a href="/r/6519386/giants-netball-vs-collingwood-magpies">          59-55        </a>
+
+          
+            </td>
+</tr>
+<tr>
+        <td class="dt_n" data-dt="2023-04-10T03:00:00Z">2023-04-10</td>
+    
+    <td>-</td>
+    <td>
+                  <a href="/netball/t/161517/nsw-swifts">NSW Swifts</a> v <a href="/netball/t/161522/west-coast-fever">West Coast Fever</a>
+                      </td>
+    <td>
+                <a href="/r/6489209/nsw-swifts-vs-west-coast-fever">          67-78        </a>
+
+          
+            </td>
+</tr>
+<tr>
+        <td class="dt_n" data-dt="2023-04-09T06:00:00Z">2023-04-09</td>
+    
+    <td>-</td>
+    <td>
+                  <a href="/netball/t/161523/adelaide-thunderbirds">Adelaide Thunderbirds</a> v <a href="/netball/t/161518/giants-netball">GIANTS Netball</a>
+                      </td>
+    <td>
+                <a href="/r/6489208/adelaide-thunderbirds-vs-giants-netball">          54-59        </a>
+
+          
+            </td>
+</tr>
+<tr>
+        <td class="dt_n" data-dt="2023-04-09T04:00:00Z">2023-04-09</td>
+    
+    <td>-</td>
+    <td>
+                  <a href="/netball/t/161570/collingwood-magpies">Collingwood Magpies</a> v <a href="/netball/t/161568/queensland-firebirds">Queensland Firebirds</a>
+                      </td>
+    <td>
+                <a href="/r/6489207/collingwood-magpies-vs-queensland-firebirds">          69-61        </a>
+
+          
+            </td>
+</tr>
+<tr>
+        <td class="dt_n" data-dt="2023-04-08T09:00:00Z">2023-04-08</td>
+    
+    <td>-</td>
+    <td>
+                  <a href="/netball/t/161571/melbourne-vixens">Melbourne Vixens</a> v <a href="/netball/t/161567/sunshine-coast-lightning">Sunshine Coast Lightning</a>
+                      </td>
+    <td>
+                <a href="/r/6489206/melbourne-vixens-vs-sunshine-coast-lightning">          60-56        </a>
+
+          
+            </td>
+</tr>
+<tr>
+        <td class="dt_n" data-dt="2023-04-02T06:00:00Z">2023-04-02</td>
+    
+    <td>-</td>
+    <td>
+                  <a href="/netball/t/161571/melbourne-vixens">Melbourne Vixens</a> v <a href="/netball/t/161518/giants-netball">GIANTS Netball</a>
+                      </td>
+    <td>
+                <a href="/r/6460560/melbourne-vixens-vs-giants-netball">          62-57        </a>
+
+          
+            </td>
+</tr>
+<tr>
+        <td class="dt_n" data-dt="2023-04-02T04:00:00Z">2023-04-02</td>
+    
+    <td>-</td>
+    <td>
+                  <a href="/netball/t/161522/west-coast-fever">West Coast Fever</a> v <a href="/netball/t/161570/collingwood-magpies">Collingwood Magpies</a>
+                      </td>
+    <td>
+                <a href="/r/6460559/west-coast-fever-vs-collingwood-magpies">          80-53        </a>
+
+          
+            </td>
+</tr>
+<tr>
+        <td class="dt_n" data-dt="2023-04-01T08:00:00Z">2023-04-01</td>
+    
+    <td>-</td>
+    <td>
+                  <a href="/netball/t/161567/sunshine-coast-lightning">Sunshine Coast Lightning</a> v <a href="/netball/t/161523/adelaide-thunderbirds">Adelaide Thunderbirds</a>
+                      </td>
+    <td>
+                <a href="/r/6460558/sunshine-coast-lightning-vs-adelaide-thunderbirds">          42-66        </a>
+
+          
+            </td>
+</tr>
+<tr>
+        <td class="dt_n" data-dt="2023-04-01T06:00:00Z">2023-04-01</td>
+    
+    <td>-</td>
+    <td>
+                  <a href="/netball/t/161517/nsw-swifts">NSW Swifts</a> v <a href="/netball/t/161568/queensland-firebirds">Queensland Firebirds</a>
+                      </td>
+    <td>
+                <a href="/r/6460557/nsw-swifts-vs-queensland-firebirds">          74-71        </a>
+
+          
+            </td>
+</tr>
+<tr>
+        <td class="dt_n" data-dt="2023-03-26T05:00:00Z">2023-03-26</td>
+    
+    <td>-</td>
+    <td>
+                  <a href="/netball/t/161570/collingwood-magpies">Collingwood Magpies</a> v <a href="/netball/t/161571/melbourne-vixens">Melbourne Vixens</a>
+                      </td>
+    <td>
+                <a href="/r/6432916/collingwood-magpies-vs-melbourne-vixens">          61-62        </a>
+
+          
+            </td>
+</tr>
+<tr>
+        <td class="dt_n" data-dt="2023-03-26T03:00:00Z">2023-03-26</td>
+    
+    <td>-</td>
+    <td>
+                  <a href="/netball/t/161518/giants-netball">GIANTS Netball</a> v <a href="/netball/t/161522/west-coast-fever">West Coast Fever</a>
+                      </td>
+    <td>
+                <a href="/r/6432915/giants-netball-vs-west-coast-fever">          73-74        </a>
+
+          
+            </td>
+</tr>
+<tr>
+        <td class="dt_n" data-dt="2023-03-25T09:00:00Z">2023-03-25</td>
+    
+    <td>-</td>
+    <td>
+                  <a href="/netball/t/161523/adelaide-thunderbirds">Adelaide Thunderbirds</a> v <a href="/netball/t/161517/nsw-swifts">NSW Swifts</a>
+                      </td>
+    <td>
+                <a href="/r/6432914/adelaide-thunderbirds-vs-nsw-swifts">          25-25        </a>
+
+          
+            </td>
+</tr>
+<tr>
+        <td class="dt_n" data-dt="2023-03-25T06:00:00Z">2023-03-25</td>
+    
+    <td>-</td>
+    <td>
+                  <a href="/netball/t/161568/queensland-firebirds">Queensland Firebirds</a> v <a href="/netball/t/161567/sunshine-coast-lightning">Sunshine Coast Lightning</a>
+                      </td>
+    <td>
+                <a href="/r/6432913/queensland-firebirds-vs-sunshine-coast-lightning">          55-65        </a>
+
+          
+            </td>
+</tr>
+<tr>
+        <td class="dt_n" data-dt="2023-03-19T05:00:00Z">2023-03-19</td>
+    
+    <td>-</td>
+    <td>
+                  <a href="/netball/t/161568/queensland-firebirds">Queensland Firebirds</a> v <a href="/netball/t/161523/adelaide-thunderbirds">Adelaide Thunderbirds</a>
+                      </td>
+    <td>
+                <a href="/r/6400270/queensland-firebirds-vs-adelaide-thunderbirds">          44-59        </a>
+
+          
+            </td>
+</tr>
+<tr>
+        <td class="dt_n" data-dt="2023-03-19T03:00:00Z">2023-03-19</td>
+    
+    <td>-</td>
+    <td>
+                  <a href="/netball/t/161567/sunshine-coast-lightning">Sunshine Coast Lightning</a> v <a href="/netball/t/161518/giants-netball">GIANTS Netball</a>
+                      </td>
+    <td>
+                <a href="/r/6400269/sunshine-coast-lightning-vs-giants-netball">          65-50        </a>
+
+          
+            </td>
+</tr>
+  </tbody>
+<tbody>
+<tr>
+        <td class="dt_n" data-dt="2023-03-18T08:00:00Z">2023-03-18</td>
+    
+    <td>-</td>
+    <td>
+                  <a href="/netball/t/161522/west-coast-fever">West Coast Fever</a> v <a href="/netball/t/161571/melbourne-vixens">Melbourne Vixens</a>
+                      </td>
+    <td>
+                <a href="/r/6400268/west-coast-fever-vs-melbourne-vixens">          62-61        </a>
+
+          
+            </td>
+</tr>
+<tr>
+        <td class="dt_n" data-dt="2023-03-18T06:00:00Z">2023-03-18</td>
+    
+    <td>-</td>
+    <td>
+                  <a href="/netball/t/161570/collingwood-magpies">Collingwood Magpies</a> v <a href="/netball/t/161517/nsw-swifts">NSW Swifts</a>
+                      </td>
+    <td>
+                <a href="/r/6400267/collingwood-magpies-vs-nsw-swifts">          71-63        </a>
+
+          
+            </td>
+</tr>
+<tr>
+        <td class="dt_n" data-dt="2022-11-23T12:27:38Z">2022-11-23</td>
+    
+    <td>-</td>
+    <td>
+                  <a href="/netball/t/161523/adelaide-thunderbirds">Adelaide Thunderbirds</a> v <a href="/netball/t/161570/collingwood-magpies">Collingwood Magpies</a>
+                      </td>
+    <td>
+                <a href="/r/5939887/adelaide-thunderbirds-vs-collingwood-magpies">          14-13        </a>
+
+          
+            </td>
+</tr>
+<tr>
+        <td class="dt_n" data-dt="2022-07-03T11:00:00Z">2022-07-03</td>
+    
+    <td>-</td>
+    <td>
+                  <a href="/netball/t/161522/west-coast-fever">West Coast Fever</a> v <a href="/netball/t/161571/melbourne-vixens">Melbourne Vixens</a>
+                      </td>
+    <td>
+                <a href="/r/5216789/west-coast-fever-vs-melbourne-vixens">          70-59        </a>
+
+          
+            </td>
+</tr>
+<tr>
+        <td class="dt_n" data-dt="2022-06-25T09:00:00Z">2022-06-25</td>
+    
+    <td>-</td>
+    <td>
+                  <a href="/netball/t/161571/melbourne-vixens">Melbourne Vixens</a> v <a href="/netball/t/161518/giants-netball">GIANTS Netball</a>
+                      </td>
+    <td>
+                <a href="/r/5186933/melbourne-vixens-vs-giants-netball">          54-54        </a>
+
+          
+            </td>
+</tr>
+<tr>
+        <td class="dt_n" data-dt="2022-06-19T06:00:00Z">2022-06-19</td>
+    
+    <td>-</td>
+    <td>
+                  <a href="/netball/t/161518/giants-netball">GIANTS Netball</a> v <a href="/netball/t/161570/collingwood-magpies">Collingwood Magpies</a>
+                      </td>
+    <td>
+                <a href="/r/5158407/giants-netball-vs-collingwood-magpies">          55-48        </a>
+
+          
+            </td>
+</tr>
+<tr>
+        <td class="dt_n" data-dt="2022-06-18T09:00:00Z">2022-06-18</td>
+    
+    <td>-</td>
+    <td>
+                  <a href="/netball/t/161571/melbourne-vixens">Melbourne Vixens</a> v <a href="/netball/t/161522/west-coast-fever">West Coast Fever</a>
+                      </td>
+    <td>
+                <a href="/r/5158406/melbourne-vixens-vs-west-coast-fever">          62-71        </a>
+
+          
+            </td>
+</tr>
+<tr>
+        <td class="dt_n" data-dt="2022-06-13T03:00:00Z">2022-06-13</td>
+    
+    <td>-</td>
+    <td>
+                  <a href="/netball/t/161570/collingwood-magpies">Collingwood Magpies</a> v <a href="/netball/t/161571/melbourne-vixens">Melbourne Vixens</a>
+                      </td>
+    <td>
+                <a href="/r/5135560/collingwood-magpies-vs-melbourne-vixens">          54-56        </a>
+
+          
+            </td>
+</tr>
+<tr>
+        <td class="dt_n" data-dt="2022-06-12T06:00:00Z">2022-06-12</td>
+    
+    <td>-</td>
+    <td>
+                  <a href="/netball/t/161517/nsw-swifts">NSW Swifts</a> v <a href="/netball/t/161568/queensland-firebirds">Queensland Firebirds</a>
+                      </td>
+    <td>
+                <a href="/r/5135559/nsw-swifts-vs-queensland-firebirds">          63-61        </a>
+
+          
+            </td>
+</tr>
+<tr>
+        <td class="dt_n" data-dt="2022-06-12T04:00:00Z">2022-06-12</td>
+    
+    <td>-</td>
+    <td>
+                  <a href="/netball/t/161522/west-coast-fever">West Coast Fever</a> v <a href="/netball/t/161523/adelaide-thunderbirds">Adelaide Thunderbirds</a>
+                      </td>
+    <td>
+                <a href="/r/5135558/west-coast-fever-vs-adelaide-thunderbirds">          68-57        </a>
+
+          
+            </td>
+</tr>
+<tr>
+        <td class="dt_n" data-dt="2022-06-11T09:00:00Z">2022-06-11</td>
+    
+    <td>-</td>
+    <td>
+                  <a href="/netball/t/161518/giants-netball">GIANTS Netball</a> v <a href="/netball/t/161567/sunshine-coast-lightning">Sunshine Coast Lightning</a>
+                      </td>
+    <td>
+                <a href="/r/5135557/giants-netball-vs-sunshine-coast-lightning">          68-65        </a>
+
+          
+            </td>
+</tr>
+<tr>
+        <td class="dt_n" data-dt="2022-06-05T06:00:00Z">2022-06-05</td>
+    
+    <td>-</td>
+    <td>
+                  <a href="/netball/t/161567/sunshine-coast-lightning">Sunshine Coast Lightning</a> v <a href="/netball/t/161570/collingwood-magpies">Collingwood Magpies</a>
+                      </td>
+    <td>
+                <a href="/r/5095373/sunshine-coast-lightning-vs-collingwood-magpies">          62-68        </a>
+
+          
+            </td>
+</tr>
+<tr>
+        <td class="dt_n" data-dt="2022-06-05T04:00:00Z">2022-06-05</td>
+    
+    <td>-</td>
+    <td>
+                  <a href="/netball/t/161517/nsw-swifts">NSW Swifts</a> v <a href="/netball/t/161522/west-coast-fever">West Coast Fever</a>
+                      </td>
+    <td>
+                <a href="/r/5095372/nsw-swifts-vs-west-coast-fever">          72-73        </a>
+
+          
+            </td>
+</tr>
+<tr>
+        <td class="dt_n" data-dt="2022-06-04T09:00:00Z">2022-06-04</td>
+    
+    <td>-</td>
+    <td>
+                  <a href="/netball/t/161523/adelaide-thunderbirds">Adelaide Thunderbirds</a> v <a href="/netball/t/161571/melbourne-vixens">Melbourne Vixens</a>
+                      </td>
+    <td>
+                <a href="/r/5095371/adelaide-thunderbirds-vs-melbourne-vixens">          47-50        </a>
+
+          
+            </td>
+</tr>
+<tr>
+        <td class="dt_n" data-dt="2022-06-04T07:00:00Z">2022-06-04</td>
+    
+    <td>-</td>
+    <td>
+                  <a href="/netball/t/161568/queensland-firebirds">Queensland Firebirds</a> v <a href="/netball/t/161518/giants-netball">GIANTS Netball</a>
+                      </td>
+    <td>
+                <a href="/r/5095370/queensland-firebirds-vs-giants-netball">          72-73        </a>
+
+          
+            </td>
+</tr>
+<tr>
+        <td class="dt_n" data-dt="2022-05-29T06:00:00Z">2022-05-29</td>
+    
+    <td>-</td>
+    <td>
+                  <a href="/netball/t/161518/giants-netball">GIANTS Netball</a> v <a href="/netball/t/161523/adelaide-thunderbirds">Adelaide Thunderbirds</a>
+                      </td>
+    <td>
+                <a href="/r/5070130/giants-netball-vs-adelaide-thunderbirds">          59-50        </a>
+
+          
+            </td>
+</tr>
+<tr>
+        <td class="dt_n" data-dt="2022-05-29T04:00:00Z">2022-05-29</td>
+    
+    <td>-</td>
+    <td>
+                  <a href="/netball/t/161571/melbourne-vixens">Melbourne Vixens</a> v <a href="/netball/t/161567/sunshine-coast-lightning">Sunshine Coast Lightning</a>
+                      </td>
+    <td>
+                <a href="/r/5070129/melbourne-vixens-vs-sunshine-coast-lightning">          64-60        </a>
+
+          
+            </td>
+</tr>
+<tr>
+        <td class="dt_n" data-dt="2022-05-28T10:00:00Z">2022-05-28</td>
+    
+    <td>-</td>
+    <td>
+                  <a href="/netball/t/161522/west-coast-fever">West Coast Fever</a> v <a href="/netball/t/161568/queensland-firebirds">Queensland Firebirds</a>
+                      </td>
+    <td>
+                <a href="/r/5070128/west-coast-fever-vs-queensland-firebirds">          68-72        </a>
+
+          
+            </td>
+</tr>
+<tr>
+        <td class="dt_n" data-dt="2022-05-28T08:00:00Z">2022-05-28</td>
+    
+    <td>-</td>
+    <td>
+                  <a href="/netball/t/161570/collingwood-magpies">Collingwood Magpies</a> v <a href="/netball/t/161517/nsw-swifts">NSW Swifts</a>
+                      </td>
+    <td>
+                <a href="/r/5070127/collingwood-magpies-vs-nsw-swifts">          66-58        </a>
+
+          
+            </td>
+</tr>
+<tr>
+        <td class="dt_n" data-dt="2022-05-22T06:00:00Z">2022-05-22</td>
+    
+    <td>-</td>
+    <td>
+                  <a href="/netball/t/161570/collingwood-magpies">Collingwood Magpies</a> v <a href="/netball/t/161523/adelaide-thunderbirds">Adelaide Thunderbirds</a>
+                      </td>
+    <td>
+                <a href="/r/5045855/collingwood-magpies-vs-adelaide-thunderbirds">          51-58        </a>
+
+          
+            </td>
+</tr>
+<tr>
+        <td class="dt_n" data-dt="2022-05-22T04:00:00Z">2022-05-22</td>
+    
+    <td>-</td>
+    <td>
+                  <a href="/netball/t/161522/west-coast-fever">West Coast Fever</a> v <a href="/netball/t/161518/giants-netball">GIANTS Netball</a>
+                      </td>
+    <td>
+                <a href="/r/5045854/west-coast-fever-vs-giants-netball">          86-77        </a>
+
+          
+            </td>
+</tr>
+<tr>
+        <td class="dt_n" data-dt="2022-05-21T09:00:00Z">2022-05-21</td>
+    
+    <td>-</td>
+    <td>
+                  <a href="/netball/t/161571/melbourne-vixens">Melbourne Vixens</a> v <a href="/netball/t/161517/nsw-swifts">NSW Swifts</a>
+                      </td>
+    <td>
+                <a href="/r/5045853/melbourne-vixens-vs-nsw-swifts">          59-53        </a>
+
+          
+            </td>
+</tr>
+<tr>
+        <td class="dt_n" data-dt="2022-05-21T07:00:00Z">2022-05-21</td>
+    
+    <td>-</td>
+    <td>
+                  <a href="/netball/t/161568/queensland-firebirds">Queensland Firebirds</a> v <a href="/netball/t/161567/sunshine-coast-lightning">Sunshine Coast Lightning</a>
+                      </td>
+    <td>
+                <a href="/r/5045852/queensland-firebirds-vs-sunshine-coast-lightning">          57-81        </a>
+
+          
+            </td>
+</tr>
+<tr>
+        <td class="dt_n" data-dt="2022-05-18T10:00:00Z">2022-05-18</td>
+    
+    <td>-</td>
+    <td>
+                  <a href="/netball/t/161523/adelaide-thunderbirds">Adelaide Thunderbirds</a> v <a href="/netball/t/161568/queensland-firebirds">Queensland Firebirds</a>
+                      </td>
+    <td>
+                <a href="/r/5032995/adelaide-thunderbirds-vs-queensland-firebirds">          68-55        </a>
+
+          
+            </td>
+</tr>
+<tr>
+        <td class="dt_n" data-dt="2022-05-18T08:00:00Z">2022-05-18</td>
+    
+    <td>-</td>
+    <td>
+                  <a href="/netball/t/161570/collingwood-magpies">Collingwood Magpies</a> v <a href="/netball/t/161518/giants-netball">GIANTS Netball</a>
+                      </td>
+    <td>
+                <a href="/r/5032993/collingwood-magpies-vs-giants-netball">          60-69        </a>
+
+          
+            </td>
+</tr>
+<tr>
+        <td class="dt_n" data-dt="2022-05-17T10:00:00Z">2022-05-17</td>
+    
+    <td>-</td>
+    <td>
+                  <a href="/netball/t/161522/west-coast-fever">West Coast Fever</a> v <a href="/netball/t/161571/melbourne-vixens">Melbourne Vixens</a>
+                      </td>
+    <td>
+                <a href="/r/5032992/west-coast-fever-vs-melbourne-vixens">          64-70        </a>
+
+          
+            </td>
+</tr>
+<tr>
+        <td class="dt_n" data-dt="2022-05-17T08:00:00Z">2022-05-17</td>
+    
+    <td>-</td>
+    <td>
+                  <a href="/netball/t/161567/sunshine-coast-lightning">Sunshine Coast Lightning</a> v <a href="/netball/t/161517/nsw-swifts">NSW Swifts</a>
+                      </td>
+    <td>
+                <a href="/r/5032991/sunshine-coast-lightning-vs-nsw-swifts">          60-61        </a>
+
+          
+            </td>
+</tr>
+<tr>
+        <td class="dt_n" data-dt="2022-05-15T06:00:00Z">2022-05-15</td>
+    
+    <td>-</td>
+    <td>
+                  <a href="/netball/t/161517/nsw-swifts">NSW Swifts</a> v <a href="/netball/t/161523/adelaide-thunderbirds">Adelaide Thunderbirds</a>
+                      </td>
+    <td>
+                <a href="/r/5012581/nsw-swifts-vs-adelaide-thunderbirds">          54-40        </a>
+
+          
+            </td>
+</tr>
+<tr>
+        <td class="dt_n" data-dt="2022-05-15T04:00:00Z">2022-05-15</td>
+    
+    <td>-</td>
+    <td>
+                  <a href="/netball/t/161570/collingwood-magpies">Collingwood Magpies</a> v <a href="/netball/t/161568/queensland-firebirds">Queensland Firebirds</a>
+                      </td>
+    <td>
+                <a href="/r/5012582/collingwood-magpies-vs-queensland-firebirds">          70-63        </a>
+
+          
+            </td>
+</tr>
+<tr>
+        <td class="dt_n" data-dt="2022-05-14T09:00:00Z">2022-05-14</td>
+    
+    <td>-</td>
+    <td>
+                  <a href="/netball/t/161518/giants-netball">GIANTS Netball</a> v <a href="/netball/t/161571/melbourne-vixens">Melbourne Vixens</a>
+                      </td>
+    <td>
+                <a href="/r/5012580/giants-netball-vs-melbourne-vixens">          63-66        </a>
+
+          
+            </td>
+</tr>
+  </tbody>
+<tbody>
+<tr>
+        <td class="dt_n" data-dt="2022-05-14T07:00:00Z">2022-05-14</td>
+    
+    <td>-</td>
+    <td>
+                  <a href="/netball/t/161567/sunshine-coast-lightning">Sunshine Coast Lightning</a> v <a href="/netball/t/161522/west-coast-fever">West Coast Fever</a>
+                      </td>
+    <td>
+                <a href="/r/5012579/sunshine-coast-lightning-vs-west-coast-fever">          65-74        </a>
+
+          
+            </td>
+</tr>
+<tr>
+        <td class="dt_n" data-dt="2022-05-08T06:00:00Z">2022-05-08</td>
+    
+    <td>-</td>
+    <td>
+                  <a href="/netball/t/161518/giants-netball">GIANTS Netball</a> v <a href="/netball/t/161517/nsw-swifts">NSW Swifts</a>
+                      </td>
+    <td>
+                <a href="/r/4988550/giants-netball-vs-nsw-swifts">          43-52        </a>
+
+          
+            </td>
+</tr>
+<tr>
+        <td class="dt_n" data-dt="2022-05-08T04:00:00Z">2022-05-08</td>
+    
+    <td>-</td>
+    <td>
+                  <a href="/netball/t/161522/west-coast-fever">West Coast Fever</a> v <a href="/netball/t/161570/collingwood-magpies">Collingwood Magpies</a>
+                      </td>
+    <td>
+                <a href="/r/4988549/west-coast-fever-vs-collingwood-magpies">          72-69        </a>
+
+          
+            </td>
+</tr>
+<tr>
+        <td class="dt_n" data-dt="2022-05-07T09:00:00Z">2022-05-07</td>
+    
+    <td>-</td>
+    <td>
+                  <a href="/netball/t/161567/sunshine-coast-lightning">Sunshine Coast Lightning</a> v <a href="/netball/t/161523/adelaide-thunderbirds">Adelaide Thunderbirds</a>
+                      </td>
+    <td>
+                <a href="/r/4988551/sunshine-coast-lightning-vs-adelaide-thunderbirds">          42-46        </a>
+
+          
+            </td>
+</tr>
+<tr>
+        <td class="dt_n" data-dt="2022-05-07T07:00:00Z">2022-05-07</td>
+    
+    <td>-</td>
+    <td>
+                  <a href="/netball/t/161571/melbourne-vixens">Melbourne Vixens</a> v <a href="/netball/t/161568/queensland-firebirds">Queensland Firebirds</a>
+                      </td>
+    <td>
+                <a href="/r/4988548/melbourne-vixens-vs-queensland-firebirds">          66-64        </a>
+
+          
+            </td>
+</tr>
+<tr>
+        <td class="dt_n" data-dt="2022-05-01T06:00:00Z">2022-05-01</td>
+    
+    <td>-</td>
+    <td>
+                  <a href="/netball/t/161571/melbourne-vixens">Melbourne Vixens</a> v <a href="/netball/t/161570/collingwood-magpies">Collingwood Magpies</a>
+                      </td>
+    <td>
+                <a href="/r/4960537/melbourne-vixens-vs-collingwood-magpies">          60-70        </a>
+
+          
+            </td>
+</tr>
+<tr>
+        <td class="dt_n" data-dt="2022-05-01T04:00:00Z">2022-05-01</td>
+    
+    <td>-</td>
+    <td>
+                  <a href="/netball/t/161567/sunshine-coast-lightning">Sunshine Coast Lightning</a> v <a href="/netball/t/161518/giants-netball">GIANTS Netball</a>
+                      </td>
+    <td>
+                <a href="/r/4960674/sunshine-coast-lightning-vs-giants-netball">          54-82        </a>
+
+          
+            </td>
+</tr>
+<tr>
+        <td class="dt_n" data-dt="2022-04-30T09:00:00Z">2022-04-30</td>
+    
+    <td>-</td>
+    <td>
+                  <a href="/netball/t/161523/adelaide-thunderbirds">Adelaide Thunderbirds</a> v <a href="/netball/t/161522/west-coast-fever">West Coast Fever</a>
+                      </td>
+    <td>
+                <a href="/r/4960640/adelaide-thunderbirds-vs-west-coast-fever">          51-59        </a>
+
+          
+            </td>
+</tr>
+<tr>
+        <td class="dt_n" data-dt="2022-04-30T07:00:00Z">2022-04-30</td>
+    
+    <td>-</td>
+    <td>
+                  <a href="/netball/t/161568/queensland-firebirds">Queensland Firebirds</a> v <a href="/netball/t/161517/nsw-swifts">NSW Swifts</a>
+                      </td>
+    <td>
+                <a href="/r/4961087/queensland-firebirds-vs-nsw-swifts">          73-58        </a>
+
+          
+            </td>
+</tr>
+<tr>
+        <td class="dt_n" data-dt="2022-04-24T06:00:00Z">2022-04-24</td>
+    
+    <td>-</td>
+    <td>
+                  <a href="/netball/t/161518/giants-netball">GIANTS Netball</a> v <a href="/netball/t/161522/west-coast-fever">West Coast Fever</a>
+                      </td>
+    <td>
+                <a href="/r/4935268/giants-netball-vs-west-coast-fever">          74-73        </a>
+
+          
+            </td>
+</tr>
+<tr>
+        <td class="dt_n" data-dt="2022-04-24T04:00:00Z">2022-04-24</td>
+    
+    <td>-</td>
+    <td>
+                  <a href="/netball/t/161568/queensland-firebirds">Queensland Firebirds</a> v <a href="/netball/t/161570/collingwood-magpies">Collingwood Magpies</a>
+                      </td>
+    <td>
+                <a href="/r/4935132/queensland-firebirds-vs-collingwood-magpies">          59-67        </a>
+
+          
+            </td>
+</tr>
+<tr>
+        <td class="dt_n" data-dt="2022-04-23T09:00:00Z">2022-04-23</td>
+    
+    <td>-</td>
+    <td>
+                  <a href="/netball/t/161571/melbourne-vixens">Melbourne Vixens</a> v <a href="/netball/t/161523/adelaide-thunderbirds">Adelaide Thunderbirds</a>
+                      </td>
+    <td>
+                <a href="/r/4935146/melbourne-vixens-vs-adelaide-thunderbirds">          53-47        </a>
+
+          
+            </td>
+</tr>
+<tr>
+        <td class="dt_n" data-dt="2022-04-23T07:00:00Z">2022-04-23</td>
+    
+    <td>-</td>
+    <td>
+                  <a href="/netball/t/161517/nsw-swifts">NSW Swifts</a> v <a href="/netball/t/161567/sunshine-coast-lightning">Sunshine Coast Lightning</a>
+                      </td>
+    <td>
+                <a href="/r/4935168/nsw-swifts-vs-sunshine-coast-lightning">          62-69        </a>
+
+          
+            </td>
+</tr>
+<tr>
+        <td class="dt_n" data-dt="2022-04-17T06:00:00Z">2022-04-17</td>
+    
+    <td>-</td>
+    <td>
+                  <a href="/netball/t/161568/queensland-firebirds">Queensland Firebirds</a> v <a href="/netball/t/161523/adelaide-thunderbirds">Adelaide Thunderbirds</a>
+                      </td>
+    <td>
+                <a href="/r/4905434/queensland-firebirds-vs-adelaide-thunderbirds">          60-50        </a>
+
+          
+            </td>
+</tr>
+<tr>
+        <td class="dt_n" data-dt="2022-04-17T04:00:00Z">2022-04-17</td>
+    
+    <td>-</td>
+    <td>
+                  <a href="/netball/t/161522/west-coast-fever">West Coast Fever</a> v <a href="/netball/t/161517/nsw-swifts">NSW Swifts</a>
+                      </td>
+    <td>
+                <a href="/r/4905398/west-coast-fever-vs-nsw-swifts">          76-58        </a>
+
+          
+            </td>
+</tr>
+<tr>
+        <td class="dt_n" data-dt="2022-04-16T09:00:00Z">2022-04-16</td>
+    
+    <td>-</td>
+    <td>
+                  <a href="/netball/t/161518/giants-netball">GIANTS Netball</a> v <a href="/netball/t/161570/collingwood-magpies">Collingwood Magpies</a>
+                      </td>
+    <td>
+                <a href="/r/4905414/giants-netball-vs-collingwood-magpies">          72-59        </a>
+
+          
+            </td>
+</tr>
+<tr>
+        <td class="dt_n" data-dt="2022-04-16T07:00:00Z">2022-04-16</td>
+    
+    <td>-</td>
+    <td>
+                  <a href="/netball/t/161567/sunshine-coast-lightning">Sunshine Coast Lightning</a> v <a href="/netball/t/161571/melbourne-vixens">Melbourne Vixens</a>
+                      </td>
+    <td>
+                <a href="/r/4905392/sunshine-coast-lightning-vs-melbourne-vixens">          71-58        </a>
+
+          
+            </td>
+</tr>
+<tr>
+        <td class="dt_n" data-dt="2022-04-13T10:00:00Z">2022-04-13</td>
+    
+    <td>-</td>
+    <td>
+                  <a href="/netball/t/161523/adelaide-thunderbirds">Adelaide Thunderbirds</a> v <a href="/netball/t/161517/nsw-swifts">NSW Swifts</a>
+                      </td>
+    <td>
+                <a href="/r/4891381/adelaide-thunderbirds-vs-nsw-swifts">          44-45        </a>
+
+          
+            </td>
+</tr>
+<tr>
+        <td class="dt_n" data-dt="2022-04-13T08:00:00Z">2022-04-13</td>
+    
+    <td>-</td>
+    <td>
+                  <a href="/netball/t/161570/collingwood-magpies">Collingwood Magpies</a> v <a href="/netball/t/161567/sunshine-coast-lightning">Sunshine Coast Lightning</a>
+                      </td>
+    <td>
+                <a href="/r/4891379/collingwood-magpies-vs-sunshine-coast-lightning">          74-64        </a>
+
+          
+            </td>
+</tr>
+<tr>
+        <td class="dt_n" data-dt="2022-04-12T10:00:00Z">2022-04-12</td>
+    
+    <td>-</td>
+    <td>
+                  <a href="/netball/t/161518/giants-netball">GIANTS Netball</a> v <a href="/netball/t/161568/queensland-firebirds">Queensland Firebirds</a>
+                      </td>
+    <td>
+                <a href="/r/4891317/giants-netball-vs-queensland-firebirds">          57-71        </a>
+
+          
+            </td>
+</tr>
+<tr>
+        <td class="dt_n" data-dt="2022-04-12T08:00:00Z">2022-04-12</td>
+    
+    <td>-</td>
+    <td>
+                  <a href="/netball/t/161571/melbourne-vixens">Melbourne Vixens</a> v <a href="/netball/t/161522/west-coast-fever">West Coast Fever</a>
+                      </td>
+    <td>
+                <a href="/r/4891261/melbourne-vixens-vs-west-coast-fever">          75-64        </a>
+
+          
+            </td>
+</tr>
+<tr>
+        <td class="dt_n" data-dt="2022-04-10T06:00:00Z">2022-04-10</td>
+    
+    <td>-</td>
+    <td>
+                  <a href="/netball/t/161523/adelaide-thunderbirds">Adelaide Thunderbirds</a> v <a href="/netball/t/161567/sunshine-coast-lightning">Sunshine Coast Lightning</a>
+                      </td>
+    <td>
+                <a href="/r/4875825/adelaide-thunderbirds-vs-sunshine-coast-lightning">          51-52        </a>
+
+          
+            </td>
+</tr>
+<tr>
+        <td class="dt_n" data-dt="2022-04-10T04:00:00Z">2022-04-10</td>
+    
+    <td>-</td>
+    <td>
+                  <a href="/netball/t/161568/queensland-firebirds">Queensland Firebirds</a> v <a href="/netball/t/161522/west-coast-fever">West Coast Fever</a>
+                      </td>
+    <td>
+                <a href="/r/4875824/queensland-firebirds-vs-west-coast-fever">          69-77        </a>
+
+          
+            </td>
+</tr>
+<tr>
+        <td class="dt_n" data-dt="2022-04-09T09:00:00Z">2022-04-09</td>
+    
+    <td>-</td>
+    <td>
+                  <a href="/netball/t/161517/nsw-swifts">NSW Swifts</a> v <a href="/netball/t/161570/collingwood-magpies">Collingwood Magpies</a>
+                      </td>
+    <td>
+                <a href="/r/4875826/nsw-swifts-vs-collingwood-magpies">          75-64        </a>
+
+          
+            </td>
+</tr>
+<tr>
+        <td class="dt_n" data-dt="2022-04-09T07:00:00Z">2022-04-09</td>
+    
+    <td>-</td>
+    <td>
+                  <a href="/netball/t/161571/melbourne-vixens">Melbourne Vixens</a> v <a href="/netball/t/161518/giants-netball">GIANTS Netball</a>
+                      </td>
+    <td>
+                <a href="/r/4879366/melbourne-vixens-vs-giants-netball">          64-52        </a>
+
+          
+            </td>
+</tr>
+<tr>
+        <td class="dt_n" data-dt="2022-04-03T06:00:00Z">2022-04-03</td>
+    
+    <td>-</td>
+    <td>
+                  <a href="/netball/t/161523/adelaide-thunderbirds">Adelaide Thunderbirds</a> v <a href="/netball/t/161518/giants-netball">GIANTS Netball</a>
+                      </td>
+    <td>
+                <a href="/r/4844173/adelaide-thunderbirds-vs-giants-netball">          56-43        </a>
+
+          
+            </td>
+</tr>
+<tr>
+        <td class="dt_n" data-dt="2022-04-03T03:00:00Z">2022-04-03</td>
+    
+    <td>-</td>
+    <td>
+                  <a href="/netball/t/161570/collingwood-magpies">Collingwood Magpies</a> v <a href="/netball/t/161522/west-coast-fever">West Coast Fever</a>
+                      </td>
+    <td>
+                <a href="/r/4844172/collingwood-magpies-vs-west-coast-fever">          53-70        </a>
+
+          
+            </td>
+</tr>
+<tr>
+        <td class="dt_n" data-dt="2022-04-02T08:00:00Z">2022-04-02</td>
+    
+    <td>-</td>
+    <td>
+                  <a href="/netball/t/161567/sunshine-coast-lightning">Sunshine Coast Lightning</a> v <a href="/netball/t/161568/queensland-firebirds">Queensland Firebirds</a>
+                      </td>
+    <td>
+                <a href="/r/4844188/sunshine-coast-lightning-vs-queensland-firebirds">          54-82        </a>
+
+          
+            </td>
+</tr>
+<tr>
+        <td class="dt_n" data-dt="2022-04-02T06:00:00Z">2022-04-02</td>
+    
+    <td>-</td>
+    <td>
+                  <a href="/netball/t/161517/nsw-swifts">NSW Swifts</a> v <a href="/netball/t/161571/melbourne-vixens">Melbourne Vixens</a>
+                      </td>
+    <td>
+                <a href="/r/4844175/nsw-swifts-vs-melbourne-vixens">          48-53        </a>
+
+          
+            </td>
+</tr>
+<tr>
+        <td class="dt_n" data-dt="2022-03-27T04:00:00Z">2022-03-27</td>
+    
+    <td>-</td>
+    <td>
+                  <a href="/netball/t/161522/west-coast-fever">West Coast Fever</a> v <a href="/netball/t/161567/sunshine-coast-lightning">Sunshine Coast Lightning</a>
+                      </td>
+    <td>
+                <a href="/r/4816947/west-coast-fever-vs-sunshine-coast-lightning">          82-62        </a>
+
+          
+            </td>
+</tr>
+  </tbody>
+<tbody>
+<tr>
+        <td class="dt_n" data-dt="2022-03-27T02:00:00Z">2022-03-27</td>
+    
+    <td>-</td>
+    <td>
+                  <a href="/netball/t/161568/queensland-firebirds">Queensland Firebirds</a> v <a href="/netball/t/161571/melbourne-vixens">Melbourne Vixens</a>
+                      </td>
+    <td>
+                <a href="/r/4816949/queensland-firebirds-vs-melbourne-vixens">          65-70        </a>
+
+          
+            </td>
+</tr>
+<tr>
+        <td class="dt_n" data-dt="2022-03-26T08:00:00Z">2022-03-26</td>
+    
+    <td>-</td>
+    <td>
+                  <a href="/netball/t/161517/nsw-swifts">NSW Swifts</a> v <a href="/netball/t/161518/giants-netball">GIANTS Netball</a>
+                      </td>
+    <td>
+                <a href="/r/4816948/nsw-swifts-vs-giants-netball">          55-57        </a>
+
+          
+            </td>
+</tr>
+<tr>
+        <td class="dt_n" data-dt="2022-03-26T06:00:00Z">2022-03-26</td>
+    
+    <td>-</td>
+    <td>
+                  <a href="/netball/t/161523/adelaide-thunderbirds">Adelaide Thunderbirds</a> v <a href="/netball/t/161570/collingwood-magpies">Collingwood Magpies</a>
+                      </td>
+    <td>
+                <a href="/r/4816950/adelaide-thunderbirds-vs-collingwood-magpies">          54-50        </a>
+
+          
+            </td>
+</tr>
+<tr>
+        <td class="dt_n" data-dt="2021-08-28T04:30:00Z">2021-08-28</td>
+    
+    <td>-</td>
+    <td>
+                  <a href="/netball/t/161517/nsw-swifts">NSW Swifts</a> v <a href="/netball/t/161518/giants-netball">GIANTS Netball</a>
+                      </td>
+    <td>
+                <a href="/r/3954948/nsw-swifts-vs-giants-netball">          63-59        </a>
+
+          
+            </td>
+</tr>
+<tr>
+        <td class="dt_n" data-dt="2021-08-21T05:00:00Z">2021-08-21</td>
+    
+    <td>-</td>
+    <td>
+                  <a href="/netball/t/161518/giants-netball">GIANTS Netball</a> v <a href="/netball/t/161522/west-coast-fever">West Coast Fever</a>
+                      </td>
+    <td>
+                <a href="/r/3922296/giants-netball-vs-west-coast-fever">          64-61        </a>
+
+          
+            </td>
+</tr>
+<tr>
+        <td class="dt_n" data-dt="2021-08-14T05:00:00Z">2021-08-14</td>
+    
+    <td>-</td>
+    <td>
+                  <a href="/netball/t/161522/west-coast-fever">West Coast Fever</a> v <a href="/netball/t/161567/sunshine-coast-lightning">Sunshine Coast Lightning</a>
+                      </td>
+    <td>
+                <a href="/r/3896781/west-coast-fever-vs-sunshine-coast-lightning">          75-67        </a>
+
+          
+            </td>
+</tr>
+<tr>
+        <td class="dt_n" data-dt="2021-08-14T03:00:00Z">2021-08-14</td>
+    
+    <td>-</td>
+    <td>
+                  <a href="/netball/t/161518/giants-netball">GIANTS Netball</a> v <a href="/netball/t/161517/nsw-swifts">NSW Swifts</a>
+                      </td>
+    <td>
+                <a href="/r/3896780/giants-netball-vs-nsw-swifts">          61-62        </a>
+
+          
+            </td>
+</tr>
+<tr>
+        <td class="dt_n" data-dt="2021-08-07T04:30:00Z">2021-08-07</td>
+    
+    <td>-</td>
+    <td>
+                  <a href="/netball/t/161522/west-coast-fever">West Coast Fever</a> v <a href="/netball/t/161518/giants-netball">GIANTS Netball</a>
+                      </td>
+    <td>
+                <a href="/r/3875305/west-coast-fever-vs-giants-netball">          73-75        </a>
+
+          
+            </td>
+</tr>
+<tr>
+        <td class="dt_n" data-dt="2021-08-07T02:30:00Z">2021-08-07</td>
+    
+    <td>-</td>
+    <td>
+                  <a href="/netball/t/161517/nsw-swifts">NSW Swifts</a> v <a href="/netball/t/161567/sunshine-coast-lightning">Sunshine Coast Lightning</a>
+                      </td>
+    <td>
+                <a href="/r/3875304/nsw-swifts-vs-sunshine-coast-lightning">          69-64        </a>
+
+          
+            </td>
+</tr>
+<tr>
+        <td class="dt_n" data-dt="2021-08-04T08:30:00Z">2021-08-04</td>
+    
+    <td>-</td>
+    <td>
+                  <a href="/netball/t/161571/melbourne-vixens">Melbourne Vixens</a> v <a href="/netball/t/161568/queensland-firebirds">Queensland Firebirds</a>
+                      </td>
+    <td>
+                <a href="/r/3863648/melbourne-vixens-vs-queensland-firebirds">          58-62        </a>
+
+          
+            </td>
+</tr>
+<tr>
+        <td class="dt_n" data-dt="2021-08-04T05:30:00Z">2021-08-04</td>
+    
+    <td>-</td>
+    <td>
+                  <a href="/netball/t/161517/nsw-swifts">NSW Swifts</a> v <a href="/netball/t/161523/adelaide-thunderbirds">Adelaide Thunderbirds</a>
+                      </td>
+    <td>
+                <a href="/r/3863647/nsw-swifts-vs-adelaide-thunderbirds">          58-53        </a>
+
+          
+            </td>
+</tr>
+<tr>
+        <td class="dt_n" data-dt="2021-08-03T08:30:00Z">2021-08-03</td>
+    
+    <td>-</td>
+    <td>
+                  <a href="/netball/t/161522/west-coast-fever">West Coast Fever</a> v <a href="/netball/t/161570/collingwood-magpies">Collingwood Magpies</a>
+                      </td>
+    <td>
+                <a href="/r/3852445/west-coast-fever-vs-collingwood-magpies">          75-55        </a>
+
+          
+            </td>
+</tr>
+<tr>
+        <td class="dt_n" data-dt="2021-08-03T05:30:00Z">2021-08-03</td>
+    
+    <td>-</td>
+    <td>
+                  <a href="/netball/t/161567/sunshine-coast-lightning">Sunshine Coast Lightning</a> v <a href="/netball/t/161518/giants-netball">GIANTS Netball</a>
+                      </td>
+    <td>
+                <a href="/r/3852444/sunshine-coast-lightning-vs-giants-netball">          64-63        </a>
+
+          
+            </td>
+</tr>
+<tr>
+        <td class="dt_n" data-dt="2021-08-02T09:30:00Z">2021-08-02</td>
+    
+    <td>-</td>
+    <td>
+                  <a href="/netball/t/161523/adelaide-thunderbirds">Adelaide Thunderbirds</a> v <a href="/netball/t/161571/melbourne-vixens">Melbourne Vixens</a>
+                      </td>
+    <td>
+                <a href="/r/3852443/adelaide-thunderbirds-vs-melbourne-vixens">          59-50        </a>
+
+          
+            </td>
+</tr>
+<tr>
+        <td class="dt_n" data-dt="2021-07-29T08:00:00Z">2021-07-29</td>
+    
+    <td>-</td>
+    <td>
+                  <a href="/netball/t/161568/queensland-firebirds">Queensland Firebirds</a> v <a href="/netball/t/161570/collingwood-magpies">Collingwood Magpies</a>
+                      </td>
+    <td>
+                <a href="/r/3842112/queensland-firebirds-vs-collingwood-magpies">          59-66        </a>
+
+          
+            </td>
+</tr>
+<tr>
+        <td class="dt_n" data-dt="2021-07-28T08:30:00Z">2021-07-28</td>
+    
+    <td>-</td>
+    <td>
+                  <a href="/netball/t/161567/sunshine-coast-lightning">Sunshine Coast Lightning</a> v <a href="/netball/t/161523/adelaide-thunderbirds">Adelaide Thunderbirds</a>
+                      </td>
+    <td>
+                <a href="/r/3828284/sunshine-coast-lightning-vs-adelaide-thunderbirds">          60-61        </a>
+
+          
+            </td>
+</tr>
+<tr>
+        <td class="dt_n" data-dt="2021-07-28T05:30:00Z">2021-07-28</td>
+    
+    <td>-</td>
+    <td>
+                  <a href="/netball/t/161518/giants-netball">GIANTS Netball</a> v <a href="/netball/t/161571/melbourne-vixens">Melbourne Vixens</a>
+                      </td>
+    <td>
+                <a href="/r/3828283/giants-netball-vs-melbourne-vixens">          54-45        </a>
+
+          
+            </td>
+</tr>
+<tr>
+        <td class="dt_n" data-dt="2021-07-27T08:30:00Z">2021-07-27</td>
+    
+    <td>-</td>
+    <td>
+                  <a href="/netball/t/161522/west-coast-fever">West Coast Fever</a> v <a href="/netball/t/161568/queensland-firebirds">Queensland Firebirds</a>
+                      </td>
+    <td>
+                <a href="/r/3828282/west-coast-fever-vs-queensland-firebirds">          79-69        </a>
+
+          
+            </td>
+</tr>
+<tr>
+        <td class="dt_n" data-dt="2021-07-27T05:30:00Z">2021-07-27</td>
+    
+    <td>-</td>
+    <td>
+                  <a href="/netball/t/161570/collingwood-magpies">Collingwood Magpies</a> v <a href="/netball/t/161517/nsw-swifts">NSW Swifts</a>
+                      </td>
+    <td>
+                <a href="/r/3828258/collingwood-magpies-vs-nsw-swifts">          75-66        </a>
+
+          
+            </td>
+</tr>
+<tr>
+        <td class="dt_n" data-dt="2021-07-22T09:30:00Z">2021-07-22</td>
+    
+    <td>-</td>
+    <td>
+                  <a href="/netball/t/161522/west-coast-fever">West Coast Fever</a> v <a href="/netball/t/161571/melbourne-vixens">Melbourne Vixens</a>
+                      </td>
+    <td>
+                <a href="/r/3809095/west-coast-fever-vs-melbourne-vixens">          64-50        </a>
+
+          
+            </td>
+</tr>
+<tr>
+        <td class="dt_n" data-dt="2021-07-19T09:00:00Z">2021-07-19</td>
+    
+    <td>-</td>
+    <td>
+                  <a href="/netball/t/161568/queensland-firebirds">Queensland Firebirds</a> v <a href="/netball/t/161567/sunshine-coast-lightning">Sunshine Coast Lightning</a>
+                      </td>
+    <td>
+                <a href="/r/3780683/queensland-firebirds-vs-sunshine-coast-lightning">          59-49        </a>
+
+          
+            </td>
+</tr>
+<tr>
+        <td class="dt_n" data-dt="2021-07-17T10:00:00Z">2021-07-17</td>
+    
+    <td>-</td>
+    <td>
+                  <a href="/netball/t/161522/west-coast-fever">West Coast Fever</a> v <a href="/netball/t/161523/adelaide-thunderbirds">Adelaide Thunderbirds</a>
+                      </td>
+    <td>
+                <a href="/r/3780682/west-coast-fever-vs-adelaide-thunderbirds">          69-44        </a>
+
+          
+            </td>
+</tr>
+<tr>
+        <td class="dt_n" data-dt="2021-07-17T05:00:00Z">2021-07-17</td>
+    
+    <td>-</td>
+    <td>
+                  <a href="/netball/t/161517/nsw-swifts">NSW Swifts</a> v <a href="/netball/t/161518/giants-netball">GIANTS Netball</a>
+                      </td>
+    <td>
+                <a href="/r/3780685/nsw-swifts-vs-giants-netball">          55-59        </a>
+
+          
+            </td>
+</tr>
+<tr>
+        <td class="dt_n" data-dt="2021-07-17T03:00:00Z">2021-07-17</td>
+    
+    <td>-</td>
+    <td>
+                  <a href="/netball/t/161571/melbourne-vixens">Melbourne Vixens</a> v <a href="/netball/t/161570/collingwood-magpies">Collingwood Magpies</a>
+                      </td>
+    <td>
+                <a href="/r/3771117/melbourne-vixens-vs-collingwood-magpies">          48-52        </a>
+
+          
+            </td>
+</tr>
+<tr>
+        <td class="dt_n" data-dt="2021-07-11T05:00:00Z">2021-07-11</td>
+    
+    <td>-</td>
+    <td>
+                  <a href="/netball/t/161570/collingwood-magpies">Collingwood Magpies</a> v <a href="/netball/t/161518/giants-netball">GIANTS Netball</a>
+                      </td>
+    <td>
+                <a href="/r/3737431/collingwood-magpies-vs-giants-netball">          49-58        </a>
+
+          
+            </td>
+</tr>
+<tr>
+        <td class="dt_n" data-dt="2021-07-11T03:00:00Z">2021-07-11</td>
+    
+    <td>-</td>
+    <td>
+                  <a href="/netball/t/161523/adelaide-thunderbirds">Adelaide Thunderbirds</a> v <a href="/netball/t/161568/queensland-firebirds">Queensland Firebirds</a>
+                      </td>
+    <td>
+                <a href="/r/3737430/adelaide-thunderbirds-vs-queensland-firebirds">          47-63        </a>
+
+          
+            </td>
+</tr>
+<tr>
+        <td class="dt_n" data-dt="2021-07-10T10:00:00Z">2021-07-10</td>
+    
+    <td>-</td>
+    <td>
+                  <a href="/netball/t/161522/west-coast-fever">West Coast Fever</a> v <a href="/netball/t/161567/sunshine-coast-lightning">Sunshine Coast Lightning</a>
+                      </td>
+    <td>
+                <a href="/r/3737429/west-coast-fever-vs-sunshine-coast-lightning">          61-65        </a>
+
+          
+            </td>
+</tr>
+<tr>
+        <td class="dt_n" data-dt="2021-07-10T05:00:00Z">2021-07-10</td>
+    
+    <td>-</td>
+    <td>
+                  <a href="/netball/t/161571/melbourne-vixens">Melbourne Vixens</a> v <a href="/netball/t/161517/nsw-swifts">NSW Swifts</a>
+                      </td>
+    <td>
+                <a href="/r/3737428/melbourne-vixens-vs-nsw-swifts">          48-62        </a>
+
+          
+            </td>
+</tr>
+<tr>
+        <td class="dt_n" data-dt="2021-07-04T07:00:00Z">2021-07-04</td>
+    
+    <td>-</td>
+    <td>
+                  <a href="/netball/t/161568/queensland-firebirds">Queensland Firebirds</a> v <a href="/netball/t/161518/giants-netball">GIANTS Netball</a>
+                      </td>
+    <td>
+                <a href="/r/3717466/queensland-firebirds-vs-giants-netball">          63-52        </a>
+
+          
+            </td>
+</tr>
+<tr>
+        <td class="dt_n" data-dt="2021-07-04T05:00:00Z">2021-07-04</td>
+    
+    <td>-</td>
+    <td>
+                  <a href="/netball/t/161523/adelaide-thunderbirds">Adelaide Thunderbirds</a> v <a href="/netball/t/161570/collingwood-magpies">Collingwood Magpies</a>
+                      </td>
+    <td>
+                <a href="/r/3717474/adelaide-thunderbirds-vs-collingwood-magpies">          62-54        </a>
+
+          
+            </td>
+</tr>
+  </tbody>
+<tbody>
+<tr>
+        <td class="dt_n" data-dt="2021-07-04T03:00:00Z">2021-07-04</td>
+    
+    <td>-</td>
+    <td>
+                  <a href="/netball/t/161517/nsw-swifts">NSW Swifts</a> v <a href="/netball/t/161522/west-coast-fever">West Coast Fever</a>
+                      </td>
+    <td>
+                <a href="/r/3714333/nsw-swifts-vs-west-coast-fever">          66-65        </a>
+
+          
+            </td>
+</tr>
+<tr>
+        <td class="dt_n" data-dt="2021-07-03T05:00:00Z">2021-07-03</td>
+    
+    <td>-</td>
+    <td>
+                  <a href="/netball/t/161567/sunshine-coast-lightning">Sunshine Coast Lightning</a> v <a href="/netball/t/161571/melbourne-vixens">Melbourne Vixens</a>
+                      </td>
+    <td>
+                <a href="/r/3714339/sunshine-coast-lightning-vs-melbourne-vixens">          52-55        </a>
+
+          
+            </td>
+</tr>
+<tr>
+        <td class="dt_n" data-dt="2021-06-26T05:00:00Z">2021-06-26</td>
+    
+    <td>-</td>
+    <td>
+                  <a href="/netball/t/161567/sunshine-coast-lightning">Sunshine Coast Lightning</a> v <a href="/netball/t/161570/collingwood-magpies">Collingwood Magpies</a>
+                      </td>
+    <td>
+                <a href="/r/3680535/sunshine-coast-lightning-vs-collingwood-magpies">          67-65        </a>
+
+          
+            </td>
+</tr>
+<tr>
+        <td class="dt_n" data-dt="2021-06-20T03:00:00Z">2021-06-20</td>
+    
+    <td>-</td>
+    <td>
+                  <a href="/netball/t/161518/giants-netball">GIANTS Netball</a> v <a href="/netball/t/161523/adelaide-thunderbirds">Adelaide Thunderbirds</a>
+                      </td>
+    <td>
+                <a href="/r/3641730/giants-netball-vs-adelaide-thunderbirds">          55-41        </a>
+
+          
+            </td>
+</tr>
+<tr>
+        <td class="dt_n" data-dt="2021-06-19T05:00:00Z">2021-06-19</td>
+    
+    <td>-</td>
+    <td>
+                  <a href="/netball/t/161517/nsw-swifts">NSW Swifts</a> v <a href="/netball/t/161568/queensland-firebirds">Queensland Firebirds</a>
+                      </td>
+    <td>
+                <a href="/r/3641727/nsw-swifts-vs-queensland-firebirds">          64-52        </a>
+
+          
+            </td>
+</tr>
+<tr>
+        <td class="dt_n" data-dt="2021-06-13T03:00:00Z">2021-06-13</td>
+    
+    <td>-</td>
+    <td>
+                  <a href="/netball/t/161568/queensland-firebirds">Queensland Firebirds</a> v <a href="/netball/t/161522/west-coast-fever">West Coast Fever</a>
+                      </td>
+    <td>
+                <a href="/r/3612648/queensland-firebirds-vs-west-coast-fever">          69-79        </a>
+
+          
+            </td>
+</tr>
+<tr>
+        <td class="dt_n" data-dt="2021-06-12T09:30:00Z">2021-06-12</td>
+    
+    <td>-</td>
+    <td>
+                  <a href="/netball/t/161523/adelaide-thunderbirds">Adelaide Thunderbirds</a> v <a href="/netball/t/161517/nsw-swifts">NSW Swifts</a>
+                      </td>
+    <td>
+                <a href="/r/3612647/adelaide-thunderbirds-vs-nsw-swifts">          58-53        </a>
+
+          
+            </td>
+</tr>
+<tr>
+        <td class="dt_n" data-dt="2021-06-12T07:30:00Z">2021-06-12</td>
+    
+    <td>-</td>
+    <td>
+                  <a href="/netball/t/161570/collingwood-magpies">Collingwood Magpies</a> v <a href="/netball/t/161571/melbourne-vixens">Melbourne Vixens</a>
+                      </td>
+    <td>
+                <a href="/r/3612646/collingwood-magpies-vs-melbourne-vixens">          67-51        </a>
+
+          
+            </td>
+</tr>
+<tr>
+        <td class="dt_n" data-dt="2021-06-12T05:00:00Z">2021-06-12</td>
+    
+    <td>-</td>
+    <td>
+                  <a href="/netball/t/161518/giants-netball">GIANTS Netball</a> v <a href="/netball/t/161567/sunshine-coast-lightning">Sunshine Coast Lightning</a>
+                      </td>
+    <td>
+                <a href="/r/3612645/giants-netball-vs-sunshine-coast-lightning">          52-58        </a>
+
+          
+            </td>
+</tr>
+<tr>
+        <td class="dt_n" data-dt="2021-06-06T07:45:00Z">2021-06-06</td>
+    
+    <td>-</td>
+    <td>
+                  <a href="/netball/t/161571/melbourne-vixens">Melbourne Vixens</a> v <a href="/netball/t/161523/adelaide-thunderbirds">Adelaide Thunderbirds</a>
+                      </td>
+    <td>
+                <a href="/r/3587571/melbourne-vixens-vs-adelaide-thunderbirds">          48-54        </a>
+
+          
+            </td>
+</tr>
+<tr>
+        <td class="dt_n" data-dt="2021-06-06T05:00:00Z">2021-06-06</td>
+    
+    <td>-</td>
+    <td>
+                  <a href="/netball/t/161567/sunshine-coast-lightning">Sunshine Coast Lightning</a> v <a href="/netball/t/161568/queensland-firebirds">Queensland Firebirds</a>
+                      </td>
+    <td>
+                <a href="/r/3587572/sunshine-coast-lightning-vs-queensland-firebirds">          52-61        </a>
+
+          
+            </td>
+</tr>
+<tr>
+        <td class="dt_n" data-dt="2021-06-06T03:00:00Z">2021-06-06</td>
+    
+    <td>-</td>
+    <td>
+                  <a href="/netball/t/161518/giants-netball">GIANTS Netball</a> v <a href="/netball/t/161517/nsw-swifts">NSW Swifts</a>
+                      </td>
+    <td>
+                <a href="/r/3587573/giants-netball-vs-nsw-swifts">          51-63        </a>
+
+          
+            </td>
+</tr>
+<tr>
+        <td class="dt_n" data-dt="2021-06-05T05:00:00Z">2021-06-05</td>
+    
+    <td>-</td>
+    <td>
+                  <a href="/netball/t/161570/collingwood-magpies">Collingwood Magpies</a> v <a href="/netball/t/161522/west-coast-fever">West Coast Fever</a>
+                      </td>
+    <td>
+                <a href="/r/3587570/collingwood-magpies-vs-west-coast-fever">          55-78        </a>
+
+          
+            </td>
+</tr>
+<tr>
+        <td class="dt_n" data-dt="2021-05-31T10:00:00Z">2021-05-31</td>
+    
+    <td>-</td>
+    <td>
+                  <a href="/netball/t/161522/west-coast-fever">West Coast Fever</a> v <a href="/netball/t/161518/giants-netball">GIANTS Netball</a>
+                      </td>
+    <td>
+                <a href="/r/3564051/west-coast-fever-vs-giants-netball">          66-65        </a>
+
+          
+            </td>
+</tr>
+<tr>
+        <td class="dt_n" data-dt="2021-05-30T05:00:00Z">2021-05-30</td>
+    
+    <td>-</td>
+    <td>
+                  <a href="/netball/t/161517/nsw-swifts">NSW Swifts</a> v <a href="/netball/t/161570/collingwood-magpies">Collingwood Magpies</a>
+                      </td>
+    <td>
+                <a href="/r/3564054/nsw-swifts-vs-collingwood-magpies">          62-53        </a>
+
+          
+            </td>
+</tr>
+<tr>
+        <td class="dt_n" data-dt="2021-05-30T03:10:00Z">2021-05-30</td>
+    
+    <td>-</td>
+    <td>
+                  <a href="/netball/t/161523/adelaide-thunderbirds">Adelaide Thunderbirds</a> v <a href="/netball/t/161567/sunshine-coast-lightning">Sunshine Coast Lightning</a>
+                      </td>
+    <td>
+                <a href="/r/3564053/adelaide-thunderbirds-vs-sunshine-coast-lightning">          58-59        </a>
+
+          
+            </td>
+</tr>
+<tr>
+        <td class="dt_n" data-dt="2021-05-29T05:00:00Z">2021-05-29</td>
+    
+    <td>-</td>
+    <td>
+                  <a href="/netball/t/161568/queensland-firebirds">Queensland Firebirds</a> v <a href="/netball/t/161571/melbourne-vixens">Melbourne Vixens</a>
+                      </td>
+    <td>
+                <a href="/r/3564052/queensland-firebirds-vs-melbourne-vixens">          64-66        </a>
+
+          
+            </td>
+</tr>
+<tr>
+        <td class="dt_n" data-dt="2021-05-23T05:00:00Z">2021-05-23</td>
+    
+    <td>-</td>
+    <td>
+                  <a href="/netball/t/161571/melbourne-vixens">Melbourne Vixens</a> v <a href="/netball/t/161518/giants-netball">GIANTS Netball</a>
+                      </td>
+    <td>
+                <a href="/r/3541880/melbourne-vixens-vs-giants-netball">          54-68        </a>
+
+          
+            </td>
+</tr>
+<tr>
+        <td class="dt_n" data-dt="2021-05-23T03:00:00Z">2021-05-23</td>
+    
+    <td>-</td>
+    <td>
+                  <a href="/netball/t/161567/sunshine-coast-lightning">Sunshine Coast Lightning</a> v <a href="/netball/t/161517/nsw-swifts">NSW Swifts</a>
+                      </td>
+    <td>
+                <a href="/r/3541879/sunshine-coast-lightning-vs-nsw-swifts">          58-54        </a>
+
+          
+            </td>
+</tr>
+<tr>
+        <td class="dt_n" data-dt="2021-05-22T09:00:00Z">2021-05-22</td>
+    
+    <td>-</td>
+    <td>
+                  <a href="/netball/t/161523/adelaide-thunderbirds">Adelaide Thunderbirds</a> v <a href="/netball/t/161522/west-coast-fever">West Coast Fever</a>
+                      </td>
+    <td>
+                <a href="/r/3541878/adelaide-thunderbirds-vs-west-coast-fever">          62-70        </a>
+
+          
+            </td>
+</tr>
+<tr>
+        <td class="dt_n" data-dt="2021-05-22T05:00:00Z">2021-05-22</td>
+    
+    <td>-</td>
+    <td>
+                  <a href="/netball/t/161570/collingwood-magpies">Collingwood Magpies</a> v <a href="/netball/t/161568/queensland-firebirds">Queensland Firebirds</a>
+                      </td>
+    <td>
+                <a href="/r/3541877/collingwood-magpies-vs-queensland-firebirds">          68-65        </a>
+
+          
+            </td>
+</tr>
+<tr>
+        <td class="dt_n" data-dt="2021-05-16T07:00:00Z">2021-05-16</td>
+    
+    <td>-</td>
+    <td>
+                  <a href="/netball/t/161518/giants-netball">GIANTS Netball</a> v <a href="/netball/t/161568/queensland-firebirds">Queensland Firebirds</a>
+                      </td>
+    <td>
+                <a href="/r/3520027/giants-netball-vs-queensland-firebirds">          67-60        </a>
+
+          
+            </td>
+</tr>
+<tr>
+        <td class="dt_n" data-dt="2021-05-16T03:00:00Z">2021-05-16</td>
+    
+    <td>-</td>
+    <td>
+                  <a href="/netball/t/161517/nsw-swifts">NSW Swifts</a> v <a href="/netball/t/161571/melbourne-vixens">Melbourne Vixens</a>
+                      </td>
+    <td>
+                <a href="/r/3520026/nsw-swifts-vs-melbourne-vixens">          54-43        </a>
+
+          
+            </td>
+</tr>
+<tr>
+        <td class="dt_n" data-dt="2021-05-15T09:00:00Z">2021-05-15</td>
+    
+    <td>-</td>
+    <td>
+                  <a href="/netball/t/161567/sunshine-coast-lightning">Sunshine Coast Lightning</a> v <a href="/netball/t/161522/west-coast-fever">West Coast Fever</a>
+                      </td>
+    <td>
+                <a href="/r/3520024/sunshine-coast-lightning-vs-west-coast-fever">          54-69        </a>
+
+          
+            </td>
+</tr>
+<tr>
+        <td class="dt_n" data-dt="2021-05-15T05:05:00Z">2021-05-15</td>
+    
+    <td>-</td>
+    <td>
+                  <a href="/netball/t/161570/collingwood-magpies">Collingwood Magpies</a> v <a href="/netball/t/161523/adelaide-thunderbirds">Adelaide Thunderbirds</a>
+                      </td>
+    <td>
+                <a href="/r/3520023/collingwood-magpies-vs-adelaide-thunderbirds">          60-56        </a>
+
+          
+            </td>
+</tr>
+<tr>
+        <td class="dt_n" data-dt="2021-05-09T05:00:00Z">2021-05-09</td>
+    
+    <td>-</td>
+    <td>
+                  <a href="/netball/t/161568/queensland-firebirds">Queensland Firebirds</a> v <a href="/netball/t/161523/adelaide-thunderbirds">Adelaide Thunderbirds</a>
+                      </td>
+    <td>
+                <a href="/r/3489313/queensland-firebirds-vs-adelaide-thunderbirds">          68-57        </a>
+
+          
+            </td>
+</tr>
+<tr>
+        <td class="dt_n" data-dt="2021-05-09T03:00:00Z">2021-05-09</td>
+    
+    <td>-</td>
+    <td>
+                  <a href="/netball/t/161571/melbourne-vixens">Melbourne Vixens</a> v <a href="/netball/t/161567/sunshine-coast-lightning">Sunshine Coast Lightning</a>
+                      </td>
+    <td>
+                <a href="/r/3489312/melbourne-vixens-vs-sunshine-coast-lightning">          49-55        </a>
+
+          
+            </td>
+</tr>
+<tr>
+        <td class="dt_n" data-dt="2021-05-08T10:00:00Z">2021-05-08</td>
+    
+    <td>-</td>
+    <td>
+                  <a href="/netball/t/161522/west-coast-fever">West Coast Fever</a> v <a href="/netball/t/161517/nsw-swifts">NSW Swifts</a>
+                      </td>
+    <td>
+                <a href="/r/3495953/west-coast-fever-vs-nsw-swifts">          60-55        </a>
+
+          
+            </td>
+</tr>
+<tr>
+        <td class="dt_n" data-dt="2021-05-08T05:00:00Z">2021-05-08</td>
+    
+    <td>-</td>
+    <td>
+                  <a href="/netball/t/161518/giants-netball">GWS Giants</a> v <a href="/netball/t/161570/collingwood-magpies">Collingwood Magpies</a>
+                      </td>
+    <td>
+                <a href="/r/3489292/giants-netball-vs-collingwood-magpies">          66-54        </a>
+
+          
+            </td>
+</tr>
+<tr>
+        <td class="dt_n" data-dt="2021-05-02T05:00:00Z">2021-05-02</td>
+    
+    <td>-</td>
+    <td>
+                  <a href="/netball/t/161523/adelaide-thunderbirds">Adelaide Thunderbirds</a> v <a href="/netball/t/161518/giants-netball">GIANTS Netball</a>
+                      </td>
+    <td>
+                <a href="/r/3468696/adelaide-thunderbirds-vs-giants-netball">          52-66        </a>
+
+          
+            </td>
+</tr>
+  </tbody>
+<tbody>
+<tr>
+        <td class="dt_n" data-dt="2021-05-02T03:00:00Z">2021-05-02</td>
+    
+    <td>-</td>
+    <td>
+                  <a href="/netball/t/161568/queensland-firebirds">Queensland Firebirds</a> v <a href="/netball/t/161517/nsw-swifts">NSW Swifts</a>
+                      </td>
+    <td>
+                <a href="/r/3468684/queensland-firebirds-vs-nsw-swifts">          66-69        </a>
+
+          
+            </td>
+</tr>
+<tr>
+        <td class="dt_n" data-dt="2021-05-01T09:00:00Z">2021-05-01</td>
+    
+    <td>-</td>
+    <td>
+                  <a href="/netball/t/161570/collingwood-magpies">Collingwood Magpies</a> v <a href="/netball/t/161567/sunshine-coast-lightning">Sunshine Coast Lightning</a>
+                      </td>
+    <td>
+                <a href="/r/3468686/collingwood-magpies-vs-sunshine-coast-lightning">          56-67        </a>
+
+          
+            </td>
+</tr>
+<tr>
+        <td class="dt_n" data-dt="2021-05-01T05:00:00Z">2021-05-01</td>
+    
+    <td>-</td>
+    <td>
+                  <a href="/netball/t/161571/melbourne-vixens">Melbourne Vixens</a> v <a href="/netball/t/161522/west-coast-fever">West Coast Fever</a>
+                      </td>
+    <td>
+                <a href="/r/3468683/melbourne-vixens-vs-west-coast-fever">          51-65        </a>
+
+          
+            </td>
+</tr>
+<tr>
+        <td class="dt_n" data-dt="2020-10-18T01:00:00Z">2020-10-18</td>
+    
+    <td>-</td>
+    <td>
+                  <a href="/netball/t/161571/melbourne-vixens">Melbourne Vixens</a> v <a href="/netball/t/161522/west-coast-fever">West Coast Fever</a>
+                      </td>
+    <td>
+                <a href="/r/2837528/melbourne-vixens-vs-west-coast-fever">          66-64        </a>
+
+          
+            </td>
+</tr>
+<tr>
+        <td class="dt_n" data-dt="2020-10-11T02:00:00Z">2020-10-11</td>
+    
+    <td>-</td>
+    <td>
+                  <a href="/netball/t/161567/sunshine-coast-lightning">Sunshine Coast Lightning</a> v <a href="/netball/t/161522/west-coast-fever">West Coast Fever</a>
+                      </td>
+    <td>
+                <a href="/r/2822675/sunshine-coast-lightning-vs-west-coast-fever">          59-73        </a>
+
+          
+            </td>
+</tr>
+<tr>
+        <td class="dt_n" data-dt="2020-10-04T02:00:00Z">2020-10-04</td>
+    
+    <td>-</td>
+    <td>
+                  <a href="/netball/t/161522/west-coast-fever">West Coast Fever</a> v <a href="/netball/t/161517/nsw-swifts">NSW Swifts</a>
+                      </td>
+    <td>
+                <a href="/r/2799787/west-coast-fever-vs-nsw-swifts">          67-62        </a>
+
+          
+            </td>
+</tr>
+<tr>
+        <td class="dt_n" data-dt="2020-10-03T03:00:00Z">2020-10-03</td>
+    
+    <td>-</td>
+    <td>
+                  <a href="/netball/t/161571/melbourne-vixens">Melbourne Vixens</a> v <a href="/netball/t/161567/sunshine-coast-lightning">Sunshine Coast Lightning</a>
+                      </td>
+    <td>
+                <a href="/r/2799786/melbourne-vixens-vs-sunshine-coast-lightning">          63-47        </a>
+
+          
+            </td>
+</tr>
+<tr>
+        <td class="dt_n" data-dt="2020-09-27T03:00:00Z">2020-09-27</td>
+    
+    <td>-</td>
+    <td>
+                  <a href="/netball/t/161567/sunshine-coast-lightning">Sunshine Coast Lightning</a> v <a href="/netball/t/161571/melbourne-vixens">Melbourne Vixens</a>
+                      </td>
+    <td>
+                <a href="/r/2776708/sunshine-coast-lightning-vs-melbourne-vixens">          54-58        </a>
+
+          
+            </td>
+</tr>
+<tr>
+        <td class="dt_n" data-dt="2020-09-26T09:30:00Z">2020-09-26</td>
+    
+    <td>-</td>
+    <td>
+                  <a href="/netball/t/161522/west-coast-fever">West Coast Fever</a> v <a href="/netball/t/161523/adelaide-thunderbirds">Adelaide Thunderbirds</a>
+                      </td>
+    <td>
+                <a href="/r/2776666/west-coast-fever-vs-adelaide-thunderbirds">          63-64        </a>
+
+          
+            </td>
+</tr>
+<tr>
+        <td class="dt_n" data-dt="2020-09-26T05:00:00Z">2020-09-26</td>
+    
+    <td>-</td>
+    <td>
+                  <a href="/netball/t/161517/nsw-swifts">NSW Swifts</a> v <a href="/netball/t/161518/giants-netball">GIANTS Netball</a>
+                      </td>
+    <td>
+                <a href="/r/2776663/nsw-swifts-vs-giants-netball">          77-77        </a>
+
+          
+            </td>
+</tr>
+<tr>
+        <td class="dt_n" data-dt="2020-09-26T03:00:00Z">2020-09-26</td>
+    
+    <td>-</td>
+    <td>
+                  <a href="/netball/t/161570/collingwood-magpies">Collingwood Magpies</a> v <a href="/netball/t/161568/queensland-firebirds">Queensland Firebirds</a>
+                      </td>
+    <td>
+                <a href="/r/2776662/collingwood-magpies-vs-queensland-firebirds">          63-65        </a>
+
+          
+            </td>
+</tr>
+<tr>
+        <td class="dt_n" data-dt="2020-09-20T03:00:00Z">2020-09-20</td>
+    
+    <td>-</td>
+    <td>
+                  <a href="/netball/t/161571/melbourne-vixens">Melbourne Vixens</a> v <a href="/netball/t/161568/queensland-firebirds">Queensland Firebirds</a>
+                      </td>
+    <td>
+                <a href="/r/2745590/melbourne-vixens-vs-queensland-firebirds">          58-64        </a>
+
+          
+            </td>
+</tr>
+<tr>
+        <td class="dt_n" data-dt="2020-09-19T05:00:00Z">2020-09-19</td>
+    
+    <td>-</td>
+    <td>
+                  <a href="/netball/t/161523/adelaide-thunderbirds">Adelaide Thunderbirds</a> v <a href="/netball/t/161517/nsw-swifts">NSW Swifts</a>
+                      </td>
+    <td>
+                <a href="/r/2745589/adelaide-thunderbirds-vs-nsw-swifts">          54-57        </a>
+
+          
+            </td>
+</tr>
+<tr>
+        <td class="dt_n" data-dt="2020-09-19T03:00:00Z">2020-09-19</td>
+    
+    <td>-</td>
+    <td>
+                  <a href="/netball/t/161522/west-coast-fever">West Coast Fever</a> v <a href="/netball/t/161518/giants-netball">GIANTS Netball</a>
+                      </td>
+    <td>
+                <a href="/r/2745592/west-coast-fever-vs-giants-netball">          71-66        </a>
+
+          
+            </td>
+</tr>
+<tr>
+        <td class="dt_n" data-dt="2020-09-16T09:30:00Z">2020-09-16</td>
+    
+    <td>-</td>
+    <td>
+                  <a href="/netball/t/161570/collingwood-magpies">Collingwood Magpies</a> v <a href="/netball/t/161567/sunshine-coast-lightning">Sunshine Coast Lightning</a>
+                      </td>
+    <td>
+                <a href="/r/2745591/collingwood-magpies-vs-sunshine-coast-lightning">          53-62        </a>
+
+          
+            </td>
+</tr>
+<tr>
+        <td class="dt_n" data-dt="2020-09-13T05:30:00Z">2020-09-13</td>
+    
+    <td>-</td>
+    <td>
+                  <a href="/netball/t/161523/adelaide-thunderbirds">Adelaide Thunderbirds</a> v <a href="/netball/t/161518/giants-netball">GIANTS Netball</a>
+                      </td>
+    <td>
+                <a href="/r/2723370/adelaide-thunderbirds-vs-giants-netball">          54-64        </a>
+
+          
+            </td>
+</tr>
+<tr>
+        <td class="dt_n" data-dt="2020-09-13T03:00:00Z">2020-09-13</td>
+    
+    <td>-</td>
+    <td>
+                  <a href="/netball/t/161567/sunshine-coast-lightning">Sunshine Coast Lightning</a> v <a href="/netball/t/161568/queensland-firebirds">Queensland Firebirds</a>
+                      </td>
+    <td>
+                <a href="/r/2723359/sunshine-coast-lightning-vs-queensland-firebirds">          75-67        </a>
+
+          
+            </td>
+</tr>
+<tr>
+        <td class="dt_n" data-dt="2020-09-12T05:00:00Z">2020-09-12</td>
+    
+    <td>-</td>
+    <td>
+                  <a href="/netball/t/161570/collingwood-magpies">Collingwood Magpies</a> v <a href="/netball/t/161571/melbourne-vixens">Melbourne Vixens</a>
+                      </td>
+    <td>
+                <a href="/r/2723358/collingwood-magpies-vs-melbourne-vixens">          53-60        </a>
+
+          
+            </td>
+</tr>
+<tr>
+        <td class="dt_n" data-dt="2020-09-12T03:00:00Z">2020-09-12</td>
+    
+    <td>-</td>
+    <td>
+                  <a href="/netball/t/161522/west-coast-fever">West Coast Fever</a> v <a href="/netball/t/161517/nsw-swifts">NSW Swifts</a>
+                      </td>
+    <td>
+                <a href="/r/2723323/west-coast-fever-vs-nsw-swifts">          80-71        </a>
+
+          
+            </td>
+</tr>
+<tr>
+        <td class="dt_n" data-dt="2020-09-09T09:00:00Z">2020-09-09</td>
+    
+    <td>-</td>
+    <td>
+                  <a href="/netball/t/161523/adelaide-thunderbirds">Adelaide Thunderbirds</a> v <a href="/netball/t/161568/queensland-firebirds">Queensland Firebirds</a>
+                      </td>
+    <td>
+                <a href="/r/2710061/adelaide-thunderbirds-vs-queensland-firebirds">          59-61        </a>
+
+          
+            </td>
+</tr>
+<tr>
+        <td class="dt_n" data-dt="2020-09-09T07:10:00Z">2020-09-09</td>
+    
+    <td>-</td>
+    <td>
+                  <a href="/netball/t/161518/giants-netball">GIANTS Netball</a> v <a href="/netball/t/161570/collingwood-magpies">Collingwood Magpies</a>
+                      </td>
+    <td>
+                <a href="/r/2710063/giants-netball-vs-collingwood-magpies">          62-58        </a>
+
+          
+            </td>
+</tr>
+<tr>
+        <td class="dt_n" data-dt="2020-09-08T09:30:00Z">2020-09-08</td>
+    
+    <td>-</td>
+    <td>
+                  <a href="/netball/t/161567/sunshine-coast-lightning">Sunshine Coast Lightning</a> v <a href="/netball/t/161522/west-coast-fever">West Coast Fever</a>
+                      </td>
+    <td>
+                <a href="/r/2710060/sunshine-coast-lightning-vs-west-coast-fever">          52-71        </a>
+
+          
+            </td>
+</tr>
+<tr>
+        <td class="dt_n" data-dt="2020-09-08T07:10:00Z">2020-09-08</td>
+    
+    <td>-</td>
+    <td>
+                  <a href="/netball/t/161517/nsw-swifts">NSW Swifts</a> v <a href="/netball/t/161571/melbourne-vixens">Melbourne Vixens</a>
+                      </td>
+    <td>
+                <a href="/r/2710062/nsw-swifts-vs-melbourne-vixens">          55-62        </a>
+
+          
+            </td>
+</tr>
+<tr>
+        <td class="dt_n" data-dt="2020-09-06T05:30:00Z">2020-09-06</td>
+    
+    <td>-</td>
+    <td>
+                  <a href="/netball/t/161523/adelaide-thunderbirds">Adelaide Thunderbirds</a> v <a href="/netball/t/161570/collingwood-magpies">Collingwood Magpies</a>
+                      </td>
+    <td>
+                <a href="/r/2701697/adelaide-thunderbirds-vs-collingwood-magpies">          61-49        </a>
+
+          
+            </td>
+</tr>
+<tr>
+        <td class="dt_n" data-dt="2020-09-06T03:00:00Z">2020-09-06</td>
+    
+    <td>-</td>
+    <td>
+                  <a href="/netball/t/161518/giants-netball">GIANTS Netball</a> v <a href="/netball/t/161567/sunshine-coast-lightning">Sunshine Coast Lightning</a>
+                      </td>
+    <td>
+                <a href="/r/2701696/giants-netball-vs-sunshine-coast-lightning">          65-67        </a>
+
+          
+            </td>
+</tr>
+<tr>
+        <td class="dt_n" data-dt="2020-09-05T05:00:00Z">2020-09-05</td>
+    
+    <td>-</td>
+    <td>
+                  <a href="/netball/t/161517/nsw-swifts">NSW Swifts</a> v <a href="/netball/t/161568/queensland-firebirds">Queensland Firebirds</a>
+                      </td>
+    <td>
+                <a href="/r/2701695/nsw-swifts-vs-queensland-firebirds">          64-77        </a>
+
+          
+            </td>
+</tr>
+<tr>
+        <td class="dt_n" data-dt="2020-09-05T03:00:00Z">2020-09-05</td>
+    
+    <td>-</td>
+    <td>
+                  <a href="/netball/t/161571/melbourne-vixens">Melbourne Vixens</a> v <a href="/netball/t/161522/west-coast-fever">West Coast Fever</a>
+                      </td>
+    <td>
+                <a href="/r/2701694/melbourne-vixens-vs-west-coast-fever">          63-63        </a>
+
+          
+            </td>
+</tr>
+<tr>
+        <td class="dt_n" data-dt="2020-09-02T09:18:57Z">2020-09-02</td>
+    
+    <td>-</td>
+    <td>
+                  <a href="/netball/t/161568/queensland-firebirds">Queensland Firebirds</a> v <a href="/netball/t/161522/west-coast-fever">West Coast Fever</a>
+                      </td>
+    <td>
+                <a href="/r/2694273/queensland-firebirds-vs-west-coast-fever">          60-71        </a>
+
+          
+            </td>
+</tr>
+<tr>
+        <td class="dt_n" data-dt="2020-09-02T06:48:42Z">2020-09-02</td>
+    
+    <td>-</td>
+    <td>
+                  <a href="/netball/t/161523/adelaide-thunderbirds">Adelaide Thunderbirds</a> v <a href="/netball/t/161567/sunshine-coast-lightning">Sunshine Coast Lightning</a>
+                      </td>
+    <td>
+                <a href="/r/2694027/adelaide-thunderbirds-vs-sunshine-coast-lightning">          50-56        </a>
+
+          
+            </td>
+</tr>
+<tr>
+        <td class="dt_n" data-dt="2020-09-01T09:14:48Z">2020-09-01</td>
+    
+    <td>-</td>
+    <td>
+                  <a href="/netball/t/161570/collingwood-magpies">Collingwood Magpies</a> v <a href="/netball/t/161517/nsw-swifts">NSW Swifts</a>
+                      </td>
+    <td>
+                <a href="/r/2691693/collingwood-magpies-vs-nsw-swifts">          24-32        </a>
+
+          
+            </td>
+</tr>
+  </tbody>
+<tbody>
+<tr>
+        <td class="dt_n" data-dt="2020-09-01T06:45:46Z">2020-09-01</td>
+    
+    <td>-</td>
+    <td>
+                  <a href="/netball/t/161518/giants-netball">GIANTS Netball</a> v <a href="/netball/t/161571/melbourne-vixens">Melbourne Vixens</a>
+                      </td>
+    <td>
+                <a href="/r/2691397/giants-netball-vs-melbourne-vixens">          53-73        </a>
+
+          
+            </td>
+</tr>
+<tr>
+        <td class="dt_n" data-dt="2020-08-30T05:23:12Z">2020-08-30</td>
+    
+    <td>-</td>
+    <td>
+                  <a href="/netball/t/161522/west-coast-fever">West Coast Fever</a> v <a href="/netball/t/161567/sunshine-coast-lightning">Sunshine Coast Lightning</a>
+                      </td>
+    <td>
+                <a href="/r/2683976/west-coast-fever-vs-sunshine-coast-lightning">          80-56        </a>
+
+          
+            </td>
+</tr>
+<tr>
+        <td class="dt_n" data-dt="2020-08-30T02:45:16Z">2020-08-30</td>
+    
+    <td>-</td>
+    <td>
+                  <a href="/netball/t/161568/queensland-firebirds">Queensland Firebirds</a> v <a href="/netball/t/161523/adelaide-thunderbirds">Adelaide Thunderbirds</a>
+                      </td>
+    <td>
+                <a href="/r/2683792/queensland-firebirds-vs-adelaide-thunderbirds">          54-53        </a>
+
+          
+            </td>
+</tr>
+<tr>
+        <td class="dt_n" data-dt="2020-08-29T04:47:52Z">2020-08-29</td>
+    
+    <td>-</td>
+    <td>
+                  <a href="/netball/t/161570/collingwood-magpies">Collingwood Magpies</a> v <a href="/netball/t/161518/giants-netball">GIANTS Netball</a>
+                      </td>
+    <td>
+                <a href="/r/2681212/collingwood-magpies-vs-giants-netball">          54-69        </a>
+
+          
+            </td>
+</tr>
+<tr>
+        <td class="dt_n" data-dt="2020-08-29T02:45:16Z">2020-08-29</td>
+    
+    <td>-</td>
+    <td>
+                  <a href="/netball/t/161571/melbourne-vixens">Melbourne Vixens</a> v <a href="/netball/t/161517/nsw-swifts">NSW Swifts</a>
+                      </td>
+    <td>
+                <a href="/r/2681080/melbourne-vixens-vs-nsw-swifts">          63-60        </a>
+
+          
+            </td>
+</tr>
+<tr>
+        <td class="dt_n" data-dt="2020-08-26T09:15:41Z">2020-08-26</td>
+    
+    <td>-</td>
+    <td>
+                  <a href="/netball/t/161523/adelaide-thunderbirds">Adelaide Thunderbirds</a> v <a href="/netball/t/161571/melbourne-vixens">Melbourne Vixens</a>
+                      </td>
+    <td>
+                <a href="/r/2672659/adelaide-thunderbirds-vs-melbourne-vixens">          43-50        </a>
+
+          
+            </td>
+</tr>
+<tr>
+        <td class="dt_n" data-dt="2020-08-26T06:49:34Z">2020-08-26</td>
+    
+    <td>-</td>
+    <td>
+                  <a href="/netball/t/161517/nsw-swifts">NSW Swifts</a> v <a href="/netball/t/161567/sunshine-coast-lightning">Sunshine Coast Lightning</a>
+                      </td>
+    <td>
+                <a href="/r/2672339/nsw-swifts-vs-sunshine-coast-lightning">          61-54        </a>
+
+          
+            </td>
+</tr>
+<tr>
+        <td class="dt_n" data-dt="2020-08-25T09:26:10Z">2020-08-25</td>
+    
+    <td>-</td>
+    <td>
+                  <a href="/netball/t/161518/giants-netball">GIANTS Netball</a> v <a href="/netball/t/161568/queensland-firebirds">Queensland Firebirds</a>
+                      </td>
+    <td>
+                <a href="/r/2669784/giants-netball-vs-queensland-firebirds">          66-65        </a>
+
+          
+            </td>
+</tr>
+<tr>
+        <td class="dt_n" data-dt="2020-08-25T06:56:59Z">2020-08-25</td>
+    
+    <td>-</td>
+    <td>
+                  <a href="/netball/t/161522/west-coast-fever">West Coast Fever</a> v <a href="/netball/t/161570/collingwood-magpies">Collingwood Magpies</a>
+                      </td>
+    <td>
+                <a href="/r/2669518/west-coast-fever-vs-collingwood-magpies">          71-57        </a>
+
+          
+            </td>
+</tr>
+<tr>
+        <td class="dt_n" data-dt="2020-08-23T05:20:20Z">2020-08-23</td>
+    
+    <td>-</td>
+    <td>
+                  <a href="/netball/t/161567/sunshine-coast-lightning">Sunshine Coast Lightning</a> v <a href="/netball/t/161523/adelaide-thunderbirds">Adelaide Thunderbirds</a>
+                      </td>
+    <td>
+                <a href="/r/2664916/sunshine-coast-lightning-vs-adelaide-thunderbirds">          53-45        </a>
+
+          
+            </td>
+</tr>
+<tr>
+        <td class="dt_n" data-dt="2020-08-23T02:45:46Z">2020-08-23</td>
+    
+    <td>-</td>
+    <td>
+                  <a href="/netball/t/161571/melbourne-vixens">Melbourne Vixens</a> v <a href="/netball/t/161518/giants-netball">GIANTS Netball</a>
+                      </td>
+    <td>
+                <a href="/r/2664771/melbourne-vixens-vs-giants-netball">          63-58        </a>
+
+          
+            </td>
+</tr>
+<tr>
+        <td class="dt_n" data-dt="2020-08-22T04:52:20Z">2020-08-22</td>
+    
+    <td>-</td>
+    <td>
+                  <a href="/netball/t/161522/west-coast-fever">West Coast Fever</a> v <a href="/netball/t/161568/queensland-firebirds">Queensland Firebirds</a>
+                      </td>
+    <td>
+                <a href="/r/2662232/west-coast-fever-vs-queensland-firebirds">          57-69        </a>
+
+          
+            </td>
+</tr>
+<tr>
+        <td class="dt_n" data-dt="2020-08-22T02:51:34Z">2020-08-22</td>
+    
+    <td>-</td>
+    <td>
+                  <a href="/netball/t/161517/nsw-swifts">NSW Swifts</a> v <a href="/netball/t/161570/collingwood-magpies">Collingwood Magpies</a>
+                      </td>
+    <td>
+                <a href="/r/2662150/nsw-swifts-vs-collingwood-magpies">          60-58        </a>
+
+          
+            </td>
+</tr>
+<tr>
+        <td class="dt_n" data-dt="2020-08-19T09:17:32Z">2020-08-19</td>
+    
+    <td>-</td>
+    <td>
+                  <a href="/netball/t/161567/sunshine-coast-lightning">Sunshine Coast Lightning</a> v <a href="/netball/t/161518/giants-netball">GIANTS Netball</a>
+                      </td>
+    <td>
+                <a href="/r/2649922/sunshine-coast-lightning-vs-giants-netball">          58-57        </a>
+
+          
+            </td>
+</tr>
+<tr>
+        <td class="dt_n" data-dt="2020-08-19T06:46:25Z">2020-08-19</td>
+    
+    <td>-</td>
+    <td>
+                  <a href="/netball/t/161570/collingwood-magpies">Collingwood Magpies</a> v <a href="/netball/t/161523/adelaide-thunderbirds">Adelaide Thunderbirds</a>
+                      </td>
+    <td>
+                <a href="/r/2649725/collingwood-magpies-vs-adelaide-thunderbirds">          30-36        </a>
+
+          
+            </td>
+</tr>
+<tr>
+        <td class="dt_n" data-dt="2020-08-18T09:18:00Z">2020-08-18</td>
+    
+    <td>-</td>
+    <td>
+                  <a href="/netball/t/161568/queensland-firebirds">Queensland Firebirds</a> v <a href="/netball/t/161517/nsw-swifts">NSW Swifts</a>
+                      </td>
+    <td>
+                <a href="/r/2647036/queensland-firebirds-vs-nsw-swifts">          57-63        </a>
+
+          
+            </td>
+</tr>
+<tr>
+        <td class="dt_n" data-dt="2020-08-18T06:45:29Z">2020-08-18</td>
+    
+    <td>-</td>
+    <td>
+                  <a href="/netball/t/161522/west-coast-fever">West Coast Fever</a> v <a href="/netball/t/161571/melbourne-vixens">Melbourne Vixens</a>
+                      </td>
+    <td>
+                <a href="/r/2646592/west-coast-fever-vs-melbourne-vixens">          59-68        </a>
+
+          
+            </td>
+</tr>
+<tr>
+        <td class="dt_n" data-dt="2020-08-16T05:18:46Z">2020-08-16</td>
+    
+    <td>-</td>
+    <td>
+                  <a href="/netball/t/161571/melbourne-vixens">Melbourne Vixens</a> v <a href="/netball/t/161523/adelaide-thunderbirds">Adelaide Thunderbirds</a>
+                      </td>
+    <td>
+                <a href="/r/2640664/melbourne-vixens-vs-adelaide-thunderbirds">          47-54        </a>
+
+          
+            </td>
+</tr>
+<tr>
+        <td class="dt_n" data-dt="2020-08-16T02:48:44Z">2020-08-16</td>
+    
+    <td>-</td>
+    <td>
+                  <a href="/netball/t/161567/sunshine-coast-lightning">Sunshine Coast Lightning</a> v <a href="/netball/t/161517/nsw-swifts">NSW Swifts</a>
+                      </td>
+    <td>
+                <a href="/r/2640531/sunshine-coast-lightning-vs-nsw-swifts">          65-58        </a>
+
+          
+            </td>
+</tr>
+<tr>
+        <td class="dt_n" data-dt="2020-08-15T04:45:00Z">2020-08-15</td>
+    
+    <td>-</td>
+    <td>
+                  <a href="/netball/t/161568/queensland-firebirds">Queensland Firebirds</a> v <a href="/netball/t/161518/giants-netball">GIANTS Netball</a>
+                      </td>
+    <td>
+                <a href="/r/2637971/queensland-firebirds-vs-giants-netball">          61-61        </a>
+
+          
+            </td>
+</tr>
+<tr>
+        <td class="dt_n" data-dt="2020-08-15T02:56:52Z">2020-08-15</td>
+    
+    <td>-</td>
+    <td>
+                  <a href="/netball/t/161570/collingwood-magpies">Collingwood Magpies</a> v <a href="/netball/t/161522/west-coast-fever">West Coast Fever</a>
+                      </td>
+    <td>
+                <a href="/r/2637893/collingwood-magpies-vs-west-coast-fever">          62-63        </a>
+
+          
+            </td>
+</tr>
+<tr>
+        <td class="dt_n" data-dt="2020-08-12T09:18:34Z">2020-08-12</td>
+    
+    <td>-</td>
+    <td>
+                  <a href="/netball/t/161571/melbourne-vixens">Melbourne Vixens</a> v <a href="/netball/t/161567/sunshine-coast-lightning">Sunshine Coast Lightning</a>
+                      </td>
+    <td>
+                <a href="/r/2628340/melbourne-vixens-vs-sunshine-coast-lightning">          63-51        </a>
+
+          
+            </td>
+</tr>
+<tr>
+        <td class="dt_n" data-dt="2020-08-12T06:49:34Z">2020-08-12</td>
+    
+    <td>-</td>
+    <td>
+                  <a href="/netball/t/161517/nsw-swifts">NSW Swifts</a> v <a href="/netball/t/161523/adelaide-thunderbirds">Adelaide Thunderbirds</a>
+                      </td>
+    <td>
+                <a href="/r/2628081/nsw-swifts-vs-adelaide-thunderbirds">          66-51        </a>
+
+          
+            </td>
+</tr>
+<tr>
+        <td class="dt_n" data-dt="2020-08-11T09:16:45Z">2020-08-11</td>
+    
+    <td>-</td>
+    <td>
+                  <a href="/netball/t/161568/queensland-firebirds">Queensland Firebirds</a> v <a href="/netball/t/161570/collingwood-magpies">Collingwood Magpies</a>
+                      </td>
+    <td>
+                <a href="/r/2625953/queensland-firebirds-vs-collingwood-magpies">          54-58        </a>
+
+          
+            </td>
+</tr>
+<tr>
+        <td class="dt_n" data-dt="2020-08-11T06:46:36Z">2020-08-11</td>
+    
+    <td>-</td>
+    <td>
+                  <a href="/netball/t/161518/giants-netball">GIANTS Netball</a> v <a href="/netball/t/161522/west-coast-fever">West Coast Fever</a>
+                      </td>
+    <td>
+                <a href="/r/2625669/giants-netball-vs-west-coast-fever">          75-68        </a>
+
+          
+            </td>
+</tr>
+<tr>
+        <td class="dt_n" data-dt="2020-08-09T05:15:19Z">2020-08-09</td>
+    
+    <td>-</td>
+    <td>
+                  <a href="/netball/t/161517/nsw-swifts">NSW Swifts</a> v <a href="/netball/t/161522/west-coast-fever">West Coast Fever</a>
+                      </td>
+    <td>
+                <a href="/r/2620184/nsw-swifts-vs-west-coast-fever">          73-72        </a>
+
+          
+            </td>
+</tr>
+<tr>
+        <td class="dt_n" data-dt="2020-08-09T02:45:14Z">2020-08-09</td>
+    
+    <td>-</td>
+    <td>
+                  <a href="/netball/t/161567/sunshine-coast-lightning">Sunshine Coast Lightning</a> v <a href="/netball/t/161570/collingwood-magpies">Collingwood Magpies</a>
+                      </td>
+    <td>
+                <a href="/r/2620077/sunshine-coast-lightning-vs-collingwood-magpies">          51-47        </a>
+
+          
+            </td>
+</tr>
+<tr>
+        <td class="dt_n" data-dt="2020-08-08T04:45:30Z">2020-08-08</td>
+    
+    <td>-</td>
+    <td>
+                  <a href="/netball/t/161568/queensland-firebirds">Queensland Firebirds</a> v <a href="/netball/t/161571/melbourne-vixens">Melbourne Vixens</a>
+                      </td>
+    <td>
+                <a href="/r/2617402/queensland-firebirds-vs-melbourne-vixens">          44-70        </a>
+
+          
+            </td>
+</tr>
+<tr>
+        <td class="dt_n" data-dt="2020-08-08T02:58:41Z">2020-08-08</td>
+    
+    <td>-</td>
+    <td>
+                  <a href="/netball/t/161518/giants-netball">GIANTS Netball</a> v <a href="/netball/t/161523/adelaide-thunderbirds">Adelaide Thunderbirds</a>
+                      </td>
+    <td>
+                <a href="/r/2617276/giants-netball-vs-adelaide-thunderbirds">          51-59        </a>
+
+          
+            </td>
+</tr>
+<tr>
+        <td class="dt_n" data-dt="2020-08-02T07:34:02Z">2020-08-02</td>
+    
+    <td>-</td>
+    <td>
+                  <a href="/netball/t/161571/melbourne-vixens">Melbourne Vixens</a> v <a href="/netball/t/161570/collingwood-magpies">Collingwood Magpies</a>
+                      </td>
+    <td>
+                <a href="/r/2599004/melbourne-vixens-vs-collingwood-magpies">          63-52        </a>
+
+          
+            </td>
+</tr>
+  </tbody>
+<tbody>
+<tr>
+        <td class="dt_n" data-dt="2020-08-02T02:47:24Z">2020-08-02</td>
+    
+    <td>-</td>
+    <td>
+                  <a href="/netball/t/161518/giants-netball">GIANTS Netball</a> v <a href="/netball/t/161517/nsw-swifts">NSW Swifts</a>
+                      </td>
+    <td>
+                <a href="/r/2598580/giants-netball-vs-nsw-swifts">          61-63        </a>
+
+          
+            </td>
+</tr>
+<tr>
+        <td class="dt_n" data-dt="2020-08-01T04:56:28Z">2020-08-01</td>
+    
+    <td>-</td>
+    <td>
+                  <a href="/netball/t/161523/adelaide-thunderbirds">Adelaide Thunderbirds</a> v <a href="/netball/t/161522/west-coast-fever">West Coast Fever</a>
+                      </td>
+    <td>
+                <a href="/r/2596172/adelaide-thunderbirds-vs-west-coast-fever">          62-74        </a>
+
+          
+            </td>
+</tr>
+<tr>
+        <td class="dt_n" data-dt="2020-08-01T02:56:02Z">2020-08-01</td>
+    
+    <td>-</td>
+    <td>
+                  <a href="/netball/t/161568/queensland-firebirds">Queensland Firebirds</a> v <a href="/netball/t/161567/sunshine-coast-lightning">Sunshine Coast Lightning</a>
+                      </td>
+    <td>
+                <a href="/r/2596024/queensland-firebirds-vs-sunshine-coast-lightning">          48-66        </a>
+
+          
+            </td>
+</tr>
+  </tbody>
