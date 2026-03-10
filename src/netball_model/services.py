@@ -61,7 +61,8 @@ def train_model(db: Database, output_path: str) -> tuple[NetballModel, float]:
 
 
 def backtest_season(
-    db: Database, train_range: tuple[int, int], test_season: int
+    db: Database, train_range: tuple[int, int], test_season: int,
+    use_player_stats: bool = False,
 ) -> dict:
     """Walk-forward backtest. Returns dict with matches, accuracy, mae."""
     all_matches = db.get_matches()
@@ -73,7 +74,17 @@ def backtest_season(
     if not train_matches or not test_matches:
         raise ValueError("Insufficient data for backtest.")
 
-    builder = FeatureBuilder(train_matches)
+    # Load player stats if requested
+    player_stats = None
+    if use_player_stats:
+        player_stats = {}
+        all_for_backtest = train_matches + test_matches
+        for m in all_for_backtest:
+            starters = db.get_starters_for_match(m["match_id"])
+            if starters:
+                player_stats[m["match_id"]] = starters
+
+    builder = FeatureBuilder(train_matches, player_stats=player_stats)
     train_df = builder.build_matrix(start_index=1)
 
     model = NetballModel()
@@ -81,7 +92,7 @@ def backtest_season(
 
     # Walk-forward: for each test match, build features using all prior matches
     all_for_test = train_matches + test_matches
-    test_builder = FeatureBuilder(all_for_test)
+    test_builder = FeatureBuilder(all_for_test, player_stats=player_stats)
 
     correct = 0
     total = 0

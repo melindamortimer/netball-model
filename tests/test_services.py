@@ -85,3 +85,34 @@ def test_backtest_insufficient_data(tmp_db):
 
     with pytest.raises(ValueError, match="Insufficient data"):
         backtest_season(db, (2023, 2023), 2024)
+
+
+def test_backtest_season_with_player_stats(tmp_db):
+    """Backtest should work when player stats are available."""
+    db = Database(tmp_db)
+    db.initialize()
+    matches_2023 = _seed_db(db, n=50, season=2023)
+    matches_2024 = _seed_db(db, n=20, season=2024)
+
+    # Add player stats for each match
+    positions = ["GS", "GA", "WA", "C", "WD", "GD", "GK"]
+    for m in matches_2023 + matches_2024:
+        for team_idx, team in enumerate([m["home_team"], m["away_team"]]):
+            for pos_idx, pos in enumerate(positions):
+                db.insert_player_stats({
+                    "match_id": m["match_id"],
+                    "player_id": hash(team) % 10000 + pos_idx,
+                    "player_name": "", "team": team, "position": pos,
+                    "goals": 30 if pos in ("GS", "GA") else 0,
+                    "attempts": 35 if pos in ("GS", "GA") else 0,
+                    "assists": 5, "rebounds": 3, "feeds": 10, "turnovers": 2,
+                    "gains": 3, "intercepts": 2, "deflections": 1,
+                    "penalties": 2, "centre_pass_receives": 4,
+                    "net_points": 0.0,
+                })
+
+    result = backtest_season(db, (2023, 2023), 2024, use_player_stats=True)
+
+    assert result["matches"] > 0
+    assert 0 <= result["accuracy"] <= 1
+    assert result["mae"] >= 0

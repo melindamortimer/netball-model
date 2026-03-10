@@ -8,6 +8,8 @@ from netball_model.features.contextual import (
     VENUE_TO_CITY,
 )
 from netball_model.features.elo import GlickoSystem
+from netball_model.features.matchups import MatchupFeatures
+from netball_model.features.player_profile import PlayerProfiler
 from netball_model.match_utils import determine_winner
 
 
@@ -19,12 +21,16 @@ class FeatureBuilder:
     available *before* that match was played.
     """
 
-    def __init__(self, matches: list[dict], pool: str = "ssn"):
+    def __init__(self, matches: list[dict], pool: str = "ssn",
+                 player_stats: dict[str, list[dict]] | None = None):
         self.matches = matches
         self.pool = pool
         self.glicko = GlickoSystem()
         self.ctx = ContextualFeatures(matches)
         self._elo_computed_up_to = -1
+        self._player_stats = player_stats  # match_id -> [starters]
+        self._profiler = PlayerProfiler() if player_stats else None
+        self._matchups = MatchupFeatures() if player_stats else None
 
     def _ensure_elo_up_to(self, match_index: int):
         """Replay matches to update Elo up to (but not including) match_index."""
@@ -37,6 +43,54 @@ class FeatureBuilder:
                 winner=determine_winner(hs, as_), margin=hs - as_, pool=self.pool,
             )
         self._elo_computed_up_to = match_index - 1
+
+    def _build_matchup_features(self, match_index: int) -> dict[str, float]:
+        """Build position-pair difference features for the match at match_index."""
+        m = self.matches[match_index]
+        match_id = m["match_id"]
+        home_team = m["home_team"]
+        away_team = m["away_team"]
+
+        starters = self._player_stats.get(match_id, [])
+        if not starters:
+            return {}
+
+        home_profiles: dict[str, dict] = {}
+        away_profiles: dict[str, dict] = {}
+
+        for starter in starters:
+            pos = starter["position"]
+            if pos == "-":
+                continue
+            pid = starter["player_id"]
+            team = starter["team"]
+
+            history = self._get_player_history(pid, match_index)
+            profile = self._profiler.compute_profile(history, pos)
+
+            if profile is None:
+                continue
+
+            if team == home_team:
+                home_profiles[pos] = profile
+            elif team == away_team:
+                away_profiles[pos] = profile
+
+        return self._matchups.compute_features(home_profiles, away_profiles)
+
+    def _get_player_history(self, player_id: int, before_index: int) -> list[dict]:
+        """Get a player's stat rows from matches before before_index (up to 5)."""
+        history = []
+        for i in range(before_index - 1, -1, -1):
+            if len(history) >= 5:
+                break
+            mid = self.matches[i]["match_id"]
+            match_starters = self._player_stats.get(mid, [])
+            for s in match_starters:
+                if s["player_id"] == player_id:
+                    history.append(s)
+                    break
+        return history
 
     def build_row(self, match_index: int) -> dict:
         """Build a single feature row for the match at *match_index*.
@@ -73,7 +127,7 @@ class FeatureBuilder:
         hs = m.get("home_score", 0)
         as_ = m.get("away_score", 0)
 
-        return {
+        row = {
             "match_id": m["match_id"],
             "home_team": home,
             "away_team": away,
@@ -97,6 +151,11 @@ class FeatureBuilder:
             "margin": hs - as_,
             "total_goals": hs + as_,
         }
+
+        if self._player_stats is not None:
+            row.update(self._build_matchup_features(match_index))
+
+        return row
 
     def build_matrix(self, start_index: int = 1) -> pd.DataFrame:
         """Build the full feature matrix from *start_index* to the end.

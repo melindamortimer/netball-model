@@ -179,6 +179,32 @@ class Database:
             )
             return [dict(row) for row in cursor.fetchall()]
 
+    def get_player_history(
+        self, player_id: int, before_date: str, limit: int = 5
+    ) -> list[dict]:
+        """Return up to `limit` most recent stat rows for a player before `before_date`."""
+        with self.connection() as conn:
+            cursor = conn.execute(
+                """
+                SELECT ps.* FROM player_stats ps
+                JOIN matches m ON ps.match_id = m.match_id
+                WHERE ps.player_id = ? AND m.date < ?
+                ORDER BY m.date DESC
+                LIMIT ?
+                """,
+                (player_id, before_date, limit),
+            )
+            return [dict(row) for row in cursor.fetchall()]
+
+    def get_starters_for_match(self, match_id: str) -> list[dict]:
+        """Return starting 7 per team (excludes substitutes with position '-')."""
+        with self.connection() as conn:
+            cursor = conn.execute(
+                "SELECT * FROM player_stats WHERE match_id = ? AND position != '-'",
+                (match_id,),
+            )
+            return [dict(row) for row in cursor.fetchall()]
+
     _UPSERT_ODDS_SQL = """
         INSERT OR REPLACE INTO odds_history (
             match_id, source, home_back_odds, home_lay_odds,

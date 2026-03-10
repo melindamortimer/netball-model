@@ -118,7 +118,7 @@ class ChampionDataClient:
                         "assists": int(p.get("goalAssists", 0)),
                         "rebounds": int(p.get("rebounds", 0)),
                         "feeds": int(p.get("feeds", 0)),
-                        "turnovers": int(p.get("turnovers", 0)),
+                        "turnovers": int(p.get("generalPlayTurnovers", 0)),
                         "gains": int(p.get("gain", 0)),
                         "intercepts": int(p.get("intercepts", 0)),
                         "deflections": int(p.get("deflectionWithGain", 0))

@@ -164,3 +164,80 @@ def test_insert_player_stats_batch(tmp_db):
     db.insert_player_stats_batch(stats)
     rows = db.get_player_stats(match_id="m_01")
     assert len(rows) == 20
+
+
+def test_get_player_history(tmp_db):
+    db = Database(tmp_db)
+    db.initialize()
+
+    # Insert 3 matches on different dates
+    for i, date in enumerate(["2024-03-01", "2024-03-08", "2024-03-15"]):
+        db.upsert_match({
+            "match_id": f"m_{i}", "competition_id": 1, "season": 2024,
+            "round_num": i + 1, "game_num": 1, "date": date,
+            "venue": "Test", "home_team": "A", "away_team": "B",
+            "home_score": 55, "away_score": 50,
+            "home_q1": 14, "home_q2": 14, "home_q3": 14, "home_q4": 13,
+            "away_q1": 13, "away_q2": 13, "away_q3": 12, "away_q4": 12,
+        })
+        db.insert_player_stats({
+            "match_id": f"m_{i}", "player_id": 100, "player_name": "",
+            "team": "A", "position": "GS",
+            "goals": 30 + i, "attempts": 35, "assists": 2, "rebounds": 3,
+            "feeds": 4, "turnovers": 2, "gains": 0, "intercepts": 0,
+            "deflections": 0, "penalties": 1, "centre_pass_receives": 0,
+            "net_points": 0.0,
+        })
+
+    # Before the 3rd match, should get 2 rows (matches 0 and 1)
+    history = db.get_player_history(player_id=100, before_date="2024-03-15", limit=5)
+    assert len(history) == 2
+    # Most recent first
+    assert history[0]["goals"] == 31  # match 1 (2024-03-08)
+    assert history[1]["goals"] == 30  # match 0 (2024-03-01)
+
+    # With limit=1, should get only 1 row
+    history = db.get_player_history(player_id=100, before_date="2024-03-15", limit=1)
+    assert len(history) == 1
+    assert history[0]["goals"] == 31
+
+
+def test_get_starters_for_match(tmp_db):
+    db = Database(tmp_db)
+    db.initialize()
+
+    db.upsert_match({
+        "match_id": "m_01", "competition_id": 1, "season": 2024,
+        "round_num": 1, "game_num": 1, "date": "2024-03-01",
+        "venue": "Test", "home_team": "A", "away_team": "B",
+        "home_score": 55, "away_score": 50,
+        "home_q1": 14, "home_q2": 14, "home_q3": 14, "home_q4": 13,
+        "away_q1": 13, "away_q2": 13, "away_q3": 12, "away_q4": 12,
+    })
+
+    positions = ["GS", "GA", "WA", "C", "WD", "GD", "GK"]
+    for team_idx, team in enumerate(["A", "B"]):
+        for pos_idx, pos in enumerate(positions):
+            db.insert_player_stats({
+                "match_id": "m_01", "player_id": team_idx * 100 + pos_idx,
+                "player_name": "", "team": team, "position": pos,
+                "goals": 10, "attempts": 12, "assists": 1, "rebounds": 2,
+                "feeds": 3, "turnovers": 1, "gains": 0, "intercepts": 0,
+                "deflections": 0, "penalties": 1, "centre_pass_receives": 0,
+                "net_points": 0.0,
+            })
+        # Add a substitute (position = "-")
+        db.insert_player_stats({
+            "match_id": "m_01", "player_id": team_idx * 100 + 50,
+            "player_name": "", "team": team, "position": "-",
+            "goals": 0, "attempts": 0, "assists": 0, "rebounds": 0,
+            "feeds": 0, "turnovers": 0, "gains": 0, "intercepts": 0,
+            "deflections": 0, "penalties": 0, "centre_pass_receives": 0,
+            "net_points": 0.0,
+        })
+
+    starters = db.get_starters_for_match("m_01")
+    assert len(starters) == 14  # 7 per team, no subs
+    positions_found = {s["position"] for s in starters}
+    assert "-" not in positions_found
+    assert positions_found == set(positions)

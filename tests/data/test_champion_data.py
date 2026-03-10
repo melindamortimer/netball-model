@@ -68,3 +68,7 @@ def test_parse_match():
     assert players[0]["position"] == "GS"
     assert players[1]["player_name"] == "Sophie Wallace"
     assert players[1]["team"] == "NSW Swifts"
+
+    # turnovers should come from generalPlayTurnovers, not turnovers
+    assert players[0]["turnovers"] == 2  # generalPlayTurnovers value
+    assert players[1]["turnovers"] == 3
