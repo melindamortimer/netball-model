@@ -2,6 +2,7 @@
 from __future__ import annotations
 
 import datetime
+import re
 from pathlib import Path
 
 import pandas as pd
@@ -52,6 +53,42 @@ def get_teams(matches: list[dict]) -> list[str]:
         teams.add(m["home_team"])
         teams.add(m["away_team"])
     return sorted(teams)
+
+
+def parse_odds_paste(text: str) -> list[dict] | None:
+    """Parse pasted bookmaker odds. Returns list of {bookmaker, home_odds, away_odds}.
+
+    Expects tab-separated rows like:
+      Bet365  Start  1.380  3.000  03/10 18:48  ...
+              Last   1.380  3.000  03/11 22:12  ...
+    Takes the "Start" row odds (opening odds). Falls back to first row with numbers.
+    """
+    results = []
+    current_book = None
+    for line in text.strip().splitlines():
+        parts = [p.strip() for p in re.split(r"\t+", line) if p.strip()]
+        if not parts:
+            continue
+        # Skip header row
+        if any(h in parts for h in ("Bookmaker", "S/K/L", "Full Time Result")):
+            continue
+        # Detect bookmaker name — first field that isn't Start/Last/Key
+        if parts[0] not in ("Start", "Last", "Key"):
+            current_book = parts[0]
+            parts = parts[1:]
+        # Look for "Start" row
+        if parts and parts[0] == "Start":
+            try:
+                home = float(parts[1])
+                away = float(parts[2])
+                results.append({
+                    "bookmaker": current_book or "bet365",
+                    "home_odds": home,
+                    "away_odds": away,
+                })
+            except (IndexError, ValueError):
+                pass
+    return results if results else None
 
 
 def predict_match(
@@ -182,6 +219,29 @@ def main():
         if "bookmakers" not in st.session_state:
             st.session_state["bookmakers"] = list(DEFAULT_BOOKS)
 
+        # Paste odds from bet365 etc.
+        with st.expander("Paste odds from bet365"):
+            pasted = st.text_area(
+                "Paste the row from bet365 (tab-separated)",
+                key="odds_paste",
+                height=80,
+                placeholder="Bet365\tStart\t1.380\t3.000\t...",
+            )
+            if st.button("Parse & fill"):
+                parsed = parse_odds_paste(pasted) if pasted else None
+                if parsed:
+                    for p in parsed:
+                        book = p["bookmaker"]
+                        if book not in st.session_state["bookmakers"]:
+                            st.session_state["bookmakers"].append(book)
+                        st.session_state[f"home_{book}"] = p["home_odds"]
+                        st.session_state[f"away_{book}"] = p["away_odds"]
+                    names = ", ".join(p["bookmaker"] for p in parsed)
+                    st.success(f"Filled odds for: {names}")
+                    st.rerun()
+                elif pasted:
+                    st.error("Couldn't parse odds. Expected tab-separated rows with 'Start' and two decimal odds.")
+
         # Add/remove bookmaker controls
         add_col, remove_col = st.columns(2)
         with add_col:
@@ -257,7 +317,7 @@ def main():
 
             def highlight_value(row):
                 if row["Value?"] == "Yes":
-                    return ["background-color: #d4edda"] * len(row)
+                    return ["background-color: #1a7a3a; color: white"] * len(row)
                 return [""] * len(row)
 
             st.dataframe(
