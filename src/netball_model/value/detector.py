@@ -10,13 +10,13 @@ class ValueDetector:
         home_team: str,
         away_team: str,
         model_win_prob: float,
-        betfair_home_back: float | None = None,
-        betfair_away_back: float | None = None,
+        home_odds: float | None = None,
+        away_odds: float | None = None,
     ) -> dict:
         model_away_prob = 1.0 - model_win_prob
 
-        home_implied = 1 / betfair_home_back if betfair_home_back else None
-        away_implied = 1 / betfair_away_back if betfair_away_back else None
+        home_implied = 1 / home_odds if home_odds else None
+        away_implied = 1 / away_odds if away_odds else None
 
         home_edge = (model_win_prob - home_implied) if home_implied else None
         away_edge = (model_away_prob - away_implied) if away_implied else None
@@ -25,14 +25,14 @@ class ValueDetector:
         best_edge = home_edge or 0
         best_model_prob = model_win_prob
         best_implied = home_implied or 0
-        best_odds = betfair_home_back
+        best_odds = home_odds
 
         if away_edge is not None and away_edge > (home_edge or 0):
             best_side = "away"
             best_edge = away_edge
             best_model_prob = model_away_prob
             best_implied = away_implied or 0
-            best_odds = betfair_away_back
+            best_odds = away_odds
 
         return {
             "home_team": home_team,

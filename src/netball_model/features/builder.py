@@ -124,8 +124,8 @@ class FeatureBuilder:
 
         win_prob = self.glicko.predict_win_prob(home, away, self.pool)
 
-        hs = m.get("home_score", 0)
-        as_ = m.get("away_score", 0)
+        hs = m.get("home_score") or 0
+        as_ = m.get("away_score") or 0
 
         row = {
             "match_id": m["match_id"],

@@ -8,7 +8,7 @@ def test_detect_value_home():
         home_team="Firebirds",
         away_team="Swifts",
         model_win_prob=0.65,
-        betfair_home_back=1.80,  # implied prob = 55.6%
+        home_odds=1.80,  # implied prob = 55.6%
     )
 
     assert result["model_prob"] == 0.65
@@ -25,7 +25,7 @@ def test_no_value():
         home_team="Firebirds",
         away_team="Swifts",
         model_win_prob=0.55,
-        betfair_home_back=1.75,  # implied prob = 57.1%
+        home_odds=1.75,  # implied prob = 57.1%
     )
 
     assert result["is_value"] is False
@@ -38,8 +38,8 @@ def test_value_on_away():
         home_team="Firebirds",
         away_team="Swifts",
         model_win_prob=0.35,
-        betfair_home_back=1.60,  # implied home prob = 62.5%
-        betfair_away_back=2.50,  # implied away prob = 40%
+        home_odds=1.60,  # implied home prob = 62.5%
+        away_odds=2.50,  # implied away prob = 40%
     )
 
     # Model says away win prob = 0.65, implied away = 40%

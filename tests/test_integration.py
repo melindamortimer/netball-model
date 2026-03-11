@@ -34,7 +34,7 @@ def test_end_to_end(tmp_db, seed_matches):
         home_team=matches[-1]["home_team"],
         away_team=matches[-1]["away_team"],
         model_win_prob=float(pred["win_probability"].iloc[0]),
-        betfair_home_back=1.80,
+        home_odds=1.80,
     )
     assert "is_value" in result
     assert isinstance(result["is_value"], bool)
