@@ -124,6 +124,111 @@ def train(db: str, output: str):
     click.echo(f"Training MAE: {mae:.1f} goals")
 
 
+@main.command("scrape-odds")
+@click.option("--db", default=DEFAULT_DB, help="Database path")
+@click.option("--headless", is_flag=True, help="Run browser in headless mode")
+def scrape_odds(db: str, headless: bool):
+    """Scrape pre-match odds from bet365 for upcoming SSN matches."""
+    from datetime import datetime, timezone
+    from netball_model.data.bet365 import Bet365Scraper
+    from netball_model.data.team_names import normalise_team
+
+    db_conn = Database(db)
+    db_conn.initialize()
+
+    matches = db_conn.get_matches()
+    upcoming = [m for m in matches if m.get("home_score") is None]
+
+    if not upcoming:
+        click.echo("No upcoming matches in DB. Run `netball ingest` first.")
+        return
+
+    # Build lookup: (home_team, away_team, date[:10]) -> match_id
+    match_lookup: dict[tuple[str, str, str], str] = {}
+    for m in upcoming:
+        d = (m.get("date") or "")[:10]
+        match_lookup[(m["home_team"], m["away_team"], d)] = m["match_id"]
+
+    click.echo("Launching bet365 scraper...")
+    scraper = Bet365Scraper(headless=headless)
+    scraped = scraper.scrape_ssn_odds()
+
+    if not scraped:
+        click.echo("No matches scraped. Check the browser output for errors.")
+        return
+
+    click.echo(f"Scraped {len(scraped)} matches from bet365.")
+
+    matched = 0
+    unmatched = 0
+    now = datetime.now(timezone.utc).isoformat()
+
+    for s in scraped:
+        home = s.get("home_team") or ""
+        away = s.get("away_team") or ""
+        date = s.get("match_date", "")
+
+        match_id = match_lookup.get((home, away, date))
+        if not match_id:
+            # Try swapped
+            match_id = match_lookup.get((away, home, date))
+            if match_id:
+                s["home_odds"], s["away_odds"] = s.get("away_odds"), s.get("home_odds")
+                s["handicap_home_odds"], s["handicap_away_odds"] = s.get("handicap_away_odds"), s.get("handicap_home_odds")
+                if s.get("handicap_line") is not None:
+                    s["handicap_line"] = -s["handicap_line"]
+
+        if not match_id:
+            click.echo(f"  No DB match for {home} vs {away} ({date})")
+            unmatched += 1
+            continue
+
+        odds_record = {
+            "match_id": match_id,
+            "source": "bet365",
+            "home_back_odds": s.get("home_odds"),
+            "home_lay_odds": None,
+            "away_back_odds": s.get("away_odds"),
+            "away_lay_odds": None,
+            "home_volume": 0,
+            "away_volume": 0,
+            "timestamp": now,
+            "handicap_home_odds": s.get("handicap_home_odds"),
+            "handicap_line": s.get("handicap_line"),
+            "handicap_away_odds": s.get("handicap_away_odds"),
+            "total_line": s.get("total_line"),
+            "over_odds": s.get("over_odds"),
+            "under_odds": s.get("under_odds"),
+        }
+        db_conn.upsert_odds_extended(odds_record)
+        matched += 1
+
+    click.echo(f"Done: {matched} matched, {unmatched} unmatched.")
+
+
+@main.command()
+@click.option("--season", required=True, type=int, help="SSN season year")
+@click.option("--db", default=DEFAULT_DB, help="Database path")
+@click.option("--output", default="data/model.pkl", help="Model output path")
+def update(season: int, db: str, output: str):
+    """Ingest latest results from Champion Data and retrain model."""
+    db_conn = Database(db)
+
+    click.echo(f"Ingesting SSN {season} data...")
+    count = asyncio.run(ingest_season(db_conn, season))
+    click.echo(f"Ingested {count} matches.")
+
+    click.echo("Retraining model...")
+    try:
+        model, mae = train_model(db_conn, output)
+    except ValueError as e:
+        click.echo(str(e))
+        return
+
+    click.echo(f"Model saved to {output}")
+    click.echo(f"Training MAE: {mae:.1f} goals")
+
+
 @main.command()
 @click.option("--db", default=DEFAULT_DB, help="Database path")
 @click.option("--model-path", default="data/model.pkl", help="Model file path")
@@ -154,10 +259,17 @@ def predict(db: str, model_path: str, min_edge: float):
         row = builder.build_row(i)
         pred = model.predict(pd.DataFrame([row]))
 
+        # Load stored odds from DB if available
+        stored_odds = db_conn.get_odds_for_match(m["match_id"])
+        home_odds = stored_odds["home_back_odds"] if stored_odds else None
+        away_odds = stored_odds["away_back_odds"] if stored_odds else None
+
         value = detector.evaluate(
             home_team=m["home_team"],
             away_team=m["away_team"],
             model_win_prob=float(pred["win_probability"].iloc[0]),
+            home_odds=home_odds,
+            away_odds=away_odds,
         )
 
         results.append({

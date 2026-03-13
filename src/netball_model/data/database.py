@@ -106,6 +106,19 @@ class Database:
                 CREATE INDEX IF NOT EXISTS idx_elo_team ON elo_ratings(team, pool);
                 """
             )
+            # Add handicap/totals columns (idempotent for existing DBs)
+            for col in [
+                "handicap_home_odds REAL",
+                "handicap_line REAL",
+                "handicap_away_odds REAL",
+                "total_line REAL",
+                "over_odds REAL",
+                "under_odds REAL",
+            ]:
+                try:
+                    conn.execute(f"ALTER TABLE odds_history ADD COLUMN {col}")
+                except sqlite3.OperationalError:
+                    pass  # Column already exists
 
     _UPSERT_MATCH_SQL = """
         INSERT INTO matches (
@@ -225,6 +238,41 @@ class Database:
         """Batch upsert odds records in a single transaction."""
         with self.connection() as conn:
             conn.executemany(self._UPSERT_ODDS_SQL, odds_list)
+
+    _UPSERT_ODDS_EXTENDED_SQL = """
+        INSERT OR REPLACE INTO odds_history (
+            match_id, source, home_back_odds, home_lay_odds,
+            away_back_odds, away_lay_odds,
+            home_volume, away_volume, timestamp,
+            handicap_home_odds, handicap_line, handicap_away_odds,
+            total_line, over_odds, under_odds
+        ) VALUES (
+            :match_id, :source, :home_back_odds, :home_lay_odds,
+            :away_back_odds, :away_lay_odds,
+            :home_volume, :away_volume, :timestamp,
+            :handicap_home_odds, :handicap_line, :handicap_away_odds,
+            :total_line, :over_odds, :under_odds
+        )
+    """
+
+    def upsert_odds_extended(self, odds: dict):
+        with self.connection() as conn:
+            conn.execute(self._UPSERT_ODDS_EXTENDED_SQL, odds)
+
+    def upsert_odds_extended_batch(self, odds_list: list[dict]):
+        """Batch upsert odds records with handicap/totals."""
+        with self.connection() as conn:
+            conn.executemany(self._UPSERT_ODDS_EXTENDED_SQL, odds_list)
+
+    def get_odds_for_match(self, match_id: str) -> dict | None:
+        """Return the most recent odds record for a specific match."""
+        with self.connection() as conn:
+            cursor = conn.execute(
+                "SELECT * FROM odds_history WHERE match_id = ? ORDER BY id DESC LIMIT 1",
+                (match_id,),
+            )
+            row = cursor.fetchone()
+            return dict(row) if row else None
 
     def get_odds(self, source: str | None = None) -> list[dict]:
         """Return all odds records, optionally filtered by source."""

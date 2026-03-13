@@ -193,6 +193,17 @@ def main():
             st.session_state["prediction"] = prediction
             st.session_state["match"] = m
 
+            # Auto-load stored odds from DB
+            stored = load_db().get_odds_for_match(m["match_id"])
+            if stored and stored.get("home_back_odds"):
+                if "bet365" not in st.session_state.get("bookmakers", []):
+                    bks = st.session_state.get("bookmakers", list(DEFAULT_BOOKS))
+                    if "bet365" not in bks:
+                        bks.insert(0, "bet365")
+                    st.session_state["bookmakers"] = bks
+                st.session_state["home_bet365"] = stored["home_back_odds"]
+                st.session_state["away_bet365"] = stored["away_back_odds"]
+
     # Display prediction if available
     if "prediction" in st.session_state:
         prediction = st.session_state["prediction"]

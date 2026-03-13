@@ -13,7 +13,7 @@ def display_predictions(predictions: list[dict]):
     table.add_column("Pred Margin", justify="right")
     table.add_column("Pred Total", justify="right")
     table.add_column("Model Win%", justify="right")
-    table.add_column("Betfair Odds", justify="right")
+    table.add_column("Odds", justify="right")
     table.add_column("Implied%", justify="right")
     table.add_column("Edge", justify="right")
     table.add_column("Value?", justify="center")
