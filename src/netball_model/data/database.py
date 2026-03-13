@@ -100,10 +100,23 @@ class Database:
                     UNIQUE(team, pool, match_id)
                 );
 
+                CREATE TABLE IF NOT EXISTS player_elo_ratings (
+                    player_id INTEGER,
+                    player_name TEXT,
+                    position TEXT,
+                    pool TEXT DEFAULT 'ssn',
+                    match_id TEXT,
+                    rating REAL,
+                    rd REAL,
+                    vol REAL,
+                    PRIMARY KEY (player_id, position, pool, match_id)
+                );
+
                 CREATE INDEX IF NOT EXISTS idx_matches_season ON matches(season);
                 CREATE INDEX IF NOT EXISTS idx_player_stats_match ON player_stats(match_id);
                 CREATE INDEX IF NOT EXISTS idx_odds_match ON odds_history(match_id);
                 CREATE INDEX IF NOT EXISTS idx_elo_team ON elo_ratings(team, pool);
+                CREATE INDEX IF NOT EXISTS idx_player_elo ON player_elo_ratings(player_id, position, pool);
                 """
             )
             # Add handicap/totals columns (idempotent for existing DBs)
@@ -311,3 +324,36 @@ class Database:
             )
             row = cursor.fetchone()
             return dict(row) if row else None
+
+    def upsert_player_elo(self, elo: dict):
+        with self.connection() as conn:
+            conn.execute(
+                """INSERT OR REPLACE INTO player_elo_ratings
+                   (player_id, player_name, position, pool, match_id, rating, rd, vol)
+                   VALUES (:player_id, :player_name, :position, :pool, :match_id, :rating, :rd, :vol)""",
+                elo,
+            )
+
+    def get_latest_player_elo(self, player_id: int, position: str, pool: str = "ssn") -> dict | None:
+        with self.connection() as conn:
+            cursor = conn.execute(
+                """SELECT * FROM player_elo_ratings
+                   WHERE player_id = ? AND position = ? AND pool = ?
+                   ORDER BY rowid DESC LIMIT 1""",
+                (player_id, position, pool),
+            )
+            row = cursor.fetchone()
+            return dict(row) if row else None
+
+    def get_all_player_elos(self, pool: str = "ssn") -> list[dict]:
+        with self.connection() as conn:
+            cursor = conn.execute(
+                """SELECT pe.* FROM player_elo_ratings pe
+                   INNER JOIN (
+                       SELECT player_id, position, MAX(rowid) as max_id
+                       FROM player_elo_ratings WHERE pool = ?
+                       GROUP BY player_id, position
+                   ) latest ON pe.rowid = latest.max_id""",
+                (pool,),
+            )
+            return [dict(row) for row in cursor.fetchall()]

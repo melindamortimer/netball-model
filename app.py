@@ -166,6 +166,7 @@ def main():
             temp_match = {
                 "match_id": f"manual_{home_team}_{away_team}",
                 "date": match_date.isoformat(),
+                "season": match_date.year,
                 "round_num": 0,
                 "home_team": home_team,
                 "away_team": away_team,
@@ -230,6 +231,24 @@ def main():
         if "bookmakers" not in st.session_state:
             st.session_state["bookmakers"] = list(DEFAULT_BOOKS)
 
+        # Upload bet365 screenshot
+        with st.expander("Upload bet365 screenshot"):
+            uploaded = st.file_uploader("Upload screenshot", type=["png", "jpg", "jpeg"])
+            if uploaded and st.button("Parse screenshot"):
+                import tempfile
+                try:
+                    from netball_model.data.bet365_screenshot import parse_screenshot
+                    with tempfile.NamedTemporaryFile(suffix=".png", delete=False) as f:
+                        f.write(uploaded.getvalue())
+                        parsed = parse_screenshot(f.name)
+                    if parsed:
+                        for book_key in ["home_odds", "away_odds"]:
+                            if parsed.get(book_key) is not None:
+                                st.session_state[f"{book_key}_bet365_screenshot"] = parsed.get(book_key)
+                        st.success(f"Parsed: {parsed.get('home_team')} vs {parsed.get('away_team')}")
+                except ImportError:
+                    st.error("bet365_screenshot module not available. Install easyocr.")
+
         # Paste odds from bet365 etc.
         with st.expander("Paste odds from bet365"):
             pasted = st.text_area(
@@ -293,15 +312,22 @@ def main():
                 )
 
             if home_odds or away_odds:
-                result = detector.evaluate(
-                    home_team=m["home_team"],
-                    away_team=m["away_team"],
-                    model_win_prob=win_prob,
-                    home_odds=home_odds,
-                    away_odds=away_odds,
-                )
-                result["bookmaker"] = book
-                results.append(result)
+                model = load_model()
+                pred_dict = {
+                    "margin": prediction["predicted_margin"],
+                    "total_goals": prediction["predicted_total"],
+                    "win_prob": win_prob,
+                    "residual_std": model.residual_std,
+                    "total_residual_std": model.total_residual_std,
+                }
+                odds_dict = {
+                    "home_odds": home_odds,
+                    "away_odds": away_odds,
+                }
+                value_bets = detector.evaluate(pred_dict, odds_dict)
+                for vb in value_bets:
+                    vb["bookmaker"] = book
+                    results.append(vb)
 
         # Value summary table
         if results:
@@ -309,19 +335,18 @@ def main():
 
             table_data = []
             for r in results:
-                # Compute both edges for display
-                h_odds = st.session_state.get(f"home_{r['bookmaker']}")
-                a_odds = st.session_state.get(f"away_{r['bookmaker']}")
-                h_edge = win_prob - (1 / h_odds) if h_odds else None
-                a_edge = away_prob - (1 / a_odds) if a_odds else None
-
+                edge = r.get("edge", 0)
+                is_value = edge >= min_edge
                 table_data.append({
-                    "Bookmaker": r["bookmaker"],
-                    "Home Odds": f"{h_odds:.2f}" if h_odds else "-",
-                    "Away Odds": f"{a_odds:.2f}" if a_odds else "-",
-                    "Home Edge": f"{h_edge:+.1%}" if h_edge is not None else "-",
-                    "Away Edge": f"{a_edge:+.1%}" if a_edge is not None else "-",
-                    "Value?": "Yes" if r["is_value"] else "No",
+                    "Bookmaker": r.get("bookmaker", "-"),
+                    "Market": r.get("market", "-"),
+                    "Side": r.get("side", "-"),
+                    "Model Prob": f"{r.get('model_prob', 0):.1%}",
+                    "Implied Prob": f"{r.get('implied_prob', 0):.1%}",
+                    "Edge": f"{edge:+.1%}",
+                    "Odds": f"{r.get('odds', 0):.2f}" if r.get("odds") else "-",
+                    "Line": f"{r.get('line', '')}" if r.get("line") is not None else "-",
+                    "Value?": "Yes" if is_value else "No",
                 })
 
             df = pd.DataFrame(table_data)
@@ -338,12 +363,19 @@ def main():
             )
 
             # Best value callout
-            value_bets = [r for r in results if r["is_value"]]
-            for v in value_bets:
-                team = m["home_team"] if v["bet_side"] == "home" else m["away_team"]
+            value_hits = [r for r in results if r.get("edge", 0) >= min_edge]
+            for v in value_hits:
+                side = v.get("side", "")
+                market = v.get("market", "h2h")
+                if market == "h2h":
+                    label = m["home_team"] if side == "home" else m["away_team"]
+                elif market == "handicap":
+                    label = f"{'Home' if side == 'home' else 'Away'} handicap ({v.get('line', '')})"
+                else:
+                    label = f"{side.title()} {v.get('line', '')}"
                 st.success(
-                    f"Back **{team}** at **{v['bookmaker']}** — "
-                    f"{v['edge']:.1%} edge (odds {v['odds']:.2f})"
+                    f"**{market.upper()}** — {label} at **{v.get('bookmaker', '')}** — "
+                    f"{v['edge']:.1%} edge (odds {v.get('odds', 0):.2f})"
                 )
 
 

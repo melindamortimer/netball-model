@@ -9,6 +9,7 @@ from netball_model.features.contextual import (
 )
 from netball_model.features.elo import GlickoSystem
 from netball_model.features.matchups import MatchupFeatures
+from netball_model.features.player_elo import PlayerGlicko2
 from netball_model.features.player_profile import PlayerProfiler
 from netball_model.match_utils import determine_winner
 
@@ -22,7 +23,8 @@ class FeatureBuilder:
     """
 
     def __init__(self, matches: list[dict], pool: str = "ssn",
-                 player_stats: dict[str, list[dict]] | None = None):
+                 player_stats: dict[str, list[dict]] | None = None,
+                 roster_continuity: dict[tuple[str, int], float] | None = None):
         self.matches = matches
         self.pool = pool
         self.glicko = GlickoSystem()
@@ -31,18 +33,48 @@ class FeatureBuilder:
         self._player_stats = player_stats  # match_id -> [starters]
         self._profiler = PlayerProfiler() if player_stats else None
         self._matchups = MatchupFeatures() if player_stats else None
+        self._player_glicko = PlayerGlicko2() if player_stats else None
+        self._player_elo_computed_up_to = -1
+        self._roster_continuity = roster_continuity or {}
 
     def _ensure_elo_up_to(self, match_index: int):
         """Replay matches to update Elo up to (but not including) match_index."""
-        for i in range(self._elo_computed_up_to + 1, match_index):
+        start = self._elo_computed_up_to + 1
+        prev_season = self.matches[start - 1].get("season") if start > 0 else None
+
+        for i in range(start, match_index):
             m = self.matches[i]
+            m_season = m.get("season")
+
+            # Season boundary detection
+            if prev_season is not None and m_season is not None and m_season != prev_season:
+                self.glicko.regress_ratings(factor=0.2, mean=1500.0, pool=self.pool)
+                self.glicko.increase_rd(amount=30.0, pool=self.pool)
+                if self._player_glicko:
+                    self._player_glicko.regress_ratings(factor=0.2, mean=1500.0)
+                    self._player_glicko.increase_rd(amount=30.0)
+
+            # Team Glicko update
             hs = m.get("home_score", 0)
             as_ = m.get("away_score", 0)
             self.glicko.update(
                 m["home_team"], m["away_team"],
                 winner=determine_winner(hs, as_), margin=hs - as_, pool=self.pool,
             )
+
+            # Player Glicko update
+            if self._player_glicko and self._player_stats:
+                starters = self._player_stats.get(m["match_id"], [])
+                home_starters = [s for s in starters if s["team"] == m["home_team"] and s["position"] != "-"]
+                away_starters = [s for s in starters if s["team"] == m["away_team"] and s["position"] != "-"]
+                if home_starters and away_starters:
+                    self._player_glicko.process_match(m, home_starters, away_starters)
+
+            prev_season = m_season
+
         self._elo_computed_up_to = match_index - 1
+        if self._player_glicko:
+            self._player_elo_computed_up_to = match_index - 1
 
     def _build_matchup_features(self, match_index: int) -> dict[str, float]:
         """Build position-pair difference features for the match at match_index."""
@@ -91,6 +123,61 @@ class FeatureBuilder:
                     history.append(s)
                     break
         return history
+
+    def _build_player_elo_features(self, match_index: int) -> dict:
+        """Compute 8 player elo features for the match at match_index."""
+        m = self.matches[match_index]
+        starters = self._player_stats.get(m["match_id"], [])
+        home_starters = [s for s in starters if s["team"] == m["home_team"] and s["position"] != "-"]
+        away_starters = [s for s in starters if s["team"] == m["away_team"] and s["position"] != "-"]
+
+        home_ratings = [self._player_glicko.get_rating(s["player_id"], s["position"]).rating for s in home_starters]
+        away_ratings = [self._player_glicko.get_rating(s["player_id"], s["position"]).rating for s in away_starters]
+
+        home_avg = sum(home_ratings) / len(home_ratings) if home_ratings else 1500.0
+        away_avg = sum(away_ratings) / len(away_ratings) if away_ratings else 1500.0
+
+        features = {
+            "home_player_elo_avg": home_avg,
+            "away_player_elo_avg": away_avg,
+            "player_elo_diff": home_avg - away_avg,
+        }
+
+        # 5 positional diffs
+        pos_pairs = [("GS", "GK"), ("GA", "GD"), ("WA", "WD"), ("C", "C"), ("WD", "WA")]
+        home_by_pos = {s["position"]: s for s in home_starters}
+        away_by_pos = {s["position"]: s for s in away_starters}
+
+        for att_pos, def_pos in pos_pairs:
+            key = f"{att_pos.lower()}_{def_pos.lower()}_player_elo_diff"
+            h = home_by_pos.get(att_pos)
+            a = away_by_pos.get(def_pos)
+            if h and a:
+                hr = self._player_glicko.get_rating(h["player_id"], att_pos).rating
+                ar = self._player_glicko.get_rating(a["player_id"], def_pos).rating
+                features[key] = hr - ar
+            else:
+                features[key] = 0.0
+
+        return features
+
+    def _compute_sample_weight(self, match_index: int) -> float:
+        """Compute time-decay * roster-continuity weight for a match."""
+        import math
+        m = self.matches[match_index]
+        current_season = self.matches[-1].get("season", m.get("season", 2025))
+        match_season = m.get("season", current_season)
+        years_ago = current_season - match_season
+
+        base_weight = math.exp(-0.5 * years_ago)
+
+        # Roster continuity adjustment (average of home and away)
+        home_cont = self._roster_continuity.get((m["home_team"], match_season), 1.0)
+        away_cont = self._roster_continuity.get((m["away_team"], match_season), 1.0)
+        avg_continuity = (home_cont + away_cont) / 2
+        weight = base_weight * (0.5 + 0.5 * avg_continuity)
+
+        return max(weight, 0.01)  # floor to avoid zero weights
 
     def build_row(self, match_index: int) -> dict:
         """Build a single feature row for the match at *match_index*.
@@ -155,6 +242,18 @@ class FeatureBuilder:
         if self._player_stats is not None:
             row.update(self._build_matchup_features(match_index))
 
+        # Player Elo features (8 features)
+        if self._player_glicko and self._player_stats:
+            player_elo_features = self._build_player_elo_features(match_index)
+            row.update(player_elo_features)
+
+        # Round features (2 features)
+        round_feats = self.ctx.round_features(m)
+        row.update(round_feats)
+
+        # Sample weight (excluded from model features via NON_FEATURE_COLUMNS)
+        row["_sample_weight"] = self._compute_sample_weight(match_index)
+
         return row
 
     def build_matrix(self, start_index: int = 1) -> pd.DataFrame:
@@ -166,4 +265,7 @@ class FeatureBuilder:
         rows = []
         for i in range(start_index, len(self.matches)):
             rows.append(self.build_row(i))
-        return pd.DataFrame(rows)
+        df = pd.DataFrame(rows)
+        # Fill NaN matchup/player elo features (matches without player stats) with 0.0
+        df = df.fillna(0.0)
+        return df

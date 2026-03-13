@@ -66,3 +66,14 @@ def test_is_home():
     match = {"home_team": "Firebirds", "away_team": "Swifts"}
     assert cf.is_home("Firebirds", match) is True
     assert cf.is_home("Swifts", match) is False
+
+
+def test_round_features():
+    matches = [
+        {"home_team": "A", "away_team": "B", "season": 2024, "round_num": 3,
+         "date": "2024-04-01", "home_score": 60, "away_score": 55, "venue": ""},
+    ]
+    ctx = ContextualFeatures(matches)
+    result = ctx.round_features(matches[0])
+    assert result["round_number"] == 3
+    assert abs(result["season_progress"] - 3 / 14) < 0.01

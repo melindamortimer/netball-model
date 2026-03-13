@@ -184,3 +184,20 @@ class ContextualFeatures:
     def is_home(team: str, match: dict) -> bool:
         """Return True if *team* is the home team in *match*."""
         return match.get("home_team") == team
+
+    def round_features(self, match: dict) -> dict:
+        """Extract round number and season progress."""
+        round_num = match.get("round_num", 1)
+        season = match.get("season")
+
+        # Determine max rounds for this season
+        max_rounds = 14  # default
+        if season and self.matches:
+            season_rounds = [m.get("round_num", 0) for m in self.matches if m.get("season") == season]
+            if season_rounds:
+                max_rounds = max(max_rounds, max(season_rounds))
+
+        return {
+            "round_number": round_num,
+            "season_progress": round_num / max_rounds if max_rounds > 0 else 0.0,
+        }

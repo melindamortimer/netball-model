@@ -117,3 +117,17 @@ class GlickoSystem:
             team: {"rating": tr.rating, "rd": tr.rd, "vol": tr.vol}
             for team, tr in self._ratings[pool].items()
         }
+
+    def regress_ratings(self, factor: float = 0.2, mean: float = 1500.0, pool: str = "ssn"):
+        """Regress all team ratings toward the mean by factor."""
+        if pool not in self._ratings:
+            return
+        for tr in self._ratings[pool].values():
+            tr.rating = tr.rating * (1 - factor) + mean * factor
+
+    def increase_rd(self, amount: float = 30.0, pool: str = "ssn"):
+        """Increase rating deviation for all teams (off-season uncertainty)."""
+        if pool not in self._ratings:
+            return
+        for tr in self._ratings[pool].values():
+            tr.rd = min(tr.rd + amount, 350.0)  # cap at initial RD

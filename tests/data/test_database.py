@@ -241,3 +241,27 @@ def test_get_starters_for_match(tmp_db):
     positions_found = {s["position"] for s in starters}
     assert "-" not in positions_found
     assert positions_found == set(positions)
+
+
+def test_upsert_and_get_player_elo(tmp_db):
+    db = Database(tmp_db)
+    db.initialize()
+    db.upsert_player_elo({
+        "player_id": 1, "player_name": "Test Player", "position": "GS",
+        "pool": "ssn", "match_id": "m1", "rating": 1600.0, "rd": 80.0, "vol": 0.06
+    })
+    result = db.get_latest_player_elo(1, "GS")
+    assert result is not None
+    assert result["rating"] == 1600.0
+
+
+def test_get_all_player_elos(tmp_db):
+    db = Database(tmp_db)
+    db.initialize()
+    for pid, rating in [(1, 1600), (2, 1400)]:
+        db.upsert_player_elo({
+            "player_id": pid, "player_name": f"P{pid}", "position": "GS",
+            "pool": "ssn", "match_id": "m1", "rating": rating, "rd": 80, "vol": 0.06
+        })
+    results = db.get_all_player_elos()
+    assert len(results) == 2

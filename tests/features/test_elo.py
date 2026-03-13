@@ -50,3 +50,22 @@ def test_predicted_win_probability():
     prob = system.predict_win_prob("Strong Team", "Weak Team")
     assert prob > 0.5
     assert prob < 1.0
+
+
+def test_regress_ratings():
+    gs = GlickoSystem()
+    gs.update("A", "B", "home", margin=10, pool="ssn")
+    rating_before = gs.get_rating("A", "ssn")["rating"]
+    gs.regress_ratings(factor=0.2, mean=1500, pool="ssn")
+    rating_after = gs.get_rating("A", "ssn")["rating"]
+    expected = rating_before * 0.8 + 1500 * 0.2
+    assert abs(rating_after - expected) < 0.1
+
+
+def test_increase_rd():
+    gs = GlickoSystem()
+    gs.update("A", "B", "home", margin=10, pool="ssn")
+    rd_before = gs.get_rating("A", "ssn")["rd"]
+    gs.increase_rd(amount=30, pool="ssn")
+    rd_after = gs.get_rating("A", "ssn")["rd"]
+    assert abs(rd_after - (rd_before + 30)) < 0.1

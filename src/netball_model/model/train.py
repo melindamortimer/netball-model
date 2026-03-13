@@ -11,7 +11,7 @@ from sklearn.preprocessing import StandardScaler
 from netball_model.model.calibration import CalibrationModel
 
 NON_FEATURE_COLUMNS = {
-    "match_id", "home_team", "away_team", "margin", "total_goals",
+    "match_id", "home_team", "away_team", "margin", "total_goals", "_sample_weight",
 }
 
 
@@ -32,15 +32,22 @@ class NetballModel:
         y_margin = df["margin"].values.astype(float)
         y_total = df["total_goals"].values.astype(float)
 
+        # Extract sample weights if present
+        sample_weight = None
+        if "_sample_weight" in df.columns:
+            sample_weight = df["_sample_weight"].values.astype(float)
+
         X_scaled = self.scaler.fit_transform(X)
 
-        self.margin_model.fit(X_scaled, y_margin)
-        self.total_model.fit(X_scaled, y_total)
+        self.margin_model.fit(X_scaled, y_margin, sample_weight=sample_weight)
+        self.total_model.fit(X_scaled, y_total, sample_weight=sample_weight)
 
         # Calibrate on training residuals
         margin_preds = self.margin_model.predict(X_scaled)
-        residuals = y_margin - margin_preds
-        self.calibration.fit(residuals)
+        margin_residuals = y_margin - margin_preds
+        total_preds = self.total_model.predict(X_scaled)
+        total_residuals = y_total - total_preds
+        self.calibration.fit(margin_residuals, total_residuals=total_residuals)
 
     def predict(self, df: pd.DataFrame) -> pd.DataFrame:
         X = df[self.feature_columns].values.astype(float)
@@ -55,6 +62,14 @@ class NetballModel:
         result["predicted_total"] = np.round(totals, 1)
         result["win_probability"] = np.round(win_probs, 4)
         return result
+
+    @property
+    def residual_std(self) -> float:
+        return self.calibration.residual_std
+
+    @property
+    def total_residual_std(self) -> float:
+        return self.calibration.total_residual_std
 
     def save(self, path: str | Path):
         with open(path, "wb") as f:

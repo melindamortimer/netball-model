@@ -248,7 +248,14 @@ def predict(db: str, model_path: str, min_edge: float):
         click.echo("No upcoming matches found. Run ingest first.")
         return
 
-    builder = FeatureBuilder(matches)
+    # Load player stats for predictions
+    player_stats = {}
+    for m in matches:
+        starters = db_conn.get_starters_for_match(m["match_id"])
+        if starters:
+            player_stats[m["match_id"]] = starters
+
+    builder = FeatureBuilder(matches, player_stats=player_stats)
     upcoming_ids = {u["match_id"] for u in upcoming}
     results = []
 
@@ -261,22 +268,37 @@ def predict(db: str, model_path: str, min_edge: float):
 
         # Load stored odds from DB if available
         stored_odds = db_conn.get_odds_for_match(m["match_id"])
-        home_odds = stored_odds["home_back_odds"] if stored_odds else None
-        away_odds = stored_odds["away_back_odds"] if stored_odds else None
 
-        value = detector.evaluate(
-            home_team=m["home_team"],
-            away_team=m["away_team"],
-            model_win_prob=float(pred["win_probability"].iloc[0]),
-            home_odds=home_odds,
-            away_odds=away_odds,
-        )
+        prediction = {
+            "margin": float(pred["predicted_margin"].iloc[0]),
+            "total_goals": float(pred["predicted_total"].iloc[0]),
+            "win_prob": float(pred["win_probability"].iloc[0]),
+            "residual_std": model.residual_std,
+            "total_residual_std": model.total_residual_std,
+        }
+
+        odds_dict = {}
+        if stored_odds:
+            odds_dict = {
+                "home_odds": stored_odds.get("home_back_odds"),
+                "away_odds": stored_odds.get("away_back_odds"),
+                "handicap_line": stored_odds.get("handicap_line"),
+                "handicap_home_odds": stored_odds.get("handicap_home_odds"),
+                "handicap_away_odds": stored_odds.get("handicap_away_odds"),
+                "total_line": stored_odds.get("total_line"),
+                "over_odds": stored_odds.get("over_odds"),
+                "under_odds": stored_odds.get("under_odds"),
+            }
+
+        value_bets = detector.evaluate(prediction, odds_dict)
 
         results.append({
-            **value,
-            "predicted_margin": float(pred["predicted_margin"].iloc[0]),
-            "predicted_total": float(pred["predicted_total"].iloc[0]),
-            "win_probability": float(pred["win_probability"].iloc[0]),
+            "home_team": m["home_team"],
+            "away_team": m["away_team"],
+            "predicted_margin": prediction["margin"],
+            "predicted_total": prediction["total_goals"],
+            "win_probability": prediction["win_prob"],
+            "value_bets": value_bets,
         })
 
     display_predictions(results)

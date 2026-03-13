@@ -13,28 +13,37 @@ def display_predictions(predictions: list[dict]):
     table.add_column("Pred Margin", justify="right")
     table.add_column("Pred Total", justify="right")
     table.add_column("Model Win%", justify="right")
-    table.add_column("Odds", justify="right")
-    table.add_column("Implied%", justify="right")
+    table.add_column("Market", justify="center")
+    table.add_column("Side", justify="center")
     table.add_column("Edge", justify="right")
-    table.add_column("Value?", justify="center")
+    table.add_column("Odds", justify="right")
 
     for p in predictions:
-        edge_str = f"{p.get('edge', 0):.1%}"
-        value_str = "YES" if p.get("is_value") else "-"
-        value_style = "bold green" if p.get("is_value") else "dim"
+        match_label = f"{p['home_team']} v {p['away_team']}"
+        value_bets = p.get("value_bets", [])
 
-        odds_str = f"{p.get('odds', '-')}" if p.get("odds") else "-"
-        implied_str = f"{p.get('implied_prob', 0):.1%}" if p.get("implied_prob") else "-"
-
-        table.add_row(
-            f"{p['home_team']} v {p['away_team']}",
-            f"{p['predicted_margin']:+.1f}",
-            f"{p['predicted_total']:.0f}",
-            f"{p['win_probability']:.1%}",
-            odds_str,
-            implied_str,
-            edge_str,
-            f"[{value_style}]{value_str}[/{value_style}]",
-        )
+        if not value_bets:
+            table.add_row(
+                match_label,
+                f"{p['predicted_margin']:+.1f}",
+                f"{p['predicted_total']:.0f}",
+                f"{p['win_probability']:.1%}",
+                "-", "-", "-", "-",
+            )
+        else:
+            for idx, vb in enumerate(value_bets):
+                edge = vb.get("edge", 0)
+                is_value = edge >= 0.05
+                edge_style = "bold green" if is_value else "dim"
+                table.add_row(
+                    match_label if idx == 0 else "",
+                    f"{p['predicted_margin']:+.1f}" if idx == 0 else "",
+                    f"{p['predicted_total']:.0f}" if idx == 0 else "",
+                    f"{p['win_probability']:.1%}" if idx == 0 else "",
+                    vb.get("market", "-"),
+                    vb.get("side", "-"),
+                    f"[{edge_style}]{edge:+.1%}[/{edge_style}]",
+                    f"{vb.get('odds', '-')}" if vb.get("odds") else "-",
+                )
 
     console.print(table)

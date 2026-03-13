@@ -30,14 +30,19 @@ def test_end_to_end(tmp_db, seed_matches):
 
     # 5. Value detection
     detector = ValueDetector(min_edge=0.05)
-    result = detector.evaluate(
-        home_team=matches[-1]["home_team"],
-        away_team=matches[-1]["away_team"],
-        model_win_prob=float(pred["win_probability"].iloc[0]),
-        home_odds=1.80,
-    )
-    assert "is_value" in result
-    assert isinstance(result["is_value"], bool)
+    prediction = {
+        "margin": float(pred["predicted_margin"].iloc[0]),
+        "total_goals": float(pred["predicted_total"].iloc[0]),
+        "win_prob": float(pred["win_probability"].iloc[0]),
+        "residual_std": model.calibration.residual_std,
+        "total_residual_std": model.calibration.total_residual_std,
+    }
+    odds_dict = {"home_odds": 1.80}
+    result = detector.evaluate(prediction, odds_dict)
+    assert isinstance(result, list)
+    assert len(result) > 0
+    assert "market" in result[0]
+    assert "edge" in result[0]
 
     # 6. Save/load model roundtrip
     model_path = tmp_db.parent / "model.pkl"

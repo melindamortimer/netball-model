@@ -45,7 +45,27 @@ def train_model(db: Database, output_path: str) -> tuple[NetballModel, float]:
     if len(matches) < 20:
         raise ValueError(f"Only {len(matches)} matches in DB. Need at least 20 to train.")
 
-    builder = FeatureBuilder(matches)
+    # Load player stats for all matches
+    player_stats = {}
+    for m in matches:
+        starters = db.get_starters_for_match(m["match_id"])
+        if starters:
+            player_stats[m["match_id"]] = starters
+
+    # Compute roster continuity for all seasons
+    from netball_model.data.player_movements import get_team_continuity_all
+    roster_continuity = {}
+    seasons = sorted(set(m["season"] for m in matches))
+    for season in seasons:
+        if season == seasons[0]:
+            continue  # No previous season to compare
+        continuity = get_team_continuity_all(season, db)
+        for team, cont in continuity.items():
+            roster_continuity[(team, season)] = cont
+
+    builder = FeatureBuilder(
+        matches, player_stats=player_stats, roster_continuity=roster_continuity
+    )
     df = builder.build_matrix(start_index=1)
 
     model = NetballModel()
