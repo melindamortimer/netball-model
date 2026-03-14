@@ -54,21 +54,22 @@ class FeatureBuilder:
                     self._player_glicko.regress_ratings(factor=0.2, mean=1500.0)
                     self._player_glicko.increase_rd(amount=15.0)
 
-            # Team Glicko update
-            hs = m.get("home_score", 0)
-            as_ = m.get("away_score", 0)
-            self.glicko.update(
-                m["home_team"], m["away_team"],
-                winner=determine_winner(hs, as_), margin=hs - as_, pool=self.pool,
-            )
+            # Team Glicko update — skip unscored (upcoming) matches
+            hs = m.get("home_score")
+            as_ = m.get("away_score")
+            if hs is not None and as_ is not None:
+                self.glicko.update(
+                    m["home_team"], m["away_team"],
+                    winner=determine_winner(hs, as_), margin=hs - as_, pool=self.pool,
+                )
 
-            # Player Glicko update
-            if self._player_glicko and self._player_stats:
-                starters = self._player_stats.get(m["match_id"], [])
-                home_starters = [s for s in starters if s["team"] == m["home_team"] and s["position"] != "-"]
-                away_starters = [s for s in starters if s["team"] == m["away_team"] and s["position"] != "-"]
-                if home_starters and away_starters:
-                    self._player_glicko.process_match(m, home_starters, away_starters)
+                # Player Glicko update
+                if self._player_glicko and self._player_stats:
+                    starters = self._player_stats.get(m["match_id"], [])
+                    home_starters = [s for s in starters if s["team"] == m["home_team"] and s["position"] != "-"]
+                    away_starters = [s for s in starters if s["team"] == m["away_team"] and s["position"] != "-"]
+                    if home_starters and away_starters:
+                        self._player_glicko.process_match(m, home_starters, away_starters)
 
             prev_season = m_season
 

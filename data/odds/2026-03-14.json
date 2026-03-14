@@ -1,0 +1,84 @@
+{
+  "session_date": "2026-03-14",
+  "source": "bet365_screenshot",
+  "matches": [
+    {
+      "date": "2026-03-15",
+      "home_team": "West Coast Fever",
+      "away_team": "Sunshine Coast Lightning",
+      "home_odds": 2.05,
+      "away_odds": 1.75,
+      "handicap_line": 1.5,
+      "handicap_home_odds": 1.8,
+      "handicap_away_odds": 2.0,
+      "total_line": 125.5,
+      "over_odds": 1.87,
+      "under_odds": 1.87
+    },
+    {
+      "date": "2026-03-15",
+      "home_team": "Queensland Firebirds",
+      "away_team": "Melbourne Vixens",
+      "home_odds": 3.6,
+      "away_odds": 1.28,
+      "handicap_line": 6.5,
+      "handicap_home_odds": 1.85,
+      "handicap_away_odds": 1.95,
+      "total_line": 125.5,
+      "over_odds": 1.87,
+      "under_odds": 1.87
+    },
+    {
+      "date": "2026-03-14",
+      "home_team": "West Coast Fever",
+      "away_team": "Sunshine Coast Lightning",
+      "home_odds": 2.05,
+      "away_odds": 1.75,
+      "handicap_line": 1.5,
+      "handicap_home_odds": 1.8,
+      "handicap_away_odds": 2.0,
+      "total_line": 125.5,
+      "over_odds": 1.87,
+      "under_odds": 1.87
+    },
+    {
+      "date": "2026-03-14",
+      "home_team": "Melbourne Mavericks",
+      "away_team": "GIANTS Netball",
+      "home_odds": 1.3,
+      "away_odds": 3.5,
+      "handicap_line": -5.5,
+      "handicap_home_odds": 1.85,
+      "handicap_away_odds": 1.95,
+      "total_line": 125.5,
+      "over_odds": 1.87,
+      "under_odds": 1.87
+    },
+    {
+      "date": "2026-03-14",
+      "home_team": "Queensland Firebirds",
+      "away_team": "Melbourne Vixens",
+      "home_odds": 3.6,
+      "away_odds": 1.28,
+      "handicap_line": 6.5,
+      "handicap_home_odds": 1.85,
+      "handicap_away_odds": 1.95,
+      "total_line": 125.5,
+      "over_odds": 1.87,
+      "under_odds": 1.87
+    },
+    {
+      "date": "2026-03-14",
+      "home_team": "Adelaide Thunderbirds",
+      "away_team": "NSW Swifts",
+      "home_odds": 1.8,
+      "away_odds": 2.0,
+      "handicap_line": -1.5,
+      "handicap_home_odds": 2.05,
+      "handicap_away_odds": 1.75,
+      "total_line": 120.5,
+      "over_odds": 1.85,
+      "under_odds": 1.9
+    }
+  ]
+}

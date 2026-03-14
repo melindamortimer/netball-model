@@ -110,7 +110,23 @@ class TestParseScreenshot:
         assert result["h1_home_odds"] is None
         assert result["q1_home_odds"] is None
 
-    def test_invalid_image_raises(self, tmp_path):
+    def test_empty_ocr_returns_none(self, tmp_path):
+        """parse_screenshot returns None when OCR produces no results."""
+        from PIL import Image
+        img = Image.new("RGB", (100, 100), color=(0, 0, 0))
+        img_path = tmp_path / "empty.png"
+        img.save(img_path)
+
+        with patch("netball_model.data.bet365_screenshot.easyocr") as mock_easyocr:
+            reader = MagicMock()
+            reader.readtext.return_value = []  # empty OCR
+            mock_easyocr.Reader.return_value = reader
+
+            result = parse_screenshot(str(img_path))
+
+        assert result is None
+
+    def test_invalid_image_returns_none(self, tmp_path):
         bad_path = tmp_path / "nonexistent.png"
-        with pytest.raises((ValueError, FileNotFoundError)):
-            parse_screenshot(str(bad_path))
+        result = parse_screenshot(str(bad_path))
+        assert result is None

@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+  body { margin: 0; font-family: -apple-system, BlinkMacSystemFont, sans-serif; }
+  #paste-zone {
+    border: 2px dashed #9e9e9e;
+    border-radius: 8px;
+    padding: 16px;
+    text-align: center;
+    cursor: pointer;
+    color: #888;
+    font-size: 14px;
+    transition: border-color 0.2s, background 0.2s;
+    min-height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    background: transparent;
+  }
+  #paste-zone:focus {
+    border-color: #ff4b4b;
+    background: rgba(255, 75, 75, 0.04);
+    outline: none;
+  }
+  #paste-zone.has-image {
+    border-color: #4CAF50;
+    border-style: solid;
+    background: rgba(76, 175, 80, 0.04);
+    color: #4CAF50;
+  }
+  #preview {
+    max-width: 100%;
+    max-height: 200px;
+    margin-top: 8px;
+    display: none;
+    border-radius: 4px;
+    border: 1px solid #ddd;
+  }
+  .clear-btn {
+    margin-top: 6px;
+    cursor: pointer;
+    color: #ff4b4b;
+    font-size: 12px;
+    border: 1px solid #ff4b4b;
+    background: none;
+    border-radius: 4px;
+    padding: 2px 10px;
+  }
+  .clear-btn:hover { background: rgba(255,75,75,0.08); }
+</style>
+</head>
+<body>
+<div id="paste-zone" tabindex="0">
+  <span>Click here, then paste screenshot</span>
+  <span style="font-size:12px;opacity:0.6">(Ctrl+V / Cmd+V)</span>
+</div>
+<img id="preview" />
+<button id="clear-btn" class="clear-btn" style="display:none">Clear</button>
+
+<script>
+function sendMsg(type, data) {
+  window.parent.postMessage(
+    Object.assign({isStreamlitMessage: true, type: type}, data), "*"
+  );
+}
+
+var zone = document.getElementById('paste-zone');
+var preview = document.getElementById('preview');
+var clearBtn = document.getElementById('clear-btn');
+
+zone.addEventListener('click', function() { zone.focus(); });
+
+zone.addEventListener('paste', function(e) {
+  e.preventDefault();
+  var items = e.clipboardData.items;
+  for (var i = 0; i < items.length; i++) {
+    if (items[i].type.startsWith('image/')) {
+      var blob = items[i].getAsFile();
+      var reader = new FileReader();
+      reader.onload = function() {
+        preview.src = reader.result;
+        preview.style.display = 'block';
+        clearBtn.style.display = 'inline-block';
+        zone.innerHTML = '<span>Screenshot pasted</span>';
+        zone.classList.add('has-image');
+        sendMsg("streamlit:setComponentValue", {value: reader.result});
+        setTimeout(function() {
+          sendMsg("streamlit:setFrameHeight", {height: document.body.scrollHeight});
+        }, 50);
+      };
+      reader.readAsDataURL(blob);
+      break;
+    }
+  }
+});
+
+clearBtn.addEventListener('click', function() {
+  preview.style.display = 'none';
+  preview.src = '';
+  clearBtn.style.display = 'none';
+  zone.innerHTML = '<span>Click here, then paste screenshot</span><span style="font-size:12px;opacity:0.6">(Ctrl+V / Cmd+V)</span>';
+  zone.classList.remove('has-image');
+  sendMsg("streamlit:setComponentValue", {value: null});
+  setTimeout(function() {
+    sendMsg("streamlit:setFrameHeight", {height: document.body.scrollHeight});
+  }, 50);
+});
+
+window.addEventListener("message", function(event) {
+  if (event.data && event.data.type === "streamlit:render") {
+    // re-render: nothing to do
+  }
+});
+
+sendMsg("streamlit:componentReady", {apiVersion: 1});
+setTimeout(function() {
+  sendMsg("streamlit:setFrameHeight", {height: document.body.scrollHeight});
+}, 100);
+</script>
+</body>
+</html>

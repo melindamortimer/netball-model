@@ -82,17 +82,23 @@ _ALL_KEYS = [
 ]
 
 
-def parse_screenshot(image_path: str | Path) -> dict:
-    """Parse a bet365 screenshot and return structured odds data."""
+def parse_screenshot(image_path: str | Path) -> dict | None:
+    """Parse a bet365 screenshot and return structured odds data.
+
+    Returns None if the image cannot be parsed (missing file, OCR failure, etc.).
+    """
     path = Path(image_path)
     if not path.exists():
-        raise FileNotFoundError(f"Image not found: {path}")
+        return None
 
-    reader = easyocr.Reader(["en"], gpu=False)
-    results = reader.readtext(str(path))
+    try:
+        reader = easyocr.Reader(["en"], gpu=False)
+        results = reader.readtext(str(path))
+    except Exception:
+        return None
 
     if not results:
-        raise ValueError("OCR produced no results from the image")
+        return None
 
     # Extract all text with positions: (bbox, text, confidence)
     texts = [(r[0], r[1], r[2]) for r in results]
