@@ -52,7 +52,7 @@ class FeatureBuilder:
                 self.glicko.increase_rd(amount=30.0, pool=self.pool)
                 if self._player_glicko:
                     self._player_glicko.regress_ratings(factor=0.2, mean=1500.0)
-                    self._player_glicko.increase_rd(amount=30.0)
+                    self._player_glicko.increase_rd(amount=15.0)
 
             # Team Glicko update
             hs = m.get("home_score", 0)
@@ -124,26 +124,29 @@ class FeatureBuilder:
                     break
         return history
 
+    def _position_stats(self) -> dict[str, tuple[float, float]]:
+        """Return {position: (mean, std)} from current player ratings."""
+        from collections import defaultdict
+        by_pos: dict[str, list[float]] = defaultdict(list)
+        for (_, pos), pr in self._player_glicko._ratings.items():
+            by_pos[pos].append(pr.rating)
+        stats = {}
+        for pos, ratings in by_pos.items():
+            mean = sum(ratings) / len(ratings)
+            var = sum((r - mean) ** 2 for r in ratings) / len(ratings)
+            stats[pos] = (mean, max(var ** 0.5, 1.0))
+        return stats
+
     def _build_player_elo_features(self, match_index: int) -> dict:
-        """Compute 8 player elo features for the match at match_index."""
+        """Compute z-scored, RD-weighted positional elo diff features."""
         m = self.matches[match_index]
         starters = self._player_stats.get(m["match_id"], [])
         home_starters = [s for s in starters if s["team"] == m["home_team"] and s["position"] != "-"]
         away_starters = [s for s in starters if s["team"] == m["away_team"] and s["position"] != "-"]
 
-        home_ratings = [self._player_glicko.get_rating(s["player_id"], s["position"]).rating for s in home_starters]
-        away_ratings = [self._player_glicko.get_rating(s["player_id"], s["position"]).rating for s in away_starters]
+        pos_stats = self._position_stats()
 
-        home_avg = sum(home_ratings) / len(home_ratings) if home_ratings else 1500.0
-        away_avg = sum(away_ratings) / len(away_ratings) if away_ratings else 1500.0
-
-        features = {
-            "home_player_elo_avg": home_avg,
-            "away_player_elo_avg": away_avg,
-            "player_elo_diff": home_avg - away_avg,
-        }
-
-        # 5 positional diffs
+        features = {}
         pos_pairs = [("GS", "GK"), ("GA", "GD"), ("WA", "WD"), ("C", "C"), ("WD", "WA")]
         home_by_pos = {s["position"]: s for s in home_starters}
         away_by_pos = {s["position"]: s for s in away_starters}
@@ -153,9 +156,15 @@ class FeatureBuilder:
             h = home_by_pos.get(att_pos)
             a = away_by_pos.get(def_pos)
             if h and a:
-                hr = self._player_glicko.get_rating(h["player_id"], att_pos).rating
-                ar = self._player_glicko.get_rating(a["player_id"], def_pos).rating
-                features[key] = hr - ar
+                h_r = self._player_glicko.get_rating(h["player_id"], att_pos)
+                a_r = self._player_glicko.get_rating(a["player_id"], def_pos)
+                # Z-score each rating within its position pool
+                h_mean, h_std = pos_stats.get(att_pos, (1500.0, 1.0))
+                a_mean, a_std = pos_stats.get(def_pos, (1500.0, 1.0))
+                z_diff = (h_r.rating - h_mean) / h_std - (a_r.rating - a_mean) / a_std
+                # Dampen by average confidence (low RD = more trustworthy)
+                confidence = 1.0 - (h_r.rd + a_r.rd) / 700.0
+                features[key] = z_diff * max(confidence, 0.0)
             else:
                 features[key] = 0.0
 
@@ -242,7 +251,7 @@ class FeatureBuilder:
         if self._player_stats is not None:
             row.update(self._build_matchup_features(match_index))
 
-        # Player Elo features (8 features)
+        # Player Elo features (5 z-scored, RD-weighted positional diffs)
         if self._player_glicko and self._player_stats:
             player_elo_features = self._build_player_elo_features(match_index)
             row.update(player_elo_features)

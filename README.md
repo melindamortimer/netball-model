@@ -5,7 +5,7 @@ Super Netball match prediction model using Glicko-2 ratings (team and individual
 ## Features
 
 - **Team Glicko-2 ratings** with season boundary resets (regression toward mean + uncertainty increase)
-- **Individual player Glicko-2 ratings** based on 9 positional matchup pairings per match
+- **Individual player Glicko-2 ratings** — z-scored and RD-weighted positional diffs across 5 matchup pairings
 - **17 player interaction matchup features** (GS vs GK, GA vs GD, WA vs WD, C vs C, WD vs WA)
 - **Contextual features**: rest days, travel distance, recent form, head-to-head, round/season progress
 - **Time-weighted training**: exponential decay by season age, adjusted by roster continuity
@@ -74,6 +74,14 @@ app.py                   # Streamlit Value Finder dashboard
 
 ## Data
 
-- 539 matches (2017-2025), 254 players, 11k+ player stat rows
+- 595 matches (2017-2025), 254 players, 11k+ player stat rows
 - SQLite database at `data/netball.db`
 - 2026 squad data: 8 teams, 56 players
+- 41 model features, margin residual std 10.14
+
+## Future Improvements
+
+- **Fix zero-sum in player elo**: Attack positions are inflated ~200pts above baseline, defence deflated ~200pts below. Win value functions in matchup pairings need rebalancing so defenders earn equal rating from good performances.
+- **Reduce season regression**: 20% regression toward 1500 combined with high RD means the system loses too much information between seasons. Consider 10-15%.
+- **RD-aware predictions**: `get_matchup_prediction()` ignores rating deviation. Incorporating RD would make uncertain ratings produce more conservative probabilities.
+- **Cross-position anchoring**: 106 players have ratings at multiple positions with enormous spreads (e.g. 747pts). A shared "player strength" factor with position adjustments would prevent the same player being rated elite at one position and poor at another.
