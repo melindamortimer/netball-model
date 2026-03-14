@@ -50,6 +50,10 @@ class NetballModel:
         self.calibration.fit(margin_residuals, total_residuals=total_residuals)
 
     def predict(self, df: pd.DataFrame) -> pd.DataFrame:
+        # Fill missing feature columns with 0.0 (matches without player stats)
+        for col in self.feature_columns:
+            if col not in df.columns:
+                df[col] = 0.0
         X = df[self.feature_columns].values.astype(float)
         X_scaled = self.scaler.transform(X)
 

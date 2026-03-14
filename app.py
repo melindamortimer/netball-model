@@ -9,6 +9,8 @@ import pandas as pd
 import streamlit as st
 
 from netball_model.data.database import Database
+from netball_model.data.player_movements import _find_player_id_by_name
+from netball_model.data.squads import get_all_squads
 from netball_model.features.builder import FeatureBuilder
 from netball_model.model.train import NetballModel
 from netball_model.value.detector import ValueDetector
@@ -91,6 +93,53 @@ def parse_odds_paste(text: str) -> list[dict] | None:
     return results if results else None
 
 
+@st.cache_data
+def build_squad_starters(matches: tuple) -> dict[str, list[dict]]:
+    """Build synthetic starters from 2026 squad data for upcoming matches.
+
+    Maps squad player names to player_ids using fuzzy matching against
+    historical data, so the model can compute matchup and player elo features.
+    """
+    db = load_db()
+    all_matches = db.get_matches()
+    squads = get_all_squads(2026)
+
+    # Resolve each squad player name to a player_id
+    resolved: dict[str, dict[str, tuple[int | None, str]]] = {}  # team -> {pos: (pid, name)}
+    for team, positions in squads.items():
+        resolved[team] = {}
+        for pos, name in positions.items():
+            pid = _find_player_id_by_name(name, all_matches, db)
+            resolved[team][pos] = (pid, name)
+
+    return resolved
+
+
+def _make_synthetic_starters(
+    match_id: str, home_team: str, away_team: str,
+    resolved_squads: dict,
+) -> list[dict]:
+    """Create starter dicts for a match from resolved 2026 squad data."""
+    starters = []
+    for team in (home_team, away_team):
+        squad = resolved_squads.get(team, {})
+        for pos, (pid, name) in squad.items():
+            if pid is None:
+                continue
+            starters.append({
+                "match_id": match_id,
+                "player_id": pid,
+                "player_name": name,
+                "team": team,
+                "position": pos,
+                "goals": 0, "attempts": 0, "assists": 0,
+                "rebounds": 0, "feeds": 0, "turnovers": 0,
+                "gains": 0, "intercepts": 0, "deflections": 0,
+                "penalties": 0, "centre_pass_receives": 0,
+            })
+    return starters
+
+
 def predict_match(
     matches: list[dict],
     match_index: int,
@@ -98,6 +147,19 @@ def predict_match(
 ) -> dict:
     """Run model prediction for a single match by index."""
     model = load_model()
+
+    # For matches without player stats (upcoming/manual), inject 2026 squad starters
+    m = matches[match_index]
+    if player_stats is not None and m["match_id"] not in player_stats:
+        match_ids = tuple(mm["match_id"] for mm in matches if mm.get("home_score") is not None)
+        resolved = build_squad_starters(match_ids)
+        synthetic = _make_synthetic_starters(
+            m["match_id"], m["home_team"], m["away_team"], resolved,
+        )
+        if synthetic:
+            player_stats = dict(player_stats)  # don't mutate cached version
+            player_stats[m["match_id"]] = synthetic
+
     builder = FeatureBuilder(matches, player_stats=player_stats)
     row = builder.build_row(match_index)
     pred = model.predict(pd.DataFrame([row]))
